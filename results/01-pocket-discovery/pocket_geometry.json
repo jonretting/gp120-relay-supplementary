@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "author": "Jonathan Michael Retting",
+    "license": "CC-BY-4.0",
+    "study": "Identification of a Novel Druggable Pocket in the HIV-1 gp120 C5 Domain at the Conformational Relay Junction"
+  },
+  "analysis": "Pocket geometry analysis - gp120 relay pocket",
+  "sasa": {
+    "total_angstrom2": 246.0,
+    "burial_ratio": 0.912,
+    "per_residue": {
+      "ARG465": {
+        "sasa": 108.6,
+        "burial": 0.818
+      },
+      "PRO466": {
+        "sasa": 7.0,
+        "burial": 1.0
+      },
+      "GLY467": {
+        "sasa": 5.3,
+        "burial": 1.0
+      },
+      "GLY468": {
+        "sasa": 5.1,
+        "burial": 1.0
+      },
+      "GLY469": {
+        "sasa": 3.5,
+        "burial": 1.0
+      },
+      "ASP470": {
+        "sasa": 25.7,
+        "burial": 0.875
+      },
+      "MET471": {
+        "sasa": 6.3,
+        "burial": 1.0
+      },
+      "ARG472": {
+        "sasa": 84.2,
+        "burial": 0.818
+      }
+    }
+  },
+  "geometry": {
+    "centroid": [
+      134.6,
+      183.9,
+      136.7
+    ],
+    "max_depth_angstrom": 8.7,
+    "mean_depth_angstrom": 6.1,
+    "max_span_angstrom": 15.0,
+    "depth_span_ratio": 0.581
+  },
+  "contact_composition": {
+    "feature_types": {
+      "hbond_donor": 20,
+      "hbond_acceptor": 10,
+      "hydrophobic": 22,
+      "hbond_donor_acceptor": 2,
+      "aromatic": 1
+    },
+    "wall_chemistry": {
+      "sc_acceptor": 7,
+      "bb_donor": 9,
+      "sc_hydrophobic": 17,
+      "bb_acceptor": 13,
+      "bb_hydrophobic": 5,
+      "sc_donor_acceptor": 2,
+      "sc_donor": 1,
+      "sc_aromatic": 1
+    }
+  }
+}

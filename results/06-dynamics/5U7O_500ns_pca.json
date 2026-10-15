@@ -1,0 +1,72 @@
+{
+  "pdb_id": "5U7O",
+  "method": "PCA via gmx covar + gmx anaeig on relay pocket, 500ns, dt=50ps",
+  "total_variance_nm2": 6.984,
+  "n_eigenvalues": 336,
+  "top_3_pct": 67.3,
+  "top_5_pct": 79.1,
+  "schlitter_entropy_J_mol_K": 1472.56,
+  "quasiharmonic_entropy_J_mol_K": 1366.49,
+  "principal_components": [
+    {
+      "pc": 1,
+      "eigenvalue_nm2": 2.0694,
+      "pct_variance": 29.6,
+      "cumulative_pct": 29.6
+    },
+    {
+      "pc": 2,
+      "eigenvalue_nm2": 1.626,
+      "pct_variance": 23.3,
+      "cumulative_pct": 52.9
+    },
+    {
+      "pc": 3,
+      "eigenvalue_nm2": 1.0059,
+      "pct_variance": 14.4,
+      "cumulative_pct": 67.3
+    },
+    {
+      "pc": 4,
+      "eigenvalue_nm2": 0.5895,
+      "pct_variance": 8.4,
+      "cumulative_pct": 75.8
+    },
+    {
+      "pc": 5,
+      "eigenvalue_nm2": 0.2375,
+      "pct_variance": 3.4,
+      "cumulative_pct": 79.2
+    },
+    {
+      "pc": 6,
+      "eigenvalue_nm2": 0.168,
+      "pct_variance": 2.4,
+      "cumulative_pct": 81.6
+    },
+    {
+      "pc": 7,
+      "eigenvalue_nm2": 0.1387,
+      "pct_variance": 2.0,
+      "cumulative_pct": 83.5
+    },
+    {
+      "pc": 8,
+      "eigenvalue_nm2": 0.114,
+      "pct_variance": 1.6,
+      "cumulative_pct": 85.2
+    },
+    {
+      "pc": 9,
+      "eigenvalue_nm2": 0.0988,
+      "pct_variance": 1.4,
+      "cumulative_pct": 86.6
+    },
+    {
+      "pc": 10,
+      "eigenvalue_nm2": 0.0805,
+      "pct_variance": 1.2,
+      "cumulative_pct": 87.7
+    }
+  ]
+}

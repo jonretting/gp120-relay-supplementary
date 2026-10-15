@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below."
+type: dataset
+title: "Supplementary Data: Identification of a Novel Druggable Pocket in the HIV-1 gp120 C5 Domain at the Conformational Relay Junction"
+authors:
+  - family-names: Retting
+    given-names: Jonathan Michael
+    affiliation: Independent Researcher
+    city: Los Angeles
+    region: CA
+    country: US
+license: CC-BY-4.0

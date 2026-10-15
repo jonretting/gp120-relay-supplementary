@@ -1,0 +1,26 @@
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# GROMACS temporary files
+\#*\#
+*.trr
+*.xtc
+*.cpt
+*.tpr
+*.edr
+*.log
+step*.pdb
+
+# Trajectory data (hosted separately)
+trajectories/

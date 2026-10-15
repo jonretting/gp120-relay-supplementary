@@ -1,0 +1,53 @@
+; NVT equilibration for FEP window
+integrator  = sd
+dt          = 0.002
+nsteps      = 50000    ; 100 ps
+nstxout-compressed = 5000
+nstenergy   = 500
+nstlog      = 500
+
+nstlist     = 10
+cutoff-scheme = Verlet
+ns_type     = grid
+rlist       = 1.8
+verlet-buffer-tolerance = -1
+rcoulomb    = 1.2
+rvdw        = 1.2
+coulombtype = PME
+pme_order   = 4
+fourierspacing = 0.12
+vdwtype     = Cut-off
+vdw-modifier = Force-switch
+rvdw-switch = 1.0
+pbc         = xyz
+
+tcoupl      = v-rescale
+tc-grps     = Protein_bms626529 Water_and_ions
+tau-t       = 1.0 1.0
+ref-t       = 300 300
+gen-vel     = yes
+gen-temp    = 300
+gen-seed    = RANDOM_SEED
+
+constraints      = h-bonds
+constraint-algorithm = lincs
+lincs-order      = 4
+continuation     = no
+
+; Position restraints on protein heavy atoms
+define = -DPOSRES
+
+; Free energy parameters
+free-energy  = yes
+init-lambda-state = LAMBDA_STATE
+coul-lambdas = 0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
+vdw-lambdas  = 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.05 0.1 0.15 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.6 0.65 0.7 0.75 0.8 0.85 0.9 0.95 0.975 1.0
+couple-moltype  = bms626529
+couple-lambda0  = vdw-q
+couple-lambda1  = none
+couple-intramol = no
+sc-alpha     = 0.5
+sc-power     = 1
+sc-sigma     = 0.3
+nstdhdl      = 100
+calc-lambda-neighbors = -1

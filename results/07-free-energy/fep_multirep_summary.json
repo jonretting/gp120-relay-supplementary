@@ -1,0 +1,105 @@
+{
+  "timestamp": "2026-08-15T13:42",
+  "status": "COMPLETE -- all 9 legs analyzed (3x ternary, 3x binary, 3x solvent)",
+  "ternary": {
+    "n_reps": 3,
+    "TI_dec_per_rep_kcal": [
+      6.6059,
+      6.6221,
+      6.6551
+    ],
+    "TI_dec_mean_kcal": 6.6277,
+    "TI_dec_sem_kcal": 0.0145,
+    "TI_dec_sd_kcal": 0.0251,
+    "MBAR_per_rep_kcal": [
+      6.5421,
+      6.5378,
+      6.5839
+    ],
+    "MBAR_mean_kcal": 6.5546,
+    "MBAR_sem_kcal": 0.0147,
+    "MBAR_sd_kcal": 0.0255
+  },
+  "binary": {
+    "n_reps": 3,
+    "TI_dec_per_rep_kcal": [
+      10.4138,
+      10.3843,
+      10.9252
+    ],
+    "TI_dec_mean_kcal": 10.5744,
+    "TI_dec_sem_kcal": 0.1756,
+    "TI_dec_sd_kcal": 0.3041,
+    "MBAR_per_rep_kcal": [
+      10.1007,
+      10.291,
+      10.7299
+    ],
+    "MBAR_mean_kcal": 10.3739,
+    "MBAR_sem_kcal": 0.1863,
+    "MBAR_sd_kcal": 0.3227
+  },
+  "solvent": {
+    "n_reps": 3,
+    "TI_dec_per_rep_kcal": [
+      6.5604,
+      6.5338,
+      6.5265
+    ],
+    "TI_dec_mean_kcal": 6.5402,
+    "TI_dec_sem_kcal": 0.0103,
+    "TI_dec_sd_kcal": 0.0178,
+    "MBAR_per_rep_kcal": [
+      6.5566,
+      6.5032,
+      6.4818
+    ],
+    "MBAR_mean_kcal": 6.5139,
+    "MBAR_sem_kcal": 0.0222,
+    "MBAR_sd_kcal": 0.0385
+  },
+  "system_compositions": {
+    "ternary": "gp120 (chain G) + CD4 (chain A) + BMS-626529",
+    "binary": "gp120 (chain G) + BMS-626529 (NO CD4)",
+    "solvent": "BMS-626529 + water/ions",
+    "note": "Verified from topology files. couple-lambda0=vdw-q, couple-lambda1=none (decoupling protocol)."
+  },
+  "binding_free_energy_standard": {
+    "note": "dG_bind = dG_solvent - dG_complex (standard convention, negative = favorable)",
+    "binary_gp120_only": {
+      "TI_dec_kcal": -4.0342,
+      "TI_dec_err_kcal": 0.1759,
+      "MBAR_kcal": -3.86,
+      "MBAR_err_kcal": 0.1876
+    },
+    "ternary_gp120_cd4": {
+      "TI_dec_kcal": -0.0875,
+      "TI_dec_err_kcal": 0.0178,
+      "MBAR_kcal": -0.0407,
+      "MBAR_err_kcal": 0.0267
+    }
+  },
+  "cd4_effect_on_drug_binding": {
+    "note": "ddG = dG_bind(ternary) - dG_bind(binary). Positive = CD4 reduces drug affinity.",
+    "TI_dec_kcal": 3.9467,
+    "MBAR_kcal": 3.8193
+  },
+  "decoupling_ddG_raw": {
+    "note": "ddG_decouple = dG(ternary) - dG(binary). Negative = easier to remove drug from ternary.",
+    "TI_dec_kcal": -3.9467,
+    "TI_dec_err_kcal": 0.1762,
+    "MBAR_kcal": -3.8193,
+    "MBAR_err_kcal": 0.1869
+  },
+  "per_rep_analyses": {
+    "binary_rep1": "binary_rep1_analysis.json",
+    "binary_rep2": "binary_rep2_analysis.json",
+    "binary_rep3": "binary_rep3_analysis.json",
+    "solvent_rep1": "solvent_rep1_analysis.json",
+    "solvent_rep2": "solvent_rep2_analysis.json",
+    "solvent_rep3": "solvent_rep3_analysis.json",
+    "ternary_rep1": "ternary_rep1_analysis.json",
+    "ternary_rep2": "ternary_rep2_analysis.json",
+    "ternary_rep3": "ternary_rep3_analysis.json"
+  }
+}

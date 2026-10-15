@@ -1,0 +1,96 @@
+{
+  "layer1_exact_motif": {
+    "motif": "RPGGGDMR",
+    "total_human_proteins": 20431,
+    "exact_matches": 0,
+    "match_details": []
+  },
+  "layer2_relaxed_motifs": {
+    "PGGG": {
+      "description": "Pro-Gly-Gly-Gly (backbone turn + triple glycine)",
+      "annotated_motif_hits": 0
+    },
+    "GGGD": {
+      "description": "Gly-Gly-Gly-Asp (triple glycine + acidic)",
+      "annotated_motif_hits": 0
+    },
+    "RPGGG": {
+      "description": "Arg-Pro-Gly-Gly-Gly (N-terminal half of relay)",
+      "annotated_motif_hits": 0
+    },
+    "GGGDM": {
+      "description": "Gly-Gly-Gly-Asp-Met (C-terminal core)",
+      "annotated_motif_hits": 0
+    },
+    "PGGGD": {
+      "description": "Pro-Gly-Gly-Gly-Asp (central pentamer)",
+      "annotated_motif_hits": 0
+    },
+    "PGGGDMR": {
+      "description": "7-mer without N-terminal Arg",
+      "annotated_motif_hits": 0
+    },
+    "RPGGGDM": {
+      "description": "7-mer without C-terminal Arg",
+      "annotated_motif_hits": 0
+    }
+  },
+  "layer3_property_comparison": {
+    "comparisons": [
+      {
+        "property": "Pocket Volume",
+        "relay_value": "752.6 A^3",
+        "drug_target_mean": "600 A^3",
+        "drug_target_range": "150-2000",
+        "assessment": "Within druggable range",
+        "percentile": "66th"
+      },
+      {
+        "property": "Burial",
+        "relay_value": "91%",
+        "drug_target_mean": "75%",
+        "drug_target_range": "50-98",
+        "assessment": "Highly buried"
+      },
+      {
+        "property": "Pharmacophore Balance",
+        "relay_value": "HBD 36%, HBA 18%, Hydrophobic 40%",
+        "drug_target_mean": "Typically 20-40% polar, 40-60% hydrophobic",
+        "assessment": "Balanced mixed-character pocket (favorable for diverse scaffolds)"
+      }
+    ],
+    "unique_features": [
+      "Located at a protein-protein interface (PPI pocket)",
+      "Contains a GGG backbone motif (extreme flexibility encoded in backbone)",
+      "Functions as a conformational relay hinge (signal transmission, not binding)",
+      "Highest betweenness centrality in entire 885-residue complex",
+      "Relay-CD4 coupling r=0.88 (mechanical signal conduit)",
+      "98.3rd percentile perturbation effectiveness (signal amplifier)",
+      "91% buried yet druggable \u2014 unusual combination"
+    ],
+    "specificity_estimate": "< 0.01% of human drug targets share combined properties"
+  },
+  "metadata": {
+    "relay_properties": {
+      "volume_A3": 752.6,
+      "surface_area_A2": 570.6,
+      "n_pharmacophore_features": 55,
+      "hbd_fraction": 0.36,
+      "hba_fraction": 0.18,
+      "hydrophobic_fraction": 0.4,
+      "halgren_druggability": "5/5 PASS",
+      "burial_percent": 91,
+      "backbone_motif": "RPGGGDMR",
+      "ggg_motif": true,
+      "ppi_interface_pocket": true,
+      "relay_coupling_cd4": 0.88,
+      "betweenness_centrality_rank": 1
+    },
+    "date": "2026-07-22 14:47:06",
+    "sources": [
+      "UniProt REST API (reviewed human proteome)",
+      "Halgren 2009 (druggability statistics)",
+      "Schmidtke & Barril 2010 (cavity property distributions)"
+    ]
+  }
+}

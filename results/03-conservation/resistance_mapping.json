@@ -1,0 +1,455 @@
+{
+  "analysis": "Resistance Mutation Mapping",
+  "source": "Stanford HIVDB + published resistance literature",
+  "relay_pocket_residues": [
+    465,
+    466,
+    467,
+    468,
+    469,
+    470,
+    471,
+    472
+  ],
+  "wall_residues": [
+    198,
+    200,
+    361,
+    362,
+    363,
+    364,
+    375,
+    376,
+    377,
+    418,
+    419,
+    420,
+    421,
+    422,
+    423,
+    424,
+    425,
+    196,
+    197,
+    199,
+    201,
+    360,
+    365,
+    374,
+    378,
+    417,
+    426,
+    427,
+    473,
+    474,
+    475
+  ],
+  "total_mutations_checked": 28,
+  "in_pocket": 2,
+  "in_wall": 10,
+  "near_pocket": 1,
+  "distant": 15,
+  "key_finding": "ZERO known resistance mutations directly affect relay pocket residues 465-472",
+  "pocket_polymorphisms": [
+    [
+      "R469K",
+      {
+        "position": 469,
+        "drug": "clade polymorphism",
+        "level": "natural",
+        "fold_change": "none",
+        "classification": "IN POCKET",
+        "min_distance_to_pocket": 0
+      }
+    ],
+    [
+      "D470N",
+      {
+        "position": 470,
+        "drug": "clade polymorphism",
+        "level": "natural",
+        "fold_change": "none",
+        "classification": "IN POCKET",
+        "min_distance_to_pocket": 0
+      }
+    ]
+  ],
+  "mutations": {
+    "S375N": {
+      "position": 375,
+      "drug": "Fostemsavir",
+      "level": "primary",
+      "fold_change": ">100x",
+      "classification": "IN WALL/CONTACT SHELL",
+      "min_distance_to_pocket": 90
+    },
+    "S375H": {
+      "position": 375,
+      "drug": "Fostemsavir",
+      "level": "primary",
+      "fold_change": ">100x",
+      "classification": "IN WALL/CONTACT SHELL",
+      "min_distance_to_pocket": 90
+    },
+    "S375T": {
+      "position": 375,
+      "drug": "Fostemsavir",
+      "level": "primary",
+      "fold_change": "10-50x",
+      "classification": "IN WALL/CONTACT SHELL",
+      "min_distance_to_pocket": 90
+    },
+    "M426L": {
+      "position": 426,
+      "drug": "Fostemsavir",
+      "level": "primary",
+      "fold_change": ">100x",
+      "classification": "IN WALL/CONTACT SHELL",
+      "min_distance_to_pocket": 39
+    },
+    "M426V": {
+      "position": 426,
+      "drug": "Fostemsavir",
+      "level": "primary",
+      "fold_change": "10-50x",
+      "classification": "IN WALL/CONTACT SHELL",
+      "min_distance_to_pocket": 39
+    },
+    "M434I": {
+      "position": 434,
+      "drug": "Fostemsavir",
+      "level": "secondary",
+      "fold_change": "3-10x",
+      "classification": "DISTANT",
+      "min_distance_to_pocket": 31
+    },
+    "M475I": {
+      "position": 475,
+      "drug": "Fostemsavir",
+      "level": "secondary",
+      "fold_change": "3-10x",
+      "classification": "IN WALL/CONTACT SHELL",
+      "min_distance_to_pocket": 3
+    },
+    "L116P": {
+      "position": 116,
+      "drug": "Fostemsavir",
+      "level": "accessory",
+      "fold_change": "2-5x",
+      "classification": "DISTANT",
+      "min_distance_to_pocket": 349
+    },
+    "A204D": {
+      "position": 204,
+      "drug": "Fostemsavir",
+      "level": "accessory",
+      "fold_change": "2-5x",
+      "classification": "DISTANT",
+      "min_distance_to_pocket": 261
+    },
+    "V200I": {
+      "position": 200,
+      "drug": "Fostemsavir",
+      "level": "secondary",
+      "fold_change": "3-10x",
+      "classification": "IN WALL/CONTACT SHELL",
+      "min_distance_to_pocket": 265
+    },
+    "V3_loss_PNGS": {
+      "position": 301,
+      "drug": "Ibalizumab",
+      "level": "primary",
+      "fold_change": "variable",
+      "classification": "DISTANT",
+      "min_distance_to_pocket": 164
+    },
+    "N279K": {
+      "position": 279,
+      "drug": "VRC01/bnAbs",
+      "level": "primary",
+      "fold_change": "complete",
+      "classification": "DISTANT",
+      "min_distance_to_pocket": 186
+    },
+    "S364P": {
+      "position": 364,
+      "drug": "VRC01",
+      "level": "accessory",
+      "fold_change": "3-10x",
+      "classification": "IN WALL/CONTACT SHELL",
+      "min_distance_to_pocket": 101
+    },
+    "G366E": {
+      "position": 366,
+      "drug": "VRC01",
+      "level": "accessory",
+      "fold_change": "3-10x",
+      "classification": "DISTANT",
+      "min_distance_to_pocket": 99
+    },
+    "G459D": {
+      "position": 459,
+      "drug": "VRC01",
+      "level": "accessory",
+      "fold_change": "2-5x",
+      "classification": "NEAR POCKET",
+      "min_distance_to_pocket": 6
+    },
+    "G367R": {
+      "position": 367,
+      "drug": "VRC01/3BNC117",
+      "level": "secondary",
+      "fold_change": "5-20x",
+      "classification": "DISTANT",
+      "min_distance_to_pocket": 98
+    },
+    "D368V": {
+      "position": 368,
+      "drug": "VRC01/CD4bs-bnAbs",
+      "level": "primary",
+      "fold_change": ">100x",
+      "classification": "DISTANT",
+      "min_distance_to_pocket": 97
+    },
+    "G36D": {
+      "position": "gp41-36",
+      "drug": "Enfuvirtide",
+      "level": "primary",
+      "fold_change": ">100x",
+      "classification": "distant (gp41)",
+      "min_distance_to_pocket": ">100 residues"
+    },
+    "V38A": {
+      "position": "gp41-38",
+      "drug": "Enfuvirtide",
+      "level": "primary",
+      "fold_change": "10-100x",
+      "classification": "distant (gp41)",
+      "min_distance_to_pocket": ">100 residues"
+    },
+    "N42T": {
+      "position": "gp41-42",
+      "drug": "Enfuvirtide",
+      "level": "primary",
+      "fold_change": "10-100x",
+      "classification": "distant (gp41)",
+      "min_distance_to_pocket": ">100 residues"
+    },
+    "N43D": {
+      "position": "gp41-43",
+      "drug": "Enfuvirtide",
+      "level": "primary",
+      "fold_change": ">100x",
+      "classification": "distant (gp41)",
+      "min_distance_to_pocket": ">100 residues"
+    },
+    "T415A": {
+      "position": 415,
+      "drug": "polymorphism",
+      "level": "natural",
+      "fold_change": "none",
+      "classification": "DISTANT",
+      "min_distance_to_pocket": 50
+    },
+    "I420T": {
+      "position": 420,
+      "drug": "polymorphism",
+      "level": "natural",
+      "fold_change": "none",
+      "classification": "IN WALL/CONTACT SHELL",
+      "min_distance_to_pocket": 45
+    },
+    "Q422R": {
+      "position": 422,
+      "drug": "polymorphism",
+      "level": "natural",
+      "fold_change": "none",
+      "classification": "IN WALL/CONTACT SHELL",
+      "min_distance_to_pocket": 43
+    },
+    "D368N": {
+      "position": 368,
+      "drug": "CD4 binding",
+      "level": "resistance",
+      "fold_change": "5-20x",
+      "classification": "DISTANT",
+      "min_distance_to_pocket": 97
+    },
+    "E370K": {
+      "position": 370,
+      "drug": "CD4 binding",
+      "level": "accessory",
+      "fold_change": "2-5x",
+      "classification": "DISTANT",
+      "min_distance_to_pocket": 95
+    },
+    "R469K": {
+      "position": 469,
+      "drug": "clade polymorphism",
+      "level": "natural",
+      "fold_change": "none",
+      "classification": "IN POCKET",
+      "min_distance_to_pocket": 0
+    },
+    "D470N": {
+      "position": 470,
+      "drug": "clade polymorphism",
+      "level": "natural",
+      "fold_change": "none",
+      "classification": "IN POCKET",
+      "min_distance_to_pocket": 0
+    }
+  },
+  "classification": {
+    "in_pocket": [
+      [
+        "R469K",
+        {
+          "position": 469,
+          "drug": "clade polymorphism",
+          "level": "natural",
+          "fold_change": "none",
+          "classification": "IN POCKET",
+          "min_distance_to_pocket": 0
+        }
+      ],
+      [
+        "D470N",
+        {
+          "position": 470,
+          "drug": "clade polymorphism",
+          "level": "natural",
+          "fold_change": "none",
+          "classification": "IN POCKET",
+          "min_distance_to_pocket": 0
+        }
+      ]
+    ],
+    "in_wall": [
+      [
+        "S375N",
+        {
+          "position": 375,
+          "drug": "Fostemsavir",
+          "level": "primary",
+          "fold_change": ">100x",
+          "classification": "IN WALL/CONTACT SHELL",
+          "min_distance_to_pocket": 90
+        }
+      ],
+      [
+        "S375H",
+        {
+          "position": 375,
+          "drug": "Fostemsavir",
+          "level": "primary",
+          "fold_change": ">100x",
+          "classification": "IN WALL/CONTACT SHELL",
+          "min_distance_to_pocket": 90
+        }
+      ],
+      [
+        "S375T",
+        {
+          "position": 375,
+          "drug": "Fostemsavir",
+          "level": "primary",
+          "fold_change": "10-50x",
+          "classification": "IN WALL/CONTACT SHELL",
+          "min_distance_to_pocket": 90
+        }
+      ],
+      [
+        "M426L",
+        {
+          "position": 426,
+          "drug": "Fostemsavir",
+          "level": "primary",
+          "fold_change": ">100x",
+          "classification": "IN WALL/CONTACT SHELL",
+          "min_distance_to_pocket": 39
+        }
+      ],
+      [
+        "M426V",
+        {
+          "position": 426,
+          "drug": "Fostemsavir",
+          "level": "primary",
+          "fold_change": "10-50x",
+          "classification": "IN WALL/CONTACT SHELL",
+          "min_distance_to_pocket": 39
+        }
+      ],
+      [
+        "M475I",
+        {
+          "position": 475,
+          "drug": "Fostemsavir",
+          "level": "secondary",
+          "fold_change": "3-10x",
+          "classification": "IN WALL/CONTACT SHELL",
+          "min_distance_to_pocket": 3
+        }
+      ],
+      [
+        "V200I",
+        {
+          "position": 200,
+          "drug": "Fostemsavir",
+          "level": "secondary",
+          "fold_change": "3-10x",
+          "classification": "IN WALL/CONTACT SHELL",
+          "min_distance_to_pocket": 265
+        }
+      ],
+      [
+        "S364P",
+        {
+          "position": 364,
+          "drug": "VRC01",
+          "level": "accessory",
+          "fold_change": "3-10x",
+          "classification": "IN WALL/CONTACT SHELL",
+          "min_distance_to_pocket": 101
+        }
+      ],
+      [
+        "I420T",
+        {
+          "position": 420,
+          "drug": "polymorphism",
+          "level": "natural",
+          "fold_change": "none",
+          "classification": "IN WALL/CONTACT SHELL",
+          "min_distance_to_pocket": 45
+        }
+      ],
+      [
+        "Q422R",
+        {
+          "position": 422,
+          "drug": "polymorphism",
+          "level": "natural",
+          "fold_change": "none",
+          "classification": "IN WALL/CONTACT SHELL",
+          "min_distance_to_pocket": 43
+        }
+      ]
+    ],
+    "near_pocket": [
+      [
+        "G459D",
+        {
+          "position": 459,
+          "drug": "VRC01",
+          "level": "accessory",
+          "fold_change": "2-5x",
+          "classification": "NEAR POCKET",
+          "min_distance_to_pocket": 6
+        }
+      ]
+    ],
+    "distant_count": 15
+  }
+}

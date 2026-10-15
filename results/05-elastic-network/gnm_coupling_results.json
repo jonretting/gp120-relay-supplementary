@@ -1,0 +1,49 @@
+{
+  "analysis": "GNM Mechanical Coupling Analysis",
+  "method": "Gaussian Network Model (ProDy), cutoff=10.0A, 20 modes",
+  "relay_cd4_coupling": {
+    "mean": 0.8809411330737517,
+    "min": 0.7266730334916102,
+    "max": 0.979661944670755,
+    "all_positive": true,
+    "top_5": [
+      {
+        "relay": "G:ASP470",
+        "cd4": "A:GLN40",
+        "correlation": 0.979661944670755
+      },
+      {
+        "relay": "G:GLY469",
+        "cd4": "A:GLN40",
+        "correlation": 0.9763587807219622
+      },
+      {
+        "relay": "G:ASP470",
+        "cd4": "A:PHE43",
+        "correlation": 0.9674251790042943
+      },
+      {
+        "relay": "G:GLY469",
+        "cd4": "A:PHE43",
+        "correlation": 0.9660842371841293
+      },
+      {
+        "relay": "G:GLY469",
+        "cd4": "A:THR45",
+        "correlation": 0.9570450315579114
+      }
+    ]
+  },
+  "relay_fostemsavir_coupling": {
+    "mean": 0.6899104560002696
+  },
+  "relay_v3_coupling": {
+    "mean": -0.2879120334308123
+  },
+  "perturbation_response": {
+    "pocket_effectiveness": 1.068025555602298,
+    "effectiveness_percentile": 98.30508474576271,
+    "pocket_sensitivity": 0.2322498787421213,
+    "sensitivity_percentile": 18.757062146892657
+  }
+}

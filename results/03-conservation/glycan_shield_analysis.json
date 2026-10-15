@@ -1,0 +1,6725 @@
+{
+  "6MEO": {
+    "pdb_id": "6MEO",
+    "description": "gp120-CD4-CCR5 ternary (Shaik 2019, 3.9 A cryo-EM)",
+    "chains": [
+      "G",
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L"
+    ],
+    "gp120_chain": "G",
+    "pocket_residues": [
+      {
+        "resnum": 465,
+        "resname": "ARG",
+        "ca_coords": [
+          143.2,
+          184.5,
+          129.4
+        ]
+      },
+      {
+        "resnum": 466,
+        "resname": "PRO",
+        "ca_coords": [
+          140.9,
+          182.1,
+          131.4
+        ]
+      },
+      {
+        "resnum": 467,
+        "resname": "GLY",
+        "ca_coords": [
+          138.4,
+          184.0,
+          133.6
+        ]
+      },
+      {
+        "resnum": 468,
+        "resname": "GLY",
+        "ca_coords": [
+          135.3,
+          183.1,
+          135.5
+        ]
+      },
+      {
+        "resnum": 469,
+        "resname": "GLY",
+        "ca_coords": [
+          134.6,
+          183.2,
+          139.2
+        ]
+      },
+      {
+        "resnum": 470,
+        "resname": "ASP",
+        "ca_coords": [
+          131.4,
+          185.3,
+          139.1
+        ]
+      },
+      {
+        "resnum": 471,
+        "resname": "MET",
+        "ca_coords": [
+          129.0,
+          182.5,
+          139.7
+        ]
+      },
+      {
+        "resnum": 472,
+        "resname": "ARG",
+        "ca_coords": [
+          126.1,
+          184.5,
+          138.2
+        ]
+      }
+    ],
+    "pocket_center": [
+      134.9,
+      183.7,
+      135.8
+    ],
+    "sequons": [
+      {
+        "resnum": 384,
+        "motif": "NTT",
+        "ca_coords": [
+          147.1060028076172,
+          174.10400390625,
+          137.8679962158203
+        ],
+        "dist_to_pocket": 15.7
+      },
+      {
+        "resnum": 276,
+        "motif": "NLT",
+        "ca_coords": [
+          129.7570037841797,
+          193.31100463867188,
+          124.41899871826172
+        ],
+        "dist_to_pocket": 15.8
+      },
+      {
+        "resnum": 262,
+        "motif": "NGS",
+        "ca_coords": [
+          128.37899780273438,
+          169.0800018310547,
+          133.96200561523438
+        ],
+        "dist_to_pocket": 16.1
+      },
+      {
+        "resnum": 443,
+        "motif": "NIT",
+        "ca_coords": [
+          132.4669952392578,
+          166.42799377441406,
+          131.78500366210938
+        ],
+        "dist_to_pocket": 17.9
+      },
+      {
+        "resnum": 390,
+        "motif": "NST",
+        "ca_coords": [
+          150.0659942626953,
+          178.26600646972656,
+          126.97200012207031
+        ],
+        "dist_to_pocket": 18.4
+      },
+      {
+        "resnum": 234,
+        "motif": "NGT",
+        "ca_coords": [
+          123.43299865722656,
+          185.08700561523438,
+          119.4800033569336
+        ],
+        "dist_to_pocket": 20.0
+      },
+      {
+        "resnum": 295,
+        "motif": "NCT",
+        "ca_coords": [
+          139.14700317382812,
+          162.0679931640625,
+          135.32899475097656
+        ],
+        "dist_to_pocket": 22.1
+      },
+      {
+        "resnum": 331,
+        "motif": "NLS",
+        "ca_coords": [
+          144.13800048828125,
+          163.58599853515625,
+          132.76300048828125
+        ],
+        "dist_to_pocket": 22.3
+      },
+      {
+        "resnum": 338,
+        "motif": "NDT",
+        "ca_coords": [
+          142.66200256347656,
+          169.4669952392578,
+          120.43499755859375
+        ],
+        "dist_to_pocket": 22.3
+      },
+      {
+        "resnum": 354,
+        "motif": "NKT",
+        "ca_coords": [
+          141.7100067138672,
+          187.4929962158203,
+          110.95999908447266
+        ],
+        "dist_to_pocket": 26.0
+      },
+      {
+        "resnum": 459,
+        "motif": "NTT",
+        "ca_coords": [
+          147.10699462890625,
+          196.75599670410156,
+          115.49700164794922
+        ],
+        "dist_to_pocket": 27.0
+      },
+      {
+        "resnum": 395,
+        "motif": "NNT",
+        "ca_coords": [
+          146.4669952392578,
+          179.01600646972656,
+          110.61399841308594
+        ],
+        "dist_to_pocket": 28.1
+      },
+      {
+        "resnum": 197,
+        "motif": "NTS",
+        "ca_coords": [
+          134.74600219726562,
+          194.31199645996094,
+          162.4669952392578
+        ],
+        "dist_to_pocket": 28.7
+      },
+      {
+        "resnum": 241,
+        "motif": "NVS",
+        "ca_coords": [
+          111.36199951171875,
+          179.72900390625,
+          116.8030014038086
+        ],
+        "dist_to_pocket": 30.5
+      },
+      {
+        "resnum": 301,
+        "motif": "NNT",
+        "ca_coords": [
+          149.5760040283203,
+          155.4320068359375,
+          148.33700561523438
+        ],
+        "dist_to_pocket": 34.2
+      },
+      {
+        "resnum": 188,
+        "motif": "NTS",
+        "ca_coords": [
+          133.38099670410156,
+          216.7100067138672,
+          149.19700622558594
+        ],
+        "dist_to_pocket": 35.7
+      },
+      {
+        "resnum": 87,
+        "motif": "NVT",
+        "ca_coords": [
+          105.0999984741211,
+          182.98500061035156,
+          114.0009994506836
+        ],
+        "dist_to_pocket": 36.9
+      }
+    ],
+    "resolved_sugars": [
+      {
+        "chain": "K",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          153.0,
+          176.6,
+          138.1
+        ],
+        "dist_to_pocket": 19.6
+      },
+      {
+        "chain": "E",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          130.3,
+          164.6,
+          138.4
+        ],
+        "dist_to_pocket": 19.8
+      },
+      {
+        "chain": "F",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          129.9,
+          199.4,
+          123.2
+        ],
+        "dist_to_pocket": 20.7
+      },
+      {
+        "chain": "L",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          128.1,
+          162.3,
+          129.5
+        ],
+        "dist_to_pocket": 23.3
+      },
+      {
+        "chain": "K",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          157.7,
+          178.2,
+          135.9
+        ],
+        "dist_to_pocket": 23.5
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 631,
+        "center": [
+          156.5,
+          178.1,
+          127.0
+        ],
+        "dist_to_pocket": 24.0
+      },
+      {
+        "chain": "C",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          123.0,
+          190.6,
+          116.2
+        ],
+        "dist_to_pocket": 24.0
+      },
+      {
+        "chain": "E",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          130.9,
+          159.7,
+          140.7
+        ],
+        "dist_to_pocket": 24.9
+      },
+      {
+        "chain": "F",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          131.6,
+          204.4,
+          121.5
+        ],
+        "dist_to_pocket": 25.4
+      },
+      {
+        "chain": "C",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          123.7,
+          195.7,
+          114.8
+        ],
+        "dist_to_pocket": 26.6
+      },
+      {
+        "chain": "H",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          138.3,
+          157.8,
+          130.8
+        ],
+        "dist_to_pocket": 26.6
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 619,
+        "center": [
+          148.0,
+          169.3,
+          116.6
+        ],
+        "dist_to_pocket": 27.3
+      },
+      {
+        "chain": "L",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          125.2,
+          158.9,
+          127.1
+        ],
+        "dist_to_pocket": 28.1
+      },
+      {
+        "chain": "I",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          147.2,
+          158.1,
+          134.2
+        ],
+        "dist_to_pocket": 28.5
+      },
+      {
+        "chain": "B",
+        "resname": "A2G",
+        "resnum": 401,
+        "center": [
+          145.3,
+          178.0,
+          162.1
+        ],
+        "dist_to_pocket": 28.8
+      },
+      {
+        "chain": "E",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          131.4,
+          156.5,
+          145.1
+        ],
+        "dist_to_pocket": 29.0
+      },
+      {
+        "chain": "E",
+        "resname": "MAN",
+        "resnum": 4,
+        "center": [
+          131.0,
+          158.2,
+          150.3
+        ],
+        "dist_to_pocket": 29.5
+      },
+      {
+        "chain": "J",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          155.6,
+          162.5,
+          141.3
+        ],
+        "dist_to_pocket": 30.2
+      },
+      {
+        "chain": "J",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          158.8,
+          165.3,
+          137.6
+        ],
+        "dist_to_pocket": 30.3
+      },
+      {
+        "chain": "H",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          135.7,
+          154.4,
+          127.8
+        ],
+        "dist_to_pocket": 30.4
+      },
+      {
+        "chain": "J",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          152.2,
+          158.7,
+          143.3
+        ],
+        "dist_to_pocket": 31.3
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 620,
+        "center": [
+          139.6,
+          187.9,
+          104.9
+        ],
+        "dist_to_pocket": 31.6
+      },
+      {
+        "chain": "E",
+        "resname": "MAN",
+        "resnum": 5,
+        "center": [
+          134.5,
+          156.2,
+          152.2
+        ],
+        "dist_to_pocket": 32.0
+      },
+      {
+        "chain": "D",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          111.7,
+          173.4,
+          115.4
+        ],
+        "dist_to_pocket": 32.6
+      },
+      {
+        "chain": "G",
+        "resname": "BMA",
+        "resnum": 612,
+        "center": [
+          129.2,
+          151.7,
+          141.9
+        ],
+        "dist_to_pocket": 33.0
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 628,
+        "center": [
+          130.8,
+          193.3,
+          167.4
+        ],
+        "dist_to_pocket": 33.3
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 626,
+        "center": [
+          149.7,
+          181.6,
+          105.9
+        ],
+        "dist_to_pocket": 33.4
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 627,
+        "center": [
+          150.2,
+          200.8,
+          111.5
+        ],
+        "dist_to_pocket": 33.4
+      },
+      {
+        "chain": "I",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          151.6,
+          154.8,
+          134.6
+        ],
+        "dist_to_pocket": 33.4
+      },
+      {
+        "chain": "D",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          111.2,
+          168.1,
+          116.5
+        ],
+        "dist_to_pocket": 34.3
+      },
+      {
+        "chain": "D",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          112.3,
+          162.8,
+          115.4
+        ],
+        "dist_to_pocket": 37.0
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 601,
+        "center": [
+          101.7,
+          181.4,
+          108.7
+        ],
+        "dist_to_pocket": 43.0
+      }
+    ],
+    "sugars_within_15A": [],
+    "sugars_within_25A": [
+      {
+        "chain": "K",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          153.0,
+          176.6,
+          138.1
+        ],
+        "dist_to_pocket": 19.6
+      },
+      {
+        "chain": "E",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          130.3,
+          164.6,
+          138.4
+        ],
+        "dist_to_pocket": 19.8
+      },
+      {
+        "chain": "F",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          129.9,
+          199.4,
+          123.2
+        ],
+        "dist_to_pocket": 20.7
+      },
+      {
+        "chain": "L",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          128.1,
+          162.3,
+          129.5
+        ],
+        "dist_to_pocket": 23.3
+      },
+      {
+        "chain": "K",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          157.7,
+          178.2,
+          135.9
+        ],
+        "dist_to_pocket": 23.5
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 631,
+        "center": [
+          156.5,
+          178.1,
+          127.0
+        ],
+        "dist_to_pocket": 24.0
+      },
+      {
+        "chain": "C",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          123.0,
+          190.6,
+          116.2
+        ],
+        "dist_to_pocket": 24.0
+      },
+      {
+        "chain": "E",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          130.9,
+          159.7,
+          140.7
+        ],
+        "dist_to_pocket": 24.9
+      }
+    ]
+  },
+  "6MET": {
+    "pdb_id": "6MET",
+    "description": "gp120-CD4-CCR5 alternate conformation (Shaik 2019)",
+    "chains": [
+      "G",
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L"
+    ],
+    "gp120_chain": "G",
+    "pocket_residues": [
+      {
+        "resnum": 465,
+        "resname": "ARG",
+        "ca_coords": [
+          143.2,
+          184.5,
+          129.4
+        ]
+      },
+      {
+        "resnum": 466,
+        "resname": "PRO",
+        "ca_coords": [
+          140.9,
+          182.1,
+          131.4
+        ]
+      },
+      {
+        "resnum": 467,
+        "resname": "GLY",
+        "ca_coords": [
+          138.4,
+          184.0,
+          133.6
+        ]
+      },
+      {
+        "resnum": 468,
+        "resname": "GLY",
+        "ca_coords": [
+          135.3,
+          183.1,
+          135.5
+        ]
+      },
+      {
+        "resnum": 469,
+        "resname": "GLY",
+        "ca_coords": [
+          134.6,
+          183.2,
+          139.2
+        ]
+      },
+      {
+        "resnum": 470,
+        "resname": "ASP",
+        "ca_coords": [
+          131.4,
+          185.3,
+          139.1
+        ]
+      },
+      {
+        "resnum": 471,
+        "resname": "MET",
+        "ca_coords": [
+          129.0,
+          182.5,
+          139.7
+        ]
+      },
+      {
+        "resnum": 472,
+        "resname": "ARG",
+        "ca_coords": [
+          126.1,
+          184.5,
+          138.2
+        ]
+      }
+    ],
+    "pocket_center": [
+      134.9,
+      183.7,
+      135.8
+    ],
+    "sequons": [
+      {
+        "resnum": 384,
+        "motif": "NTT",
+        "ca_coords": [
+          147.1060028076172,
+          174.10400390625,
+          137.8679962158203
+        ],
+        "dist_to_pocket": 15.7
+      },
+      {
+        "resnum": 276,
+        "motif": "NLT",
+        "ca_coords": [
+          129.7570037841797,
+          193.31100463867188,
+          124.41899871826172
+        ],
+        "dist_to_pocket": 15.8
+      },
+      {
+        "resnum": 262,
+        "motif": "NGS",
+        "ca_coords": [
+          128.37899780273438,
+          169.0800018310547,
+          133.96200561523438
+        ],
+        "dist_to_pocket": 16.1
+      },
+      {
+        "resnum": 443,
+        "motif": "NIT",
+        "ca_coords": [
+          132.4669952392578,
+          166.42799377441406,
+          131.78500366210938
+        ],
+        "dist_to_pocket": 17.9
+      },
+      {
+        "resnum": 390,
+        "motif": "NST",
+        "ca_coords": [
+          150.0659942626953,
+          178.26600646972656,
+          126.97200012207031
+        ],
+        "dist_to_pocket": 18.4
+      },
+      {
+        "resnum": 234,
+        "motif": "NGT",
+        "ca_coords": [
+          123.43299865722656,
+          185.08700561523438,
+          119.4800033569336
+        ],
+        "dist_to_pocket": 20.0
+      },
+      {
+        "resnum": 295,
+        "motif": "NCT",
+        "ca_coords": [
+          139.14700317382812,
+          162.0679931640625,
+          135.32899475097656
+        ],
+        "dist_to_pocket": 22.1
+      },
+      {
+        "resnum": 331,
+        "motif": "NLS",
+        "ca_coords": [
+          144.13800048828125,
+          163.58599853515625,
+          132.76300048828125
+        ],
+        "dist_to_pocket": 22.3
+      },
+      {
+        "resnum": 338,
+        "motif": "NDT",
+        "ca_coords": [
+          142.66200256347656,
+          169.4669952392578,
+          120.43499755859375
+        ],
+        "dist_to_pocket": 22.3
+      },
+      {
+        "resnum": 354,
+        "motif": "NKT",
+        "ca_coords": [
+          141.7100067138672,
+          187.4929962158203,
+          110.95999908447266
+        ],
+        "dist_to_pocket": 26.0
+      },
+      {
+        "resnum": 459,
+        "motif": "NTT",
+        "ca_coords": [
+          147.10699462890625,
+          196.75599670410156,
+          115.49700164794922
+        ],
+        "dist_to_pocket": 27.0
+      },
+      {
+        "resnum": 395,
+        "motif": "NNT",
+        "ca_coords": [
+          146.4669952392578,
+          179.01600646972656,
+          110.61399841308594
+        ],
+        "dist_to_pocket": 28.1
+      },
+      {
+        "resnum": 197,
+        "motif": "NTS",
+        "ca_coords": [
+          134.74600219726562,
+          194.31199645996094,
+          162.4669952392578
+        ],
+        "dist_to_pocket": 28.7
+      },
+      {
+        "resnum": 241,
+        "motif": "NVS",
+        "ca_coords": [
+          111.36199951171875,
+          179.72900390625,
+          116.8030014038086
+        ],
+        "dist_to_pocket": 30.5
+      },
+      {
+        "resnum": 301,
+        "motif": "NNT",
+        "ca_coords": [
+          149.5760040283203,
+          155.4320068359375,
+          148.33700561523438
+        ],
+        "dist_to_pocket": 34.2
+      },
+      {
+        "resnum": 188,
+        "motif": "NTS",
+        "ca_coords": [
+          133.38099670410156,
+          216.7100067138672,
+          149.19700622558594
+        ],
+        "dist_to_pocket": 35.7
+      },
+      {
+        "resnum": 87,
+        "motif": "NVT",
+        "ca_coords": [
+          105.0999984741211,
+          182.98500061035156,
+          114.0009994506836
+        ],
+        "dist_to_pocket": 36.9
+      }
+    ],
+    "resolved_sugars": [
+      {
+        "chain": "K",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          152.9,
+          177.1,
+          138.0
+        ],
+        "dist_to_pocket": 19.3
+      },
+      {
+        "chain": "E",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          130.3,
+          164.6,
+          138.4
+        ],
+        "dist_to_pocket": 19.8
+      },
+      {
+        "chain": "F",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          129.9,
+          199.4,
+          123.2
+        ],
+        "dist_to_pocket": 20.7
+      },
+      {
+        "chain": "K",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          157.7,
+          178.9,
+          135.9
+        ],
+        "dist_to_pocket": 23.3
+      },
+      {
+        "chain": "L",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          128.1,
+          162.3,
+          129.5
+        ],
+        "dist_to_pocket": 23.3
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 631,
+        "center": [
+          156.5,
+          178.1,
+          127.0
+        ],
+        "dist_to_pocket": 24.0
+      },
+      {
+        "chain": "C",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          123.0,
+          190.6,
+          116.2
+        ],
+        "dist_to_pocket": 24.0
+      },
+      {
+        "chain": "E",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          130.9,
+          159.7,
+          140.7
+        ],
+        "dist_to_pocket": 24.9
+      },
+      {
+        "chain": "F",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          131.6,
+          204.4,
+          121.5
+        ],
+        "dist_to_pocket": 25.4
+      },
+      {
+        "chain": "C",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          123.7,
+          195.7,
+          114.8
+        ],
+        "dist_to_pocket": 26.6
+      },
+      {
+        "chain": "H",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          138.3,
+          157.8,
+          130.8
+        ],
+        "dist_to_pocket": 26.6
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 619,
+        "center": [
+          148.0,
+          169.3,
+          116.6
+        ],
+        "dist_to_pocket": 27.3
+      },
+      {
+        "chain": "L",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          125.2,
+          158.9,
+          127.1
+        ],
+        "dist_to_pocket": 28.1
+      },
+      {
+        "chain": "I",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          147.2,
+          158.1,
+          134.2
+        ],
+        "dist_to_pocket": 28.5
+      },
+      {
+        "chain": "B",
+        "resname": "A2G",
+        "resnum": 401,
+        "center": [
+          145.3,
+          178.0,
+          162.1
+        ],
+        "dist_to_pocket": 28.8
+      },
+      {
+        "chain": "E",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          131.4,
+          156.5,
+          145.1
+        ],
+        "dist_to_pocket": 29.0
+      },
+      {
+        "chain": "E",
+        "resname": "MAN",
+        "resnum": 4,
+        "center": [
+          131.0,
+          158.2,
+          150.3
+        ],
+        "dist_to_pocket": 29.5
+      },
+      {
+        "chain": "J",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          155.6,
+          162.5,
+          141.3
+        ],
+        "dist_to_pocket": 30.2
+      },
+      {
+        "chain": "J",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          158.8,
+          165.3,
+          137.6
+        ],
+        "dist_to_pocket": 30.3
+      },
+      {
+        "chain": "H",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          135.7,
+          154.4,
+          127.8
+        ],
+        "dist_to_pocket": 30.4
+      },
+      {
+        "chain": "J",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          152.2,
+          158.7,
+          143.3
+        ],
+        "dist_to_pocket": 31.3
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 620,
+        "center": [
+          139.6,
+          187.9,
+          104.9
+        ],
+        "dist_to_pocket": 31.6
+      },
+      {
+        "chain": "E",
+        "resname": "MAN",
+        "resnum": 5,
+        "center": [
+          134.5,
+          156.2,
+          152.2
+        ],
+        "dist_to_pocket": 32.0
+      },
+      {
+        "chain": "D",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          111.7,
+          173.4,
+          115.4
+        ],
+        "dist_to_pocket": 32.6
+      },
+      {
+        "chain": "E",
+        "resname": "MAN",
+        "resnum": 6,
+        "center": [
+          131.7,
+          151.7,
+          141.2
+        ],
+        "dist_to_pocket": 32.6
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 628,
+        "center": [
+          130.8,
+          193.3,
+          167.4
+        ],
+        "dist_to_pocket": 33.3
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 626,
+        "center": [
+          149.7,
+          181.6,
+          105.9
+        ],
+        "dist_to_pocket": 33.4
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 627,
+        "center": [
+          150.2,
+          200.8,
+          111.5
+        ],
+        "dist_to_pocket": 33.4
+      },
+      {
+        "chain": "I",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          151.6,
+          154.8,
+          134.6
+        ],
+        "dist_to_pocket": 33.4
+      },
+      {
+        "chain": "D",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          111.2,
+          168.1,
+          116.5
+        ],
+        "dist_to_pocket": 34.3
+      },
+      {
+        "chain": "D",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          112.3,
+          162.8,
+          115.4
+        ],
+        "dist_to_pocket": 37.0
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 601,
+        "center": [
+          101.7,
+          181.4,
+          108.7
+        ],
+        "dist_to_pocket": 43.0
+      }
+    ],
+    "sugars_within_15A": [],
+    "sugars_within_25A": [
+      {
+        "chain": "K",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          152.9,
+          177.1,
+          138.0
+        ],
+        "dist_to_pocket": 19.3
+      },
+      {
+        "chain": "E",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          130.3,
+          164.6,
+          138.4
+        ],
+        "dist_to_pocket": 19.8
+      },
+      {
+        "chain": "F",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          129.9,
+          199.4,
+          123.2
+        ],
+        "dist_to_pocket": 20.7
+      },
+      {
+        "chain": "K",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          157.7,
+          178.9,
+          135.9
+        ],
+        "dist_to_pocket": 23.3
+      },
+      {
+        "chain": "L",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          128.1,
+          162.3,
+          129.5
+        ],
+        "dist_to_pocket": 23.3
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 631,
+        "center": [
+          156.5,
+          178.1,
+          127.0
+        ],
+        "dist_to_pocket": 24.0
+      },
+      {
+        "chain": "C",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          123.0,
+          190.6,
+          116.2
+        ],
+        "dist_to_pocket": 24.0
+      },
+      {
+        "chain": "E",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          130.9,
+          159.7,
+          140.7
+        ],
+        "dist_to_pocket": 24.9
+      }
+    ]
+  },
+  "5U7O": {
+    "pdb_id": "5U7O",
+    "description": "BG505 SOSIP.664 + sCD4 + 17b (Lee 2016, 3.7 A cryo-EM)",
+    "chains": [
+      "B",
+      "D",
+      "E",
+      "G",
+      "H",
+      "L",
+      "A",
+      "C",
+      "F",
+      "I",
+      "J",
+      "K",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T"
+    ],
+    "gp120_chain": "G",
+    "pocket_residues": [
+      {
+        "resnum": 465,
+        "resname": "THR",
+        "ca_coords": [
+          180.2,
+          318.0,
+          23.9
+        ]
+      },
+      {
+        "resnum": 466,
+        "resname": "GLU",
+        "ca_coords": [
+          181.4,
+          314.5,
+          23.4
+        ]
+      },
+      {
+        "resnum": 467,
+        "resname": "THR",
+        "ca_coords": [
+          183.5,
+          312.7,
+          26.0
+        ]
+      },
+      {
+        "resnum": 468,
+        "resname": "PHE",
+        "ca_coords": [
+          185.9,
+          309.9,
+          25.0
+        ]
+      },
+      {
+        "resnum": 469,
+        "resname": "ARG",
+        "ca_coords": [
+          186.9,
+          307.2,
+          27.5
+        ]
+      },
+      {
+        "resnum": 470,
+        "resname": "PRO",
+        "ca_coords": [
+          189.4,
+          304.4,
+          26.9
+        ]
+      },
+      {
+        "resnum": 471,
+        "resname": "GLY",
+        "ca_coords": [
+          188.7,
+          300.7,
+          27.2
+        ]
+      },
+      {
+        "resnum": 472,
+        "resname": "GLY",
+        "ca_coords": [
+          189.4,
+          297.2,
+          25.9
+        ]
+      }
+    ],
+    "pocket_center": [
+      185.7,
+      308.1,
+      25.7
+    ],
+    "sequons": [
+      {
+        "resnum": 363,
+        "motif": "NSS",
+        "ca_coords": [
+          189.6009979248047,
+          307.89599609375,
+          32.45100021362305
+        ],
+        "dist_to_pocket": 7.8
+      },
+      {
+        "resnum": 392,
+        "motif": "NST",
+        "ca_coords": [
+          192.9709930419922,
+          314.39801025390625,
+          31.59600067138672
+        ],
+        "dist_to_pocket": 11.3
+      },
+      {
+        "resnum": 462,
+        "motif": "NST",
+        "ca_coords": [
+          173.8679962158203,
+          314.7359924316406,
+          22.208999633789062
+        ],
+        "dist_to_pocket": 14.0
+      },
+      {
+        "resnum": 276,
+        "motif": "NIT",
+        "ca_coords": [
+          179.5260009765625,
+          302.2130126953125,
+          13.800000190734863
+        ],
+        "dist_to_pocket": 14.6
+      },
+      {
+        "resnum": 386,
+        "motif": "NTS",
+        "ca_coords": [
+          196.85899353027344,
+          303.9469909667969,
+          35.9630012512207
+        ],
+        "dist_to_pocket": 15.7
+      },
+      {
+        "resnum": 339,
+        "motif": "NET",
+        "ca_coords": [
+          200.54100036621094,
+          317.03900146484375,
+          23.71299934387207
+        ],
+        "dist_to_pocket": 17.4
+      },
+      {
+        "resnum": 355,
+        "motif": "NNT",
+        "ca_coords": [
+          183.4429931640625,
+          321.3529968261719,
+          12.77299976348877
+        ],
+        "dist_to_pocket": 18.7
+      },
+      {
+        "resnum": 234,
+        "motif": "NGT",
+        "ca_coords": [
+          189.01800537109375,
+          303.4530029296875,
+          7.348999977111816
+        ],
+        "dist_to_pocket": 19.2
+      },
+      {
+        "resnum": 448,
+        "motif": "NIT",
+        "ca_coords": [
+          206.0500030517578,
+          302.4219970703125,
+          20.87299919128418
+        ],
+        "dist_to_pocket": 21.7
+      },
+      {
+        "resnum": 332,
+        "motif": "NVS",
+        "ca_coords": [
+          207.00999450683594,
+          307.5950012207031,
+          31.33300018310547
+        ],
+        "dist_to_pocket": 22.0
+      },
+      {
+        "resnum": 262,
+        "motif": "NGS",
+        "ca_coords": [
+          204.50399780273438,
+          298.343994140625,
+          18.797000885009766
+        ],
+        "dist_to_pocket": 22.3
+      },
+      {
+        "resnum": 295,
+        "motif": "NCT",
+        "ca_coords": [
+          209.3990020751953,
+          303.9700012207031,
+          28.88599967956543
+        ],
+        "dist_to_pocket": 24.3
+      },
+      {
+        "resnum": 411,
+        "motif": "NDS",
+        "ca_coords": [
+          209.03900146484375,
+          319.9599914550781,
+          30.391000747680664
+        ],
+        "dist_to_pocket": 26.6
+      },
+      {
+        "resnum": 197,
+        "motif": "NTS",
+        "ca_coords": [
+          188.2570037841797,
+          280.0429992675781,
+          45.066001892089844
+        ],
+        "dist_to_pocket": 34.2
+      },
+      {
+        "resnum": 301,
+        "motif": "NNT",
+        "ca_coords": [
+          215.75900268554688,
+          293.89300537109375,
+          42.09400177001953
+        ],
+        "dist_to_pocket": 37.1
+      },
+      {
+        "resnum": 133,
+        "motif": "NVT",
+        "ca_coords": [
+          203.9010009765625,
+          293.8739929199219,
+          55.4379997253418
+        ],
+        "dist_to_pocket": 37.7
+      },
+      {
+        "resnum": 156,
+        "motif": "NCS",
+        "ca_coords": [
+          205.7050018310547,
+          288.7099914550781,
+          53.0890007019043
+        ],
+        "dist_to_pocket": 39.1
+      },
+      {
+        "resnum": 88,
+        "motif": "NVT",
+        "ca_coords": [
+          192.6929931640625,
+          298.9419860839844,
+          -12.37600040435791
+        ],
+        "dist_to_pocket": 39.8
+      },
+      {
+        "resnum": 160,
+        "motif": "NMT",
+        "ca_coords": [
+          203.59100341796875,
+          275.21600341796875,
+          54.85300064086914
+        ],
+        "dist_to_pocket": 47.4
+      }
+    ],
+    "resolved_sugars": [
+      {
+        "chain": "Q",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          188.9,
+          308.1,
+          38.6
+        ],
+        "dist_to_pocket": 13.3
+      },
+      {
+        "chain": "S",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          194.2,
+          317.3,
+          37.0
+        ],
+        "dist_to_pocket": 16.9
+      },
+      {
+        "chain": "R",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          193.6,
+          306.8,
+          40.7
+        ],
+        "dist_to_pocket": 17.0
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 633,
+        "center": [
+          173.2,
+          302.3,
+          13.7
+        ],
+        "dist_to_pocket": 18.3
+      },
+      {
+        "chain": "Q",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          187.9,
+          309.9,
+          43.9
+        ],
+        "dist_to_pocket": 18.4
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 658,
+        "center": [
+          198.6,
+          322.4,
+          25.5
+        ],
+        "dist_to_pocket": 19.2
+      },
+      {
+        "chain": "R",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          192.4,
+          310.6,
+          44.4
+        ],
+        "dist_to_pocket": 20.0
+      },
+      {
+        "chain": "K",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          183.4,
+          305.6,
+          5.4
+        ],
+        "dist_to_pocket": 20.6
+      },
+      {
+        "chain": "S",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          195.3,
+          321.0,
+          41.0
+        ],
+        "dist_to_pocket": 22.2
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 648,
+        "center": [
+          186.8,
+          321.4,
+          7.7
+        ],
+        "dist_to_pocket": 22.4
+      },
+      {
+        "chain": "K",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          179.6,
+          307.5,
+          2.0
+        ],
+        "dist_to_pocket": 24.5
+      },
+      {
+        "chain": "J",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          184.1,
+          291.1,
+          45.8
+        ],
+        "dist_to_pocket": 26.4
+      },
+      {
+        "chain": "M",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          208.9,
+          295.7,
+          23.0
+        ],
+        "dist_to_pocket": 26.4
+      },
+      {
+        "chain": "T",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          210.0,
+          302.1,
+          15.8
+        ],
+        "dist_to_pocket": 26.9
+      },
+      {
+        "chain": "P",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          211.8,
+          308.8,
+          35.3
+        ],
+        "dist_to_pocket": 27.8
+      },
+      {
+        "chain": "N",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          213.7,
+          307.9,
+          26.7
+        ],
+        "dist_to_pocket": 28.0
+      },
+      {
+        "chain": "J",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          185.2,
+          285.6,
+          45.4
+        ],
+        "dist_to_pocket": 29.9
+      },
+      {
+        "chain": "T",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          212.9,
+          303.1,
+          11.3
+        ],
+        "dist_to_pocket": 31.1
+      },
+      {
+        "chain": "M",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          213.7,
+          294.0,
+          24.4
+        ],
+        "dist_to_pocket": 31.4
+      },
+      {
+        "chain": "P",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          215.0,
+          310.6,
+          39.2
+        ],
+        "dist_to_pocket": 32.3
+      },
+      {
+        "chain": "N",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          218.8,
+          309.5,
+          24.9
+        ],
+        "dist_to_pocket": 33.2
+      },
+      {
+        "chain": "T",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          214.6,
+          301.3,
+          6.1
+        ],
+        "dist_to_pocket": 35.6
+      },
+      {
+        "chain": "M",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          217.1,
+          291.0,
+          27.4
+        ],
+        "dist_to_pocket": 35.8
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 611,
+        "center": [
+          199.9,
+          297.7,
+          58.5
+        ],
+        "dist_to_pocket": 37.2
+      },
+      {
+        "chain": "M",
+        "resname": "MAN",
+        "resnum": 4,
+        "center": [
+          216.1,
+          285.8,
+          27.6
+        ],
+        "dist_to_pocket": 37.8
+      },
+      {
+        "chain": "P",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          219.6,
+          311.2,
+          42.3
+        ],
+        "dist_to_pocket": 37.9
+      },
+      {
+        "chain": "M",
+        "resname": "MAN",
+        "resnum": 6,
+        "center": [
+          220.9,
+          293.1,
+          24.5
+        ],
+        "dist_to_pocket": 38.3
+      },
+      {
+        "chain": "P",
+        "resname": "MAN",
+        "resnum": 8,
+        "center": [
+          222.2,
+          316.0,
+          36.9
+        ],
+        "dist_to_pocket": 39.0
+      },
+      {
+        "chain": "P",
+        "resname": "MAN",
+        "resnum": 7,
+        "center": [
+          220.7,
+          316.6,
+          42.2
+        ],
+        "dist_to_pocket": 39.6
+      },
+      {
+        "chain": "C",
+        "resname": "MAN",
+        "resnum": 4,
+        "center": [
+          209.0,
+          319.7,
+          55.8
+        ],
+        "dist_to_pocket": 39.8
+      },
+      {
+        "chain": "C",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          205.3,
+          318.2,
+          59.5
+        ],
+        "dist_to_pocket": 40.3
+      },
+      {
+        "chain": "C",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          209.8,
+          308.2,
+          58.3
+        ],
+        "dist_to_pocket": 40.5
+      },
+      {
+        "chain": "M",
+        "resname": "MAN",
+        "resnum": 5,
+        "center": [
+          218.2,
+          284.8,
+          32.4
+        ],
+        "dist_to_pocket": 40.6
+      },
+      {
+        "chain": "C",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          206.9,
+          312.6,
+          60.2
+        ],
+        "dist_to_pocket": 40.8
+      },
+      {
+        "chain": "P",
+        "resname": "MAN",
+        "resnum": 4,
+        "center": [
+          222.5,
+          306.8,
+          43.7
+        ],
+        "dist_to_pocket": 41.0
+      },
+      {
+        "chain": "O",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          221.9,
+          292.6,
+          41.7
+        ],
+        "dist_to_pocket": 42.6
+      },
+      {
+        "chain": "P",
+        "resname": "MAN",
+        "resnum": 10,
+        "center": [
+          221.1,
+          320.6,
+          45.8
+        ],
+        "dist_to_pocket": 42.6
+      },
+      {
+        "chain": "P",
+        "resname": "MAN",
+        "resnum": 9,
+        "center": [
+          226.0,
+          313.4,
+          40.0
+        ],
+        "dist_to_pocket": 43.1
+      },
+      {
+        "chain": "F",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          211.3,
+          287.7,
+          55.7
+        ],
+        "dist_to_pocket": 44.4
+      },
+      {
+        "chain": "P",
+        "resname": "MAN",
+        "resnum": 5,
+        "center": [
+          224.7,
+          310.0,
+          47.2
+        ],
+        "dist_to_pocket": 44.5
+      },
+      {
+        "chain": "B",
+        "resname": "NAG",
+        "resnum": 704,
+        "center": [
+          170.5,
+          287.6,
+          -11.3
+        ],
+        "dist_to_pocket": 44.9
+      },
+      {
+        "chain": "A",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          194.4,
+          299.7,
+          -18.3
+        ],
+        "dist_to_pocket": 45.7
+      },
+      {
+        "chain": "P",
+        "resname": "MAN",
+        "resnum": 6,
+        "center": [
+          229.4,
+          309.4,
+          45.0
+        ],
+        "dist_to_pocket": 47.7
+      },
+      {
+        "chain": "O",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          226.8,
+          289.8,
+          42.1
+        ],
+        "dist_to_pocket": 47.9
+      },
+      {
+        "chain": "F",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          215.2,
+          285.5,
+          58.8
+        ],
+        "dist_to_pocket": 49.8
+      },
+      {
+        "chain": "A",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          193.9,
+          301.9,
+          -23.4
+        ],
+        "dist_to_pocket": 50.2
+      },
+      {
+        "chain": "I",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          201.5,
+          275.0,
+          60.7
+        ],
+        "dist_to_pocket": 50.7
+      },
+      {
+        "chain": "A",
+        "resname": "MAN",
+        "resnum": 5,
+        "center": [
+          202.1,
+          305.6,
+          -24.4
+        ],
+        "dist_to_pocket": 52.7
+      },
+      {
+        "chain": "I",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          199.7,
+          273.6,
+          65.5
+        ],
+        "dist_to_pocket": 54.5
+      },
+      {
+        "chain": "F",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          220.4,
+          286.0,
+          61.5
+        ],
+        "dist_to_pocket": 54.6
+      },
+      {
+        "chain": "F",
+        "resname": "MAN",
+        "resnum": 4,
+        "center": [
+          221.7,
+          290.7,
+          64.2
+        ],
+        "dist_to_pocket": 55.6
+      },
+      {
+        "chain": "A",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          196.2,
+          302.3,
+          -28.7
+        ],
+        "dist_to_pocket": 55.7
+      },
+      {
+        "chain": "A",
+        "resname": "MAN",
+        "resnum": 4,
+        "center": [
+          199.3,
+          307.4,
+          -28.6
+        ],
+        "dist_to_pocket": 56.0
+      },
+      {
+        "chain": "F",
+        "resname": "MAN",
+        "resnum": 5,
+        "center": [
+          222.2,
+          281.1,
+          63.2
+        ],
+        "dist_to_pocket": 58.9
+      },
+      {
+        "chain": "A",
+        "resname": "MAN",
+        "resnum": 7,
+        "center": [
+          195.6,
+          298.1,
+          -31.7
+        ],
+        "dist_to_pocket": 59.1
+      },
+      {
+        "chain": "A",
+        "resname": "MAN",
+        "resnum": 6,
+        "center": [
+          200.5,
+          312.0,
+          -31.5
+        ],
+        "dist_to_pocket": 59.2
+      },
+      {
+        "chain": "B",
+        "resname": "NAG",
+        "resnum": 702,
+        "center": [
+          167.2,
+          278.0,
+          -23.7
+        ],
+        "dist_to_pocket": 60.7
+      },
+      {
+        "chain": "B",
+        "resname": "NAG",
+        "resnum": 703,
+        "center": [
+          178.2,
+          292.6,
+          -34.7
+        ],
+        "dist_to_pocket": 62.9
+      },
+      {
+        "chain": "H",
+        "resname": "NAG",
+        "resnum": 301,
+        "center": [
+          219.9,
+          333.4,
+          81.3
+        ],
+        "dist_to_pocket": 70.0
+      }
+    ],
+    "sugars_within_15A": [
+      {
+        "chain": "Q",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          188.9,
+          308.1,
+          38.6
+        ],
+        "dist_to_pocket": 13.3
+      }
+    ],
+    "sugars_within_25A": [
+      {
+        "chain": "Q",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          188.9,
+          308.1,
+          38.6
+        ],
+        "dist_to_pocket": 13.3
+      },
+      {
+        "chain": "S",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          194.2,
+          317.3,
+          37.0
+        ],
+        "dist_to_pocket": 16.9
+      },
+      {
+        "chain": "R",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          193.6,
+          306.8,
+          40.7
+        ],
+        "dist_to_pocket": 17.0
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 633,
+        "center": [
+          173.2,
+          302.3,
+          13.7
+        ],
+        "dist_to_pocket": 18.3
+      },
+      {
+        "chain": "Q",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          187.9,
+          309.9,
+          43.9
+        ],
+        "dist_to_pocket": 18.4
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 658,
+        "center": [
+          198.6,
+          322.4,
+          25.5
+        ],
+        "dist_to_pocket": 19.2
+      },
+      {
+        "chain": "R",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          192.4,
+          310.6,
+          44.4
+        ],
+        "dist_to_pocket": 20.0
+      },
+      {
+        "chain": "K",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          183.4,
+          305.6,
+          5.4
+        ],
+        "dist_to_pocket": 20.6
+      },
+      {
+        "chain": "S",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          195.3,
+          321.0,
+          41.0
+        ],
+        "dist_to_pocket": 22.2
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 648,
+        "center": [
+          186.8,
+          321.4,
+          7.7
+        ],
+        "dist_to_pocket": 22.4
+      },
+      {
+        "chain": "K",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          179.6,
+          307.5,
+          2.0
+        ],
+        "dist_to_pocket": 24.5
+      }
+    ]
+  },
+  "6MU6": {
+    "pdb_id": "6MU6",
+    "description": "BG505 SOSIP.664 bound state (Ozorowski 2017)",
+    "chains": [
+      "B",
+      "D",
+      "E",
+      "G",
+      "H",
+      "L",
+      "A",
+      "C",
+      "F",
+      "I",
+      "J",
+      "K",
+      "M",
+      "N"
+    ],
+    "gp120_chain": "G",
+    "pocket_residues": [
+      {
+        "resnum": 465,
+        "resname": "THR",
+        "ca_coords": [
+          -11.1,
+          -27.1,
+          -10.3
+        ]
+      },
+      {
+        "resnum": 466,
+        "resname": "GLU",
+        "ca_coords": [
+          -14.8,
+          -27.3,
+          -9.3
+        ]
+      },
+      {
+        "resnum": 467,
+        "resname": "THR",
+        "ca_coords": [
+          -17.7,
+          -26.6,
+          -11.7
+        ]
+      },
+      {
+        "resnum": 468,
+        "resname": "PHE",
+        "ca_coords": [
+          -21.3,
+          -25.7,
+          -10.8
+        ]
+      },
+      {
+        "resnum": 469,
+        "resname": "ARG",
+        "ca_coords": [
+          -24.1,
+          -25.8,
+          -13.3
+        ]
+      },
+      {
+        "resnum": 470,
+        "resname": "PRO",
+        "ca_coords": [
+          -27.9,
+          -25.3,
+          -12.6
+        ]
+      },
+      {
+        "resnum": 471,
+        "resname": "GLY",
+        "ca_coords": [
+          -30.9,
+          -27.4,
+          -13.1
+        ]
+      },
+      {
+        "resnum": 472,
+        "resname": "GLY",
+        "ca_coords": [
+          -33.6,
+          -29.1,
+          -11.1
+        ]
+      }
+    ],
+    "pocket_center": [
+      -22.7,
+      -26.8,
+      -11.5
+    ],
+    "sequons": [
+      {
+        "resnum": 363,
+        "motif": "NSS",
+        "ca_coords": [
+          -24.572999954223633,
+          -23.35700035095215,
+          -18.131999969482422
+        ],
+        "dist_to_pocket": 7.7
+      },
+      {
+        "resnum": 392,
+        "motif": "NST",
+        "ca_coords": [
+          -20.493000030517578,
+          -18.091999053955078,
+          -17.277999877929688
+        ],
+        "dist_to_pocket": 10.7
+      },
+      {
+        "resnum": 276,
+        "motif": "NIT",
+        "ca_coords": [
+          -24.554000854492188,
+          -35.2140007019043,
+          0.7879999876022339
+        ],
+        "dist_to_pocket": 15.0
+      },
+      {
+        "resnum": 386,
+        "motif": "NTS",
+        "ca_coords": [
+          -31.606000900268555,
+          -19.034000396728516,
+          -21.552000045776367
+        ],
+        "dist_to_pocket": 15.5
+      },
+      {
+        "resnum": 339,
+        "motif": "NET",
+        "ca_coords": [
+          -22.17300033569336,
+          -10.331999778747559,
+          -9.657999992370605
+        ],
+        "dist_to_pocket": 16.6
+      },
+      {
+        "resnum": 355,
+        "motif": "NNT",
+        "ca_coords": [
+          -10.074000358581543,
+          -21.548999786376953,
+          0.5410000085830688
+        ],
+        "dist_to_pocket": 18.2
+      },
+      {
+        "resnum": 398,
+        "motif": "NGS",
+        "ca_coords": [
+          -9.01099967956543,
+          -14.951000213623047,
+          -3.5869998931884766
+        ],
+        "dist_to_pocket": 19.8
+      },
+      {
+        "resnum": 234,
+        "motif": "NGT",
+        "ca_coords": [
+          -28.020999908447266,
+          -26.22599983215332,
+          7.676000118255615
+        ],
+        "dist_to_pocket": 19.9
+      },
+      {
+        "resnum": 448,
+        "motif": "NIT",
+        "ca_coords": [
+          -37.11600112915039,
+          -11.496000289916992,
+          -6.629000186920166
+        ],
+        "dist_to_pocket": 21.6
+      },
+      {
+        "resnum": 332,
+        "motif": "NVS",
+        "ca_coords": [
+          -33.28099822998047,
+          -8.265000343322754,
+          -17.08300018310547
+        ],
+        "dist_to_pocket": 22.1
+      },
+      {
+        "resnum": 262,
+        "motif": "NGS",
+        "ca_coords": [
+          -40.374000549316406,
+          -14.84000015258789,
+          -4.8520002365112305
+        ],
+        "dist_to_pocket": 22.4
+      },
+      {
+        "resnum": 295,
+        "motif": "NCT",
+        "ca_coords": [
+          -37.54399871826172,
+          -8.039999961853027,
+          -14.687000274658203
+        ],
+        "dist_to_pocket": 24.1
+      },
+      {
+        "resnum": 411,
+        "motif": "NDS",
+        "ca_coords": [
+          -24.420000076293945,
+          0.5799999833106995,
+          -14.871000289916992
+        ],
+        "dist_to_pocket": 27.6
+      },
+      {
+        "resnum": 197,
+        "motif": "NTS",
+        "ca_coords": [
+          -48.09400177001953,
+          -38.37799835205078,
+          -30.570999145507812
+        ],
+        "dist_to_pocket": 33.8
+      },
+      {
+        "resnum": 301,
+        "motif": "NNT",
+        "ca_coords": [
+          -49.314998626708984,
+          -7.184999942779541,
+          -27.652999877929688
+        ],
+        "dist_to_pocket": 36.8
+      },
+      {
+        "resnum": 133,
+        "motif": "NVT",
+        "ca_coords": [
+          -43.979000091552734,
+          -17.625,
+          -40.909000396728516
+        ],
+        "dist_to_pocket": 37.4
+      },
+      {
+        "resnum": 156,
+        "motif": "NCS",
+        "ca_coords": [
+          -49.20100021362305,
+          -18.347999572753906,
+          -38.63199996948242
+        ],
+        "dist_to_pocket": 38.9
+      },
+      {
+        "resnum": 88,
+        "motif": "NVT",
+        "ca_coords": [
+          -34.28099822998047,
+          -24.850000381469727,
+          26.509000778198242
+        ],
+        "dist_to_pocket": 39.8
+      },
+      {
+        "resnum": 160,
+        "motif": "NMT",
+        "ca_coords": [
+          -59.69300079345703,
+          -27.125,
+          -40.63100051879883
+        ],
+        "dist_to_pocket": 47.1
+      }
+    ],
+    "resolved_sugars": [
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 634,
+        "center": [
+          -24.8,
+          -23.4,
+          -24.6
+        ],
+        "dist_to_pocket": 13.7
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 635,
+        "center": [
+          -27.5,
+          -20.0,
+          -26.3
+        ],
+        "dist_to_pocket": 17.0
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 618,
+        "center": [
+          -20.9,
+          -40.3,
+          0.4
+        ],
+        "dist_to_pocket": 18.1
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 614,
+        "center": [
+          -24.0,
+          -30.5,
+          8.7
+        ],
+        "dist_to_pocket": 20.6
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 633,
+        "center": [
+          -10.7,
+          -19.3,
+          6.3
+        ],
+        "dist_to_pocket": 22.7
+      },
+      {
+        "chain": "F",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          -36.7,
+          -35.7,
+          -31.0
+        ],
+        "dist_to_pocket": 25.6
+      },
+      {
+        "chain": "I",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          -44.6,
+          -12.2,
+          -8.9
+        ],
+        "dist_to_pocket": 26.4
+      },
+      {
+        "chain": "N",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          -39.4,
+          -8.3,
+          -1.7
+        ],
+        "dist_to_pocket": 26.8
+      },
+      {
+        "chain": "M",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          -35.0,
+          -3.5,
+          -21.1
+        ],
+        "dist_to_pocket": 28.0
+      },
+      {
+        "chain": "J",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          -36.8,
+          -2.4,
+          -12.4
+        ],
+        "dist_to_pocket": 28.2
+      },
+      {
+        "chain": "F",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          -41.7,
+          -38.0,
+          -30.6
+        ],
+        "dist_to_pocket": 29.2
+      },
+      {
+        "chain": "N",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          -40.4,
+          -5.7,
+          2.9
+        ],
+        "dist_to_pocket": 31.1
+      },
+      {
+        "chain": "I",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          -48.3,
+          -8.5,
+          -10.4
+        ],
+        "dist_to_pocket": 31.5
+      },
+      {
+        "chain": "M",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          -34.4,
+          -0.4,
+          -25.5
+        ],
+        "dist_to_pocket": 32.1
+      },
+      {
+        "chain": "J",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          -38.2,
+          2.4,
+          -9.5
+        ],
+        "dist_to_pocket": 33.1
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 607,
+        "center": [
+          -38.6,
+          -19.7,
+          -43.0
+        ],
+        "dist_to_pocket": 36.0
+      },
+      {
+        "chain": "I",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          -52.3,
+          -6.5,
+          -14.1
+        ],
+        "dist_to_pocket": 36.0
+      },
+      {
+        "chain": "M",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          -35.7,
+          4.3,
+          -28.6
+        ],
+        "dist_to_pocket": 37.8
+      },
+      {
+        "chain": "M",
+        "resname": "MAN",
+        "resnum": 7,
+        "center": [
+          -31.7,
+          7.7,
+          -29.4
+        ],
+        "dist_to_pocket": 39.9
+      },
+      {
+        "chain": "M",
+        "resname": "MAN",
+        "resnum": 10,
+        "center": [
+          -32.6,
+          9.6,
+          -24.5
+        ],
+        "dist_to_pocket": 39.9
+      },
+      {
+        "chain": "M",
+        "resname": "MAN",
+        "resnum": 4,
+        "center": [
+          -40.8,
+          5.0,
+          -29.9
+        ],
+        "dist_to_pocket": 41.0
+      },
+      {
+        "chain": "K",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          -53.3,
+          -2.3,
+          -27.1
+        ],
+        "dist_to_pocket": 42.2
+      },
+      {
+        "chain": "M",
+        "resname": "MAN",
+        "resnum": 8,
+        "center": [
+          -29.0,
+          10.1,
+          -32.7
+        ],
+        "dist_to_pocket": 43.0
+      },
+      {
+        "chain": "M",
+        "resname": "MAN",
+        "resnum": 9,
+        "center": [
+          -27.6,
+          7.7,
+          -37.1
+        ],
+        "dist_to_pocket": 43.2
+      },
+      {
+        "chain": "C",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          -52.9,
+          -14.2,
+          -41.5
+        ],
+        "dist_to_pocket": 44.4
+      },
+      {
+        "chain": "M",
+        "resname": "MAN",
+        "resnum": 5,
+        "center": [
+          -39.3,
+          8.7,
+          -33.1
+        ],
+        "dist_to_pocket": 44.7
+      },
+      {
+        "chain": "A",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          -34.3,
+          -23.0,
+          32.5
+        ],
+        "dist_to_pocket": 45.6
+      },
+      {
+        "chain": "B",
+        "resname": "NAG",
+        "resnum": 702,
+        "center": [
+          -33.9,
+          -50.7,
+          26.0
+        ],
+        "dist_to_pocket": 45.8
+      },
+      {
+        "chain": "D",
+        "resname": "NAG",
+        "resnum": 201,
+        "center": [
+          -14.0,
+          -9.1,
+          31.0
+        ],
+        "dist_to_pocket": 46.8
+      },
+      {
+        "chain": "M",
+        "resname": "MAN",
+        "resnum": 6,
+        "center": [
+          -39.2,
+          12.6,
+          -30.6
+        ],
+        "dist_to_pocket": 46.8
+      },
+      {
+        "chain": "K",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          -57.9,
+          0.7,
+          -27.3
+        ],
+        "dist_to_pocket": 47.4
+      },
+      {
+        "chain": "C",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          -56.9,
+          -11.9,
+          -44.6
+        ],
+        "dist_to_pocket": 49.8
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 611,
+        "center": [
+          -58.2,
+          -28.4,
+          -46.5
+        ],
+        "dist_to_pocket": 49.9
+      },
+      {
+        "chain": "A",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          -31.8,
+          -22.2,
+          37.4
+        ],
+        "dist_to_pocket": 50.0
+      },
+      {
+        "chain": "A",
+        "resname": "MAN",
+        "resnum": 5,
+        "center": [
+          -31.8,
+          -13.3,
+          38.1
+        ],
+        "dist_to_pocket": 52.2
+      },
+      {
+        "chain": "C",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          -58.4,
+          -6.8,
+          -47.2
+        ],
+        "dist_to_pocket": 54.3
+      },
+      {
+        "chain": "A",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          -32.3,
+          -20.3,
+          42.7
+        ],
+        "dist_to_pocket": 55.4
+      },
+      {
+        "chain": "A",
+        "resname": "MAN",
+        "resnum": 4,
+        "center": [
+          -29.6,
+          -14.9,
+          42.3
+        ],
+        "dist_to_pocket": 55.5
+      },
+      {
+        "chain": "A",
+        "resname": "MAN",
+        "resnum": 6,
+        "center": [
+          -36.4,
+          -22.4,
+          45.4
+        ],
+        "dist_to_pocket": 58.7
+      },
+      {
+        "chain": "B",
+        "resname": "NAG",
+        "resnum": 701,
+        "center": [
+          -41.0,
+          -56.6,
+          39.4
+        ],
+        "dist_to_pocket": 61.7
+      }
+    ],
+    "sugars_within_15A": [
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 634,
+        "center": [
+          -24.8,
+          -23.4,
+          -24.6
+        ],
+        "dist_to_pocket": 13.7
+      }
+    ],
+    "sugars_within_25A": [
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 634,
+        "center": [
+          -24.8,
+          -23.4,
+          -24.6
+        ],
+        "dist_to_pocket": 13.7
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 635,
+        "center": [
+          -27.5,
+          -20.0,
+          -26.3
+        ],
+        "dist_to_pocket": 17.0
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 618,
+        "center": [
+          -20.9,
+          -40.3,
+          0.4
+        ],
+        "dist_to_pocket": 18.1
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 614,
+        "center": [
+          -24.0,
+          -30.5,
+          8.7
+        ],
+        "dist_to_pocket": 20.6
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 633,
+        "center": [
+          -10.7,
+          -19.3,
+          6.3
+        ],
+        "dist_to_pocket": 22.7
+      }
+    ]
+  },
+  "4TVP": {
+    "pdb_id": "4TVP",
+    "description": "BG505 SOSIP.664 (Julien 2013, 4.7 A cryo-EM)",
+    "chains": [
+      "G",
+      "B",
+      "L",
+      "H",
+      "D",
+      "E",
+      "A",
+      "C",
+      "F",
+      "I",
+      "J",
+      "K",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T"
+    ],
+    "gp120_chain": "G",
+    "pocket_residues": [
+      {
+        "resnum": 465,
+        "resname": "THR",
+        "ca_coords": [
+          -296.1,
+          -107.8,
+          -10.1
+        ]
+      },
+      {
+        "resnum": 466,
+        "resname": "GLU",
+        "ca_coords": [
+          -293.7,
+          -110.7,
+          -10.0
+        ]
+      },
+      {
+        "resnum": 467,
+        "resname": "THR",
+        "ca_coords": [
+          -293.0,
+          -113.4,
+          -12.6
+        ]
+      },
+      {
+        "resnum": 468,
+        "resname": "PHE",
+        "ca_coords": [
+          -291.8,
+          -116.9,
+          -11.8
+        ]
+      },
+      {
+        "resnum": 469,
+        "resname": "ARG",
+        "ca_coords": [
+          -290.1,
+          -119.4,
+          -14.2
+        ]
+      },
+      {
+        "resnum": 470,
+        "resname": "PRO",
+        "ca_coords": [
+          -288.9,
+          -123.0,
+          -13.9
+        ]
+      },
+      {
+        "resnum": 471,
+        "resname": "GLY",
+        "ca_coords": [
+          -285.2,
+          -123.4,
+          -13.4
+        ]
+      },
+      {
+        "resnum": 472,
+        "resname": "GLY",
+        "ca_coords": [
+          -282.6,
+          -126.0,
+          -12.3
+        ]
+      }
+    ],
+    "pocket_center": [
+      -290.2,
+      -117.6,
+      -12.3
+    ],
+    "sequons": [
+      {
+        "resnum": 363,
+        "motif": "NSS",
+        "ca_coords": [
+          -291.87298583984375,
+          -120.7699966430664,
+          -19.222000122070312
+        ],
+        "dist_to_pocket": 7.8
+      },
+      {
+        "resnum": 392,
+        "motif": "NST",
+        "ca_coords": [
+          -298.9049987792969,
+          -120.697998046875,
+          -18.340999603271484
+        ],
+        "dist_to_pocket": 11.0
+      },
+      {
+        "resnum": 462,
+        "motif": "NST",
+        "ca_coords": [
+          -290.8710021972656,
+          -104.61699676513672,
+          -8.182999610900879
+        ],
+        "dist_to_pocket": 13.6
+      },
+      {
+        "resnum": 276,
+        "motif": "NIT",
+        "ca_coords": [
+          -282.3550109863281,
+          -115.24600219726562,
+          -0.453000009059906
+        ],
+        "dist_to_pocket": 14.4
+      },
+      {
+        "resnum": 386,
+        "motif": "NTS",
+        "ca_coords": [
+          -292.15899658203125,
+          -129.2899932861328,
+          -22.645999908447266
+        ],
+        "dist_to_pocket": 15.7
+      },
+      {
+        "resnum": 339,
+        "motif": "NET",
+        "ca_coords": [
+          -305.0740051269531,
+          -126.11100006103516,
+          -10.609000205993652
+        ],
+        "dist_to_pocket": 17.2
+      },
+      {
+        "resnum": 355,
+        "motif": "NNT",
+        "ca_coords": [
+          -300.5780029296875,
+          -109.69499969482422,
+          0.3319999873638153
+        ],
+        "dist_to_pocket": 18.2
+      },
+      {
+        "resnum": 234,
+        "motif": "NGT",
+        "ca_coords": [
+          -287.8800048828125,
+          -123.13400268554688,
+          5.9679999351501465
+        ],
+        "dist_to_pocket": 19.2
+      },
+      {
+        "resnum": 448,
+        "motif": "NIT",
+        "ca_coords": [
+          -295.23199462890625,
+          -138.0019989013672,
+          -7.8520002365112305
+        ],
+        "dist_to_pocket": 21.5
+      },
+      {
+        "resnum": 332,
+        "motif": "NVS",
+        "ca_coords": [
+          -300.1820068359375,
+          -136.20700073242188,
+          -18.43899917602539
+        ],
+        "dist_to_pocket": 22.0
+      },
+      {
+        "resnum": 262,
+        "motif": "NGS",
+        "ca_coords": [
+          -290.885986328125,
+          -138.86500549316406,
+          -5.920000076293945
+        ],
+        "dist_to_pocket": 22.2
+      },
+      {
+        "resnum": 295,
+        "motif": "NCT",
+        "ca_coords": [
+          -298.16400146484375,
+          -140.125,
+          -16.110000610351562
+        ],
+        "dist_to_pocket": 24.2
+      },
+      {
+        "resnum": 411,
+        "motif": "NDS",
+        "ca_coords": [
+          -312.0530090332031,
+          -132.40899658203125,
+          -16.47800064086914
+        ],
+        "dist_to_pocket": 26.7
+      },
+      {
+        "resnum": 197,
+        "motif": "NTS",
+        "ca_coords": [
+          -266.97601318359375,
+          -133.4810028076172,
+          -31.81800079345703
+        ],
+        "dist_to_pocket": 34.2
+      },
+      {
+        "resnum": 301,
+        "motif": "NNT",
+        "ca_coords": [
+          -292.61700439453125,
+          -150.55599975585938,
+          -29.634000778198242
+        ],
+        "dist_to_pocket": 37.3
+      },
+      {
+        "resnum": 133,
+        "motif": "NVT",
+        "ca_coords": [
+          -286.5409851074219,
+          -140.16099548339844,
+          -42.5369987487793
+        ],
+        "dist_to_pocket": 37.9
+      },
+      {
+        "resnum": 156,
+        "motif": "NCS",
+        "ca_coords": [
+          -282.8399963378906,
+          -144.11700439453125,
+          -40.20600128173828
+        ],
+        "dist_to_pocket": 39.2
+      },
+      {
+        "resnum": 88,
+        "motif": "NVT",
+        "ca_coords": [
+          -285.7669982910156,
+          -128.84100341796875,
+          25.610000610351562
+        ],
+        "dist_to_pocket": 39.8
+      },
+      {
+        "resnum": 137,
+        "motif": "NIT",
+        "ca_coords": [
+          -296.635986328125,
+          -140.68499755859375,
+          -44.16600036621094
+        ],
+        "dist_to_pocket": 39.9
+      },
+      {
+        "resnum": 160,
+        "motif": "NMT",
+        "ca_coords": [
+          -270.0719909667969,
+          -149.01199340820312,
+          -41.888999938964844
+        ],
+        "dist_to_pocket": 47.6
+      }
+    ],
+    "resolved_sugars": [
+      {
+        "chain": "J",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          -291.7,
+          -120.0,
+          -25.4
+        ],
+        "dist_to_pocket": 13.4
+      },
+      {
+        "chain": "M",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          -301.9,
+          -120.0,
+          -23.8
+        ],
+        "dist_to_pocket": 16.6
+      },
+      {
+        "chain": "K",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          -292.9,
+          -125.1,
+          -27.4
+        ],
+        "dist_to_pocket": 17.1
+      },
+      {
+        "chain": "J",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          -292.7,
+          -118.1,
+          -30.5
+        ],
+        "dist_to_pocket": 18.4
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 1276,
+        "center": [
+          -279.1,
+          -109.9,
+          0.6
+        ],
+        "dist_to_pocket": 18.7
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 1839,
+        "center": [
+          -308.5,
+          -121.8,
+          -12.6
+        ],
+        "dist_to_pocket": 18.8
+      },
+      {
+        "chain": "K",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          -295.3,
+          -122.1,
+          -31.3
+        ],
+        "dist_to_pocket": 20.1
+      },
+      {
+        "chain": "F",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          -286.8,
+          -117.2,
+          8.1
+        ],
+        "dist_to_pocket": 20.7
+      },
+      {
+        "chain": "M",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          -305.7,
+          -119.1,
+          -27.7
+        ],
+        "dist_to_pocket": 21.9
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 1355,
+        "center": [
+          -302.2,
+          -112.4,
+          5.5
+        ],
+        "dist_to_pocket": 22.1
+      },
+      {
+        "chain": "F",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          -286.7,
+          -113.1,
+          11.5
+        ],
+        "dist_to_pocket": 24.4
+      },
+      {
+        "chain": "I",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          -290.8,
+          -143.8,
+          -10.2
+        ],
+        "dist_to_pocket": 26.3
+      },
+      {
+        "chain": "Q",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          -274.4,
+          -124.6,
+          -32.2
+        ],
+        "dist_to_pocket": 26.4
+      },
+      {
+        "chain": "N",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          -296.9,
+          -141.9,
+          -3.1
+        ],
+        "dist_to_pocket": 26.9
+      },
+      {
+        "chain": "T",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          -303.5,
+          -139.8,
+          -22.5
+        ],
+        "dist_to_pocket": 27.8
+      },
+      {
+        "chain": "R",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          -303.7,
+          -141.9,
+          -14.1
+        ],
+        "dist_to_pocket": 27.9
+      },
+      {
+        "chain": "Q",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          -270.0,
+          -128.1,
+          -31.8
+        ],
+        "dist_to_pocket": 29.9
+      },
+      {
+        "chain": "N",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          -299.3,
+          -143.8,
+          1.5
+        ],
+        "dist_to_pocket": 31.0
+      },
+      {
+        "chain": "I",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          -291.7,
+          -148.9,
+          -11.7
+        ],
+        "dist_to_pocket": 31.4
+      },
+      {
+        "chain": "T",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          -306.6,
+          -141.3,
+          -26.5
+        ],
+        "dist_to_pocket": 32.2
+      },
+      {
+        "chain": "R",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          -307.5,
+          -145.6,
+          -12.2
+        ],
+        "dist_to_pocket": 32.9
+      },
+      {
+        "chain": "N",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          -298.7,
+          -146.3,
+          6.7
+        ],
+        "dist_to_pocket": 35.5
+      },
+      {
+        "chain": "I",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          -290.9,
+          -153.5,
+          -14.6
+        ],
+        "dist_to_pocket": 36.0
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 1133,
+        "center": [
+          -287.8,
+          -134.6,
+          -45.3
+        ],
+        "dist_to_pocket": 37.2
+      },
+      {
+        "chain": "I",
+        "resname": "MAN",
+        "resnum": 4,
+        "center": [
+          -285.7,
+          -154.9,
+          -14.8
+        ],
+        "dist_to_pocket": 37.6
+      },
+      {
+        "chain": "T",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          -309.4,
+          -145.0,
+          -29.8
+        ],
+        "dist_to_pocket": 37.8
+      },
+      {
+        "chain": "I",
+        "resname": "MAN",
+        "resnum": 6,
+        "center": [
+          -295.1,
+          -155.9,
+          -12.0
+        ],
+        "dist_to_pocket": 38.6
+      },
+      {
+        "chain": "T",
+        "resname": "MAN",
+        "resnum": 8,
+        "center": [
+          -314.9,
+          -145.0,
+          -23.8
+        ],
+        "dist_to_pocket": 38.7
+      },
+      {
+        "chain": "T",
+        "resname": "MAN",
+        "resnum": 7,
+        "center": [
+          -314.6,
+          -143.2,
+          -29.0
+        ],
+        "dist_to_pocket": 39.1
+      },
+      {
+        "chain": "C",
+        "resname": "MAN",
+        "resnum": 4,
+        "center": [
+          -311.2,
+          -132.2,
+          -42.6
+        ],
+        "dist_to_pocket": 39.6
+      },
+      {
+        "chain": "C",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          -308.3,
+          -129.4,
+          -46.5
+        ],
+        "dist_to_pocket": 40.4
+      },
+      {
+        "chain": "I",
+        "resname": "MAN",
+        "resnum": 5,
+        "center": [
+          -286.2,
+          -157.4,
+          -19.6
+        ],
+        "dist_to_pocket": 40.7
+      },
+      {
+        "chain": "C",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          -304.1,
+          -133.5,
+          -47.3
+        ],
+        "dist_to_pocket": 40.9
+      },
+      {
+        "chain": "C",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          -301.9,
+          -138.3,
+          -45.7
+        ],
+        "dist_to_pocket": 41.0
+      },
+      {
+        "chain": "T",
+        "resname": "MAN",
+        "resnum": 4,
+        "center": [
+          -307.1,
+          -149.6,
+          -31.5
+        ],
+        "dist_to_pocket": 41.0
+      },
+      {
+        "chain": "T",
+        "resname": "MAN",
+        "resnum": 10,
+        "center": [
+          -318.1,
+          -141.5,
+          -32.9
+        ],
+        "dist_to_pocket": 42.1
+      },
+      {
+        "chain": "S",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          -294.5,
+          -156.7,
+          -29.1
+        ],
+        "dist_to_pocket": 42.8
+      },
+      {
+        "chain": "T",
+        "resname": "MAN",
+        "resnum": 9,
+        "center": [
+          -314.5,
+          -149.8,
+          -26.5
+        ],
+        "dist_to_pocket": 42.8
+      },
+      {
+        "chain": "O",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          -284.9,
+          -149.3,
+          -43.0
+        ],
+        "dist_to_pocket": 44.5
+      },
+      {
+        "chain": "T",
+        "resname": "MAN",
+        "resnum": 5,
+        "center": [
+          -311.1,
+          -150.0,
+          -34.8
+        ],
+        "dist_to_pocket": 44.6
+      },
+      {
+        "chain": "B",
+        "resname": "NAG",
+        "resnum": 1637,
+        "center": [
+          -265.1,
+          -115.0,
+          24.7
+        ],
+        "dist_to_pocket": 44.8
+      },
+      {
+        "chain": "A",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          -287.2,
+          -129.8,
+          31.6
+        ],
+        "dist_to_pocket": 45.7
+      },
+      {
+        "chain": "S",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          -294.5,
+          -162.0,
+          -29.2
+        ],
+        "dist_to_pocket": 47.7
+      },
+      {
+        "chain": "T",
+        "resname": "MAN",
+        "resnum": 6,
+        "center": [
+          -313.0,
+          -154.4,
+          -32.3
+        ],
+        "dist_to_pocket": 47.7
+      },
+      {
+        "chain": "O",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          -284.8,
+          -153.8,
+          -46.1
+        ],
+        "dist_to_pocket": 49.8
+      },
+      {
+        "chain": "A",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          -288.9,
+          -128.1,
+          36.7
+        ],
+        "dist_to_pocket": 50.1
+      },
+      {
+        "chain": "P",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          -269.2,
+          -147.3,
+          -47.6
+        ],
+        "dist_to_pocket": 50.7
+      },
+      {
+        "chain": "A",
+        "resname": "MAN",
+        "resnum": 5,
+        "center": [
+          -296.4,
+          -133.6,
+          37.7
+        ],
+        "dist_to_pocket": 52.9
+      },
+      {
+        "chain": "P",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          -266.7,
+          -146.5,
+          -52.4
+        ],
+        "dist_to_pocket": 54.7
+      },
+      {
+        "chain": "O",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          -287.5,
+          -158.1,
+          -49.2
+        ],
+        "dist_to_pocket": 54.8
+      },
+      {
+        "chain": "A",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          -290.5,
+          -129.9,
+          41.9
+        ],
+        "dist_to_pocket": 55.6
+      },
+      {
+        "chain": "O",
+        "resname": "MAN",
+        "resnum": 4,
+        "center": [
+          -292.2,
+          -156.8,
+          -51.7
+        ],
+        "dist_to_pocket": 55.6
+      },
+      {
+        "chain": "A",
+        "resname": "MAN",
+        "resnum": 4,
+        "center": [
+          -296.5,
+          -130.1,
+          41.8
+        ],
+        "dist_to_pocket": 55.9
+      },
+      {
+        "chain": "A",
+        "resname": "MAN",
+        "resnum": 6,
+        "center": [
+          -301.0,
+          -128.8,
+          44.4
+        ],
+        "dist_to_pocket": 58.8
+      },
+      {
+        "chain": "A",
+        "resname": "MAN",
+        "resnum": 7,
+        "center": [
+          -286.5,
+          -131.6,
+          44.9
+        ],
+        "dist_to_pocket": 59.0
+      },
+      {
+        "chain": "O",
+        "resname": "MAN",
+        "resnum": 5,
+        "center": [
+          -285.0,
+          -163.1,
+          -50.0
+        ],
+        "dist_to_pocket": 59.3
+      },
+      {
+        "chain": "B",
+        "resname": "NAG",
+        "resnum": 1611,
+        "center": [
+          -255.1,
+          -117.1,
+          37.0
+        ],
+        "dist_to_pocket": 60.6
+      },
+      {
+        "chain": "B",
+        "resname": "NAG",
+        "resnum": 1618,
+        "center": [
+          -273.2,
+          -119.6,
+          48.1
+        ],
+        "dist_to_pocket": 62.8
+      },
+      {
+        "chain": "H",
+        "resname": "NAG",
+        "resnum": 523,
+        "center": [
+          -328.6,
+          -133.9,
+          -68.6
+        ],
+        "dist_to_pocket": 70.0
+      }
+    ],
+    "sugars_within_15A": [
+      {
+        "chain": "J",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          -291.7,
+          -120.0,
+          -25.4
+        ],
+        "dist_to_pocket": 13.4
+      }
+    ],
+    "sugars_within_25A": [
+      {
+        "chain": "J",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          -291.7,
+          -120.0,
+          -25.4
+        ],
+        "dist_to_pocket": 13.4
+      },
+      {
+        "chain": "M",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          -301.9,
+          -120.0,
+          -23.8
+        ],
+        "dist_to_pocket": 16.6
+      },
+      {
+        "chain": "K",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          -292.9,
+          -125.1,
+          -27.4
+        ],
+        "dist_to_pocket": 17.1
+      },
+      {
+        "chain": "J",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          -292.7,
+          -118.1,
+          -30.5
+        ],
+        "dist_to_pocket": 18.4
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 1276,
+        "center": [
+          -279.1,
+          -109.9,
+          0.6
+        ],
+        "dist_to_pocket": 18.7
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 1839,
+        "center": [
+          -308.5,
+          -121.8,
+          -12.6
+        ],
+        "dist_to_pocket": 18.8
+      },
+      {
+        "chain": "K",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          -295.3,
+          -122.1,
+          -31.3
+        ],
+        "dist_to_pocket": 20.1
+      },
+      {
+        "chain": "F",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          -286.8,
+          -117.2,
+          8.1
+        ],
+        "dist_to_pocket": 20.7
+      },
+      {
+        "chain": "M",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          -305.7,
+          -119.1,
+          -27.7
+        ],
+        "dist_to_pocket": 21.9
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 1355,
+        "center": [
+          -302.2,
+          -112.4,
+          5.5
+        ],
+        "dist_to_pocket": 22.1
+      },
+      {
+        "chain": "F",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          -286.7,
+          -113.1,
+          11.5
+        ],
+        "dist_to_pocket": 24.4
+      }
+    ]
+  },
+  "5FYJ": {
+    "pdb_id": "5FYJ",
+    "description": "Env trimer + PGT151 Fab (Lee 2016, 3.5 A cryo-EM)",
+    "chains": [
+      "B",
+      "D",
+      "E",
+      "G",
+      "H",
+      "L",
+      "U",
+      "V",
+      "A",
+      "C",
+      "F",
+      "I",
+      "J",
+      "K",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "W",
+      "X",
+      "Y",
+      "Z",
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f"
+    ],
+    "gp120_chain": "G",
+    "pocket_residues": [
+      {
+        "resnum": 465,
+        "resname": "THR",
+        "ca_coords": [
+          26.2,
+          -4.9,
+          14.1
+        ]
+      },
+      {
+        "resnum": 466,
+        "resname": "GLU",
+        "ca_coords": [
+          29.0,
+          -2.3,
+          14.3
+        ]
+      },
+      {
+        "resnum": 467,
+        "resname": "THR",
+        "ca_coords": [
+          29.1,
+          0.8,
+          16.5
+        ]
+      },
+      {
+        "resnum": 468,
+        "resname": "PHE",
+        "ca_coords": [
+          30.6,
+          4.2,
+          15.8
+        ]
+      },
+      {
+        "resnum": 469,
+        "resname": "ARG",
+        "ca_coords": [
+          32.1,
+          6.8,
+          18.0
+        ]
+      },
+      {
+        "resnum": 470,
+        "resname": "PRO",
+        "ca_coords": [
+          33.3,
+          10.4,
+          17.5
+        ]
+      },
+      {
+        "resnum": 471,
+        "resname": "ALA",
+        "ca_coords": [
+          37.0,
+          11.3,
+          17.0
+        ]
+      },
+      {
+        "resnum": 472,
+        "resname": "GLY",
+        "ca_coords": [
+          38.9,
+          14.5,
+          16.9
+        ]
+      }
+    ],
+    "pocket_center": [
+      32.0,
+      5.1,
+      16.3
+    ],
+    "sequons": [
+      {
+        "resnum": 392,
+        "motif": "NTS",
+        "ca_coords": [
+          22.69499969482422,
+          7.992000102996826,
+          23.211000442504883
+        ],
+        "dist_to_pocket": 11.9
+      },
+      {
+        "resnum": 276,
+        "motif": "NIT",
+        "ca_coords": [
+          39.07400131225586,
+          2.625999927520752,
+          3.443000078201294
+        ],
+        "dist_to_pocket": 14.9
+      },
+      {
+        "resnum": 344,
+        "motif": "NVS",
+        "ca_coords": [
+          19.900999069213867,
+          10.279000282287598,
+          7.633999824523926
+        ],
+        "dist_to_pocket": 15.8
+      },
+      {
+        "resnum": 386,
+        "motif": "NTS",
+        "ca_coords": [
+          29.558000564575195,
+          16.9950008392334,
+          26.466999053955078
+        ],
+        "dist_to_pocket": 15.8
+      },
+      {
+        "resnum": 355,
+        "motif": "NKT",
+        "ca_coords": [
+          22.334999084472656,
+          -3.257999897003174,
+          5.932000160217285
+        ],
+        "dist_to_pocket": 16.5
+      },
+      {
+        "resnum": 462,
+        "motif": "NET",
+        "ca_coords": [
+          27.66200065612793,
+          -11.897000312805176,
+          16.167999267578125
+        ],
+        "dist_to_pocket": 17.5
+      },
+      {
+        "resnum": 464,
+        "motif": "NGT",
+        "ca_coords": [
+          22.166000366210938,
+          -10.437000274658203,
+          13.244999885559082
+        ],
+        "dist_to_pocket": 18.6
+      },
+      {
+        "resnum": 234,
+        "motif": "NGT",
+        "ca_coords": [
+          33.89400100708008,
+          9.848999977111816,
+          -3.441999912261963
+        ],
+        "dist_to_pocket": 20.4
+      },
+      {
+        "resnum": 332,
+        "motif": "NIS",
+        "ca_coords": [
+          21.68899917602539,
+          23.7189998626709,
+          21.993000030517578
+        ],
+        "dist_to_pocket": 22.0
+      },
+      {
+        "resnum": 262,
+        "motif": "NGS",
+        "ca_coords": [
+          30.51799964904785,
+          26.340999603271484,
+          9.661999702453613
+        ],
+        "dist_to_pocket": 22.3
+      },
+      {
+        "resnum": 293,
+        "motif": "NIT",
+        "ca_coords": [
+          22.11199951171875,
+          24.90999984741211,
+          13.803000450134277
+        ],
+        "dist_to_pocket": 22.3
+      },
+      {
+        "resnum": 413,
+        "motif": "NIT",
+        "ca_coords": [
+          16.118999481201172,
+          21.386999130249023,
+          22.45800018310547
+        ],
+        "dist_to_pocket": 23.6
+      },
+      {
+        "resnum": 405,
+        "motif": "NNS",
+        "ca_coords": [
+          8.178000450134277,
+          10.251999855041504,
+          16.9689998626709
+        ],
+        "dist_to_pocket": 24.4
+      },
+      {
+        "resnum": 408,
+        "motif": "NDS",
+        "ca_coords": [
+          5.676000118255615,
+          14.628000259399414,
+          18.042999267578125
+        ],
+        "dist_to_pocket": 28.0
+      },
+      {
+        "resnum": 241,
+        "motif": "NVS",
+        "ca_coords": [
+          33.33599853515625,
+          17.409000396728516,
+          -14.189000129699707
+        ],
+        "dist_to_pocket": 32.9
+      },
+      {
+        "resnum": 197,
+        "motif": "NVS",
+        "ca_coords": [
+          54.27299880981445,
+          22.01300048828125,
+          35.33399963378906
+        ],
+        "dist_to_pocket": 33.8
+      },
+      {
+        "resnum": 442,
+        "motif": "NIT",
+        "ca_coords": [
+          27.731000900268555,
+          36.887001037597656,
+          28.819000244140625
+        ],
+        "dist_to_pocket": 34.4
+      },
+      {
+        "resnum": 142,
+        "motif": "NST",
+        "ca_coords": [
+          30.525999069213867,
+          13.482000350952148,
+          50.59400177001953
+        ],
+        "dist_to_pocket": 35.3
+      },
+      {
+        "resnum": 301,
+        "motif": "NNT",
+        "ca_coords": [
+          27.753000259399414,
+          38.14099884033203,
+          33.266998291015625
+        ],
+        "dist_to_pocket": 37.4
+      },
+      {
+        "resnum": 133,
+        "motif": "NVT",
+        "ca_coords": [
+          34.98400115966797,
+          28.19300079345703,
+          46.069000244140625
+        ],
+        "dist_to_pocket": 37.8
+      },
+      {
+        "resnum": 141,
+        "motif": "NNS",
+        "ca_coords": [
+          28.038000106811523,
+          12.807000160217285,
+          53.42100143432617
+        ],
+        "dist_to_pocket": 38.1
+      },
+      {
+        "resnum": 156,
+        "motif": "NCS",
+        "ca_coords": [
+          38.486000061035156,
+          32.268001556396484,
+          43.89799880981445
+        ],
+        "dist_to_pocket": 39.3
+      },
+      {
+        "resnum": 138,
+        "motif": "NST",
+        "ca_coords": [
+          19.315000534057617,
+          19.91200065612793,
+          50.64500045776367
+        ],
+        "dist_to_pocket": 39.5
+      },
+      {
+        "resnum": 137,
+        "motif": "NST",
+        "ca_coords": [
+          24.30900001525879,
+          27.273000717163086,
+          48.28799819946289
+        ],
+        "dist_to_pocket": 39.7
+      },
+      {
+        "resnum": 88,
+        "motif": "NVT",
+        "ca_coords": [
+          36.34700012207031,
+          16.836999893188477,
+          -22.090999603271484
+        ],
+        "dist_to_pocket": 40.4
+      },
+      {
+        "resnum": 188,
+        "motif": "NDT",
+        "ca_coords": [
+          45.9900016784668,
+          25.05900001525879,
+          52.92399978637695
+        ],
+        "dist_to_pocket": 44.0
+      },
+      {
+        "resnum": 160,
+        "motif": "NIT",
+        "ca_coords": [
+          51.1619987487793,
+          37.60200119018555,
+          45.38100051879883
+        ],
+        "dist_to_pocket": 47.6
+      }
+    ],
+    "resolved_sugars": [
+      {
+        "chain": "a",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          29.7,
+          12.5,
+          30.8
+        ],
+        "dist_to_pocket": 16.4
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 3921,
+        "center": [
+          18.8,
+          12.0,
+          26.3
+        ],
+        "dist_to_pocket": 17.9
+      },
+      {
+        "chain": "a",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          29.5,
+          8.1,
+          34.2
+        ],
+        "dist_to_pocket": 18.3
+      },
+      {
+        "chain": "a",
+        "resname": "MAN",
+        "resnum": 9,
+        "center": [
+          31.7,
+          0.4,
+          35.0
+        ],
+        "dist_to_pocket": 19.3
+      },
+      {
+        "chain": "S",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          40.6,
+          -2.2,
+          -0.7
+        ],
+        "dist_to_pocket": 20.4
+      },
+      {
+        "chain": "P",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          30.9,
+          4.4,
+          -5.0
+        ],
+        "dist_to_pocket": 21.3
+      },
+      {
+        "chain": "Y",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          16.1,
+          15.0,
+          6.2
+        ],
+        "dist_to_pocket": 21.3
+      },
+      {
+        "chain": "a",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          32.0,
+          4.7,
+          38.2
+        ],
+        "dist_to_pocket": 21.9
+      },
+      {
+        "chain": "Z",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          19.1,
+          -3.5,
+          0.7
+        ],
+        "dist_to_pocket": 22.0
+      },
+      {
+        "chain": "P",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          27.2,
+          0.4,
+          -4.8
+        ],
+        "dist_to_pocket": 22.2
+      },
+      {
+        "chain": "d",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          16.9,
+          -9.9,
+          9.4
+        ],
+        "dist_to_pocket": 22.4
+      },
+      {
+        "chain": "a",
+        "resname": "MAN",
+        "resnum": 6,
+        "center": [
+          22.0,
+          3.5,
+          38.7
+        ],
+        "dist_to_pocket": 24.6
+      },
+      {
+        "chain": "S",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          39.6,
+          -4.8,
+          -5.3
+        ],
+        "dist_to_pocket": 25.0
+      },
+      {
+        "chain": "a",
+        "resname": "MAN",
+        "resnum": 5,
+        "center": [
+          25.9,
+          1.0,
+          40.6
+        ],
+        "dist_to_pocket": 25.4
+      },
+      {
+        "chain": "d",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          13.7,
+          -9.4,
+          5.3
+        ],
+        "dist_to_pocket": 25.8
+      },
+      {
+        "chain": "R",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          31.0,
+          30.9,
+          14.1
+        ],
+        "dist_to_pocket": 25.9
+      },
+      {
+        "chain": "Y",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          11.6,
+          16.9,
+          3.4
+        ],
+        "dist_to_pocket": 26.8
+      },
+      {
+        "chain": "Z",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          17.7,
+          -5.2,
+          -3.8
+        ],
+        "dist_to_pocket": 26.8
+      },
+      {
+        "chain": "P",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          24.4,
+          -3.1,
+          -8.3
+        ],
+        "dist_to_pocket": 27.0
+      },
+      {
+        "chain": "a",
+        "resname": "MAN",
+        "resnum": 4,
+        "center": [
+          29.4,
+          4.0,
+          43.5
+        ],
+        "dist_to_pocket": 27.4
+      },
+      {
+        "chain": "O",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          48.1,
+          6.9,
+          38.5
+        ],
+        "dist_to_pocket": 27.5
+      },
+      {
+        "chain": "O",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          48.6,
+          12.4,
+          37.5
+        ],
+        "dist_to_pocket": 27.9
+      },
+      {
+        "chain": "X",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          18.4,
+          27.5,
+          26.2
+        ],
+        "dist_to_pocket": 28.0
+      },
+      {
+        "chain": "T",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          18.7,
+          29.3,
+          11.1
+        ],
+        "dist_to_pocket": 28.1
+      },
+      {
+        "chain": "b",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          15.9,
+          27.5,
+          22.1
+        ],
+        "dist_to_pocket": 28.1
+      },
+      {
+        "chain": "P",
+        "resname": "MAN",
+        "resnum": 6,
+        "center": [
+          20.6,
+          0.9,
+          -10.4
+        ],
+        "dist_to_pocket": 29.4
+      },
+      {
+        "chain": "S",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          39.4,
+          -9.0,
+          -8.7
+        ],
+        "dist_to_pocket": 29.6
+      },
+      {
+        "chain": "O",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          52.5,
+          16.1,
+          35.8
+        ],
+        "dist_to_pocket": 30.3
+      },
+      {
+        "chain": "P",
+        "resname": "MAN",
+        "resnum": 4,
+        "center": [
+          25.5,
+          -4.1,
+          -12.3
+        ],
+        "dist_to_pocket": 30.8
+      },
+      {
+        "chain": "R",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          29.2,
+          35.8,
+          15.9
+        ],
+        "dist_to_pocket": 30.8
+      },
+      {
+        "chain": "S",
+        "resname": "MAN",
+        "resnum": 4,
+        "center": [
+          38.3,
+          -5.5,
+          -12.4
+        ],
+        "dist_to_pocket": 31.3
+      },
+      {
+        "chain": "X",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          15.1,
+          28.2,
+          30.3
+        ],
+        "dist_to_pocket": 31.9
+      },
+      {
+        "chain": "S",
+        "resname": "MAN",
+        "resnum": 5,
+        "center": [
+          33.2,
+          -5.7,
+          -13.9
+        ],
+        "dist_to_pocket": 32.1
+      },
+      {
+        "chain": "Z",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          16.3,
+          -9.9,
+          -7.4
+        ],
+        "dist_to_pocket": 32.1
+      },
+      {
+        "chain": "b",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          15.9,
+          32.7,
+          20.3
+        ],
+        "dist_to_pocket": 32.2
+      },
+      {
+        "chain": "Y",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          8.8,
+          21.2,
+          0.3
+        ],
+        "dist_to_pocket": 32.5
+      },
+      {
+        "chain": "S",
+        "resname": "MAN",
+        "resnum": 7,
+        "center": [
+          38.0,
+          -14.4,
+          -9.1
+        ],
+        "dist_to_pocket": 32.6
+      },
+      {
+        "chain": "a",
+        "resname": "MAN",
+        "resnum": 7,
+        "center": [
+          29.2,
+          5.2,
+          48.9
+        ],
+        "dist_to_pocket": 32.7
+      },
+      {
+        "chain": "T",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          16.7,
+          33.7,
+          8.5
+        ],
+        "dist_to_pocket": 33.4
+      },
+      {
+        "chain": "P",
+        "resname": "MAN",
+        "resnum": 5,
+        "center": [
+          27.4,
+          -7.5,
+          -15.1
+        ],
+        "dist_to_pocket": 34.2
+      },
+      {
+        "chain": "Y",
+        "resname": "MAN",
+        "resnum": 7,
+        "center": [
+          10.1,
+          26.0,
+          -0.2
+        ],
+        "dist_to_pocket": 34.4
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 1331,
+        "center": [
+          36.0,
+          22.6,
+          45.8
+        ],
+        "dist_to_pocket": 34.5
+      },
+      {
+        "chain": "Q",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          28.4,
+          21.2,
+          -14.2
+        ],
+        "dist_to_pocket": 34.7
+      },
+      {
+        "chain": "Q",
+        "resname": "MAN",
+        "resnum": 7,
+        "center": [
+          18.7,
+          30.3,
+          -3.9
+        ],
+        "dist_to_pocket": 34.9
+      },
+      {
+        "chain": "Y",
+        "resname": "MAN",
+        "resnum": 5,
+        "center": [
+          9.2,
+          20.5,
+          -5.1
+        ],
+        "dist_to_pocket": 34.9
+      },
+      {
+        "chain": "S",
+        "resname": "MAN",
+        "resnum": 6,
+        "center": [
+          32.8,
+          -10.7,
+          -15.2
+        ],
+        "dist_to_pocket": 35.2
+      },
+      {
+        "chain": "a",
+        "resname": "MAN",
+        "resnum": 8,
+        "center": [
+          31.6,
+          2.3,
+          52.1
+        ],
+        "dist_to_pocket": 35.9
+      },
+      {
+        "chain": "Q",
+        "resname": "MAN",
+        "resnum": 6,
+        "center": [
+          23.0,
+          31.1,
+          -6.9
+        ],
+        "dist_to_pocket": 36.0
+      },
+      {
+        "chain": "R",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          30.7,
+          41.1,
+          18.2
+        ],
+        "dist_to_pocket": 36.1
+      },
+      {
+        "chain": "Q",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          25.2,
+          25.4,
+          -13.8
+        ],
+        "dist_to_pocket": 36.9
+      },
+      {
+        "chain": "S",
+        "resname": "MAN",
+        "resnum": 9,
+        "center": [
+          33.9,
+          -16.6,
+          -13.7
+        ],
+        "dist_to_pocket": 37.1
+      },
+      {
+        "chain": "R",
+        "resname": "MAN",
+        "resnum": 4,
+        "center": [
+          35.4,
+          42.2,
+          16.4
+        ],
+        "dist_to_pocket": 37.2
+      },
+      {
+        "chain": "Y",
+        "resname": "MAN",
+        "resnum": 4,
+        "center": [
+          5.5,
+          22.3,
+          -3.5
+        ],
+        "dist_to_pocket": 37.3
+      },
+      {
+        "chain": "R",
+        "resname": "MAN",
+        "resnum": 5,
+        "center": [
+          38.3,
+          41.8,
+          19.7
+        ],
+        "dist_to_pocket": 37.4
+      },
+      {
+        "chain": "Y",
+        "resname": "MAN",
+        "resnum": 6,
+        "center": [
+          8.1,
+          18.2,
+          -9.6
+        ],
+        "dist_to_pocket": 37.6
+      },
+      {
+        "chain": "T",
+        "resname": "MAN",
+        "resnum": 7,
+        "center": [
+          12.7,
+          31.0,
+          -3.2
+        ],
+        "dist_to_pocket": 37.7
+      },
+      {
+        "chain": "X",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          11.7,
+          31.9,
+          33.5
+        ],
+        "dist_to_pocket": 37.7
+      },
+      {
+        "chain": "S",
+        "resname": "MAN",
+        "resnum": 8,
+        "center": [
+          38.9,
+          -16.3,
+          -14.1
+        ],
+        "dist_to_pocket": 37.8
+      },
+      {
+        "chain": "Q",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          20.9,
+          28.4,
+          -11.8
+        ],
+        "dist_to_pocket": 38.1
+      },
+      {
+        "chain": "T",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          12.1,
+          35.6,
+          5.3
+        ],
+        "dist_to_pocket": 38.1
+      },
+      {
+        "chain": "c",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          23.0,
+          40.3,
+          28.0
+        ],
+        "dist_to_pocket": 38.1
+      },
+      {
+        "chain": "b",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          12.8,
+          38.0,
+          19.9
+        ],
+        "dist_to_pocket": 38.2
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 1421,
+        "center": [
+          33.0,
+          9.4,
+          54.4
+        ],
+        "dist_to_pocket": 38.4
+      },
+      {
+        "chain": "X",
+        "resname": "MAN",
+        "resnum": 8,
+        "center": [
+          5.8,
+          30.8,
+          28.0
+        ],
+        "dist_to_pocket": 38.5
+      },
+      {
+        "chain": "f",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          48.9,
+          -22.8,
+          -4.6
+        ],
+        "dist_to_pocket": 38.7
+      },
+      {
+        "chain": "R",
+        "resname": "MAN",
+        "resnum": 10,
+        "center": [
+          29.6,
+          43.5,
+          23.5
+        ],
+        "dist_to_pocket": 39.1
+      },
+      {
+        "chain": "R",
+        "resname": "MAN",
+        "resnum": 9,
+        "center": [
+          26.8,
+          43.6,
+          10.2
+        ],
+        "dist_to_pocket": 39.3
+      },
+      {
+        "chain": "b",
+        "resname": "MAN",
+        "resnum": 9,
+        "center": [
+          7.7,
+          35.8,
+          20.1
+        ],
+        "dist_to_pocket": 39.4
+      },
+      {
+        "chain": "R",
+        "resname": "MAN",
+        "resnum": 7,
+        "center": [
+          27.5,
+          44.3,
+          18.7
+        ],
+        "dist_to_pocket": 39.6
+      },
+      {
+        "chain": "R",
+        "resname": "MAN",
+        "resnum": 6,
+        "center": [
+          37.8,
+          43.8,
+          23.5
+        ],
+        "dist_to_pocket": 39.7
+      },
+      {
+        "chain": "T",
+        "resname": "MAN",
+        "resnum": 9,
+        "center": [
+          16.1,
+          41.0,
+          10.1
+        ],
+        "dist_to_pocket": 39.7
+      },
+      {
+        "chain": "X",
+        "resname": "MAN",
+        "resnum": 7,
+        "center": [
+          6.3,
+          30.0,
+          33.5
+        ],
+        "dist_to_pocket": 39.7
+      },
+      {
+        "chain": "Q",
+        "resname": "MAN",
+        "resnum": 5,
+        "center": [
+          14.3,
+          28.7,
+          -10.5
+        ],
+        "dist_to_pocket": 39.9
+      },
+      {
+        "chain": "T",
+        "resname": "MAN",
+        "resnum": 4,
+        "center": [
+          11.0,
+          34.9,
+          -0.0
+        ],
+        "dist_to_pocket": 39.9
+      },
+      {
+        "chain": "R",
+        "resname": "MAN",
+        "resnum": 8,
+        "center": [
+          24.7,
+          44.5,
+          14.2
+        ],
+        "dist_to_pocket": 40.2
+      },
+      {
+        "chain": "X",
+        "resname": "MAN",
+        "resnum": 4,
+        "center": [
+          13.8,
+          36.8,
+          35.2
+        ],
+        "dist_to_pocket": 41.2
+      },
+      {
+        "chain": "T",
+        "resname": "MAN",
+        "resnum": 8,
+        "center": [
+          13.1,
+          40.7,
+          6.1
+        ],
+        "dist_to_pocket": 41.6
+      },
+      {
+        "chain": "b",
+        "resname": "MAN",
+        "resnum": 4,
+        "center": [
+          15.2,
+          43.5,
+          19.2
+        ],
+        "dist_to_pocket": 42.0
+      },
+      {
+        "chain": "Q",
+        "resname": "MAN",
+        "resnum": 4,
+        "center": [
+          17.3,
+          31.6,
+          -13.1
+        ],
+        "dist_to_pocket": 42.2
+      },
+      {
+        "chain": "b",
+        "resname": "MAN",
+        "resnum": 10,
+        "center": [
+          5.8,
+          38.7,
+          15.8
+        ],
+        "dist_to_pocket": 42.6
+      },
+      {
+        "chain": "b",
+        "resname": "MAN",
+        "resnum": 7,
+        "center": [
+          17.4,
+          44.7,
+          23.1
+        ],
+        "dist_to_pocket": 42.8
+      },
+      {
+        "chain": "X",
+        "resname": "MAN",
+        "resnum": 9,
+        "center": [
+          4.7,
+          35.3,
+          30.3
+        ],
+        "dist_to_pocket": 43.0
+      },
+      {
+        "chain": "X",
+        "resname": "MAN",
+        "resnum": 10,
+        "center": [
+          2.0,
+          28.8,
+          36.3
+        ],
+        "dist_to_pocket": 43.1
+      },
+      {
+        "chain": "c",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          20.6,
+          45.1,
+          27.3
+        ],
+        "dist_to_pocket": 43.1
+      },
+      {
+        "chain": "f",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          48.0,
+          -27.8,
+          -6.4
+        ],
+        "dist_to_pocket": 43.1
+      },
+      {
+        "chain": "R",
+        "resname": "MAN",
+        "resnum": 11,
+        "center": [
+          31.0,
+          47.4,
+          26.2
+        ],
+        "dist_to_pocket": 43.4
+      },
+      {
+        "chain": "I",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          56.0,
+          -1.6,
+          -19.3
+        ],
+        "dist_to_pocket": 43.5
+      },
+      {
+        "chain": "W",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          26.0,
+          44.3,
+          34.1
+        ],
+        "dist_to_pocket": 43.5
+      },
+      {
+        "chain": "I",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          56.6,
+          3.0,
+          -20.8
+        ],
+        "dist_to_pocket": 44.6
+      },
+      {
+        "chain": "K",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          36.3,
+          37.5,
+          46.9
+        ],
+        "dist_to_pocket": 44.8
+      },
+      {
+        "chain": "X",
+        "resname": "MAN",
+        "resnum": 5,
+        "center": [
+          9.9,
+          37.7,
+          37.8
+        ],
+        "dist_to_pocket": 44.9
+      },
+      {
+        "chain": "f",
+        "resname": "MAN",
+        "resnum": 6,
+        "center": [
+          42.7,
+          -28.4,
+          -11.8
+        ],
+        "dist_to_pocket": 45.0
+      },
+      {
+        "chain": "b",
+        "resname": "MAN",
+        "resnum": 6,
+        "center": [
+          10.9,
+          45.0,
+          13.3
+        ],
+        "dist_to_pocket": 45.2
+      },
+      {
+        "chain": "T",
+        "resname": "MAN",
+        "resnum": 5,
+        "center": [
+          7.7,
+          39.0,
+          -1.9
+        ],
+        "dist_to_pocket": 45.5
+      },
+      {
+        "chain": "b",
+        "resname": "MAN",
+        "resnum": 5,
+        "center": [
+          10.4,
+          45.4,
+          18.7
+        ],
+        "dist_to_pocket": 45.8
+      },
+      {
+        "chain": "J",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          34.8,
+          18.2,
+          -28.1
+        ],
+        "dist_to_pocket": 46.4
+      },
+      {
+        "chain": "N",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          43.7,
+          22.2,
+          58.4
+        ],
+        "dist_to_pocket": 46.9
+      },
+      {
+        "chain": "b",
+        "resname": "MAN",
+        "resnum": 8,
+        "center": [
+          15.7,
+          49.0,
+          22.0
+        ],
+        "dist_to_pocket": 47.2
+      },
+      {
+        "chain": "T",
+        "resname": "MAN",
+        "resnum": 6,
+        "center": [
+          10.1,
+          43.6,
+          -1.3
+        ],
+        "dist_to_pocket": 47.6
+      },
+      {
+        "chain": "f",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          48.1,
+          -29.7,
+          -11.9
+        ],
+        "dist_to_pocket": 47.6
+      },
+      {
+        "chain": "F",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          46.0,
+          1.6,
+          -29.8
+        ],
+        "dist_to_pocket": 48.3
+      },
+      {
+        "chain": "c",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          16.6,
+          48.8,
+          30.1
+        ],
+        "dist_to_pocket": 48.3
+      },
+      {
+        "chain": "W",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          27.0,
+          49.6,
+          34.7
+        ],
+        "dist_to_pocket": 48.5
+      },
+      {
+        "chain": "X",
+        "resname": "MAN",
+        "resnum": 6,
+        "center": [
+          7.7,
+          42.1,
+          36.0
+        ],
+        "dist_to_pocket": 48.5
+      },
+      {
+        "chain": "c",
+        "resname": "MAN",
+        "resnum": 4,
+        "center": [
+          11.9,
+          47.1,
+          31.6
+        ],
+        "dist_to_pocket": 49.0
+      },
+      {
+        "chain": "N",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          41.9,
+          19.7,
+          62.3
+        ],
+        "dist_to_pocket": 49.3
+      },
+      {
+        "chain": "K",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          36.3,
+          42.3,
+          49.2
+        ],
+        "dist_to_pocket": 49.8
+      },
+      {
+        "chain": "F",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          44.2,
+          6.2,
+          -32.0
+        ],
+        "dist_to_pocket": 49.9
+      },
+      {
+        "chain": "M",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          51.8,
+          35.7,
+          51.2
+        ],
+        "dist_to_pocket": 50.4
+      },
+      {
+        "chain": "J",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          32.8,
+          16.8,
+          -33.1
+        ],
+        "dist_to_pocket": 50.8
+      },
+      {
+        "chain": "F",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          50.6,
+          -1.8,
+          -31.2
+        ],
+        "dist_to_pocket": 51.4
+      },
+      {
+        "chain": "c",
+        "resname": "MAN",
+        "resnum": 6,
+        "center": [
+          6.8,
+          48.2,
+          29.2
+        ],
+        "dist_to_pocket": 51.6
+      },
+      {
+        "chain": "f",
+        "resname": "MAN",
+        "resnum": 4,
+        "center": [
+          51.9,
+          -30.6,
+          -16.2
+        ],
+        "dist_to_pocket": 52.2
+      },
+      {
+        "chain": "c",
+        "resname": "MAN",
+        "resnum": 7,
+        "center": [
+          16.3,
+          52.3,
+          33.8
+        ],
+        "dist_to_pocket": 52.7
+      },
+      {
+        "chain": "J",
+        "resname": "MAN",
+        "resnum": 8,
+        "center": [
+          26.8,
+          22.5,
+          -34.1
+        ],
+        "dist_to_pocket": 53.6
+      },
+      {
+        "chain": "c",
+        "resname": "MAN",
+        "resnum": 5,
+        "center": [
+          10.3,
+          51.8,
+          30.9
+        ],
+        "dist_to_pocket": 53.6
+      },
+      {
+        "chain": "f",
+        "resname": "MAN",
+        "resnum": 5,
+        "center": [
+          50.3,
+          -35.8,
+          -13.6
+        ],
+        "dist_to_pocket": 53.9
+      },
+      {
+        "chain": "W",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          23.6,
+          54.7,
+          36.4
+        ],
+        "dist_to_pocket": 54.2
+      },
+      {
+        "chain": "N",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          40.2,
+          20.1,
+          67.8
+        ],
+        "dist_to_pocket": 54.3
+      },
+      {
+        "chain": "M",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          53.7,
+          34.9,
+          56.3
+        ],
+        "dist_to_pocket": 54.4
+      },
+      {
+        "chain": "K",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          33.0,
+          45.4,
+          53.0
+        ],
+        "dist_to_pocket": 54.5
+      },
+      {
+        "chain": "C",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          51.6,
+          1.0,
+          -34.9
+        ],
+        "dist_to_pocket": 54.9
+      },
+      {
+        "chain": "K",
+        "resname": "MAN",
+        "resnum": 10,
+        "center": [
+          26.8,
+          48.3,
+          49.9
+        ],
+        "dist_to_pocket": 55.0
+      },
+      {
+        "chain": "N",
+        "resname": "MAN",
+        "resnum": 9,
+        "center": [
+          51.4,
+          17.5,
+          66.4
+        ],
+        "dist_to_pocket": 55.1
+      },
+      {
+        "chain": "N",
+        "resname": "MAN",
+        "resnum": 6,
+        "center": [
+          33.4,
+          26.4,
+          67.2
+        ],
+        "dist_to_pocket": 55.2
+      },
+      {
+        "chain": "M",
+        "resname": "MAN",
+        "resnum": 6,
+        "center": [
+          54.7,
+          22.4,
+          64.4
+        ],
+        "dist_to_pocket": 55.9
+      },
+      {
+        "chain": "J",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          31.4,
+          18.2,
+          -38.5
+        ],
+        "dist_to_pocket": 56.3
+      },
+      {
+        "chain": "N",
+        "resname": "MAN",
+        "resnum": 8,
+        "center": [
+          48.5,
+          21.4,
+          67.7
+        ],
+        "dist_to_pocket": 56.3
+      },
+      {
+        "chain": "W",
+        "resname": "MAN",
+        "resnum": 6,
+        "center": [
+          20.7,
+          54.4,
+          41.1
+        ],
+        "dist_to_pocket": 56.3
+      },
+      {
+        "chain": "J",
+        "resname": "MAN",
+        "resnum": 6,
+        "center": [
+          25.7,
+          18.9,
+          -38.3
+        ],
+        "dist_to_pocket": 56.7
+      },
+      {
+        "chain": "M",
+        "resname": "MAN",
+        "resnum": 5,
+        "center": [
+          57.5,
+          26.1,
+          62.5
+        ],
+        "dist_to_pocket": 56.8
+      },
+      {
+        "chain": "K",
+        "resname": "MAN",
+        "resnum": 7,
+        "center": [
+          28.0,
+          47.2,
+          54.7
+        ],
+        "dist_to_pocket": 57.1
+      },
+      {
+        "chain": "K",
+        "resname": "MAN",
+        "resnum": 4,
+        "center": [
+          36.7,
+          49.0,
+          53.5
+        ],
+        "dist_to_pocket": 57.7
+      },
+      {
+        "chain": "W",
+        "resname": "MAN",
+        "resnum": 4,
+        "center": [
+          22.4,
+          59.5,
+          33.1
+        ],
+        "dist_to_pocket": 57.7
+      },
+      {
+        "chain": "C",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          51.0,
+          -3.7,
+          -37.6
+        ],
+        "dist_to_pocket": 57.8
+      },
+      {
+        "chain": "N",
+        "resname": "MAN",
+        "resnum": 4,
+        "center": [
+          38.6,
+          22.2,
+          71.1
+        ],
+        "dist_to_pocket": 57.8
+      },
+      {
+        "chain": "M",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          55.4,
+          33.7,
+          61.1
+        ],
+        "dist_to_pocket": 58.0
+      },
+      {
+        "chain": "N",
+        "resname": "MAN",
+        "resnum": 7,
+        "center": [
+          44.8,
+          20.6,
+          71.3
+        ],
+        "dist_to_pocket": 58.6
+      },
+      {
+        "chain": "N",
+        "resname": "MAN",
+        "resnum": 5,
+        "center": [
+          35.7,
+          25.5,
+          71.5
+        ],
+        "dist_to_pocket": 59.0
+      },
+      {
+        "chain": "J",
+        "resname": "MAN",
+        "resnum": 7,
+        "center": [
+          21.6,
+          17.3,
+          -41.0
+        ],
+        "dist_to_pocket": 59.5
+      },
+      {
+        "chain": "M",
+        "resname": "MAN",
+        "resnum": 7,
+        "center": [
+          51.8,
+          38.7,
+          61.2
+        ],
+        "dist_to_pocket": 59.5
+      },
+      {
+        "chain": "K",
+        "resname": "MAN",
+        "resnum": 5,
+        "center": [
+          37.9,
+          47.1,
+          58.3
+        ],
+        "dist_to_pocket": 59.7
+      },
+      {
+        "chain": "J",
+        "resname": "MAN",
+        "resnum": 4,
+        "center": [
+          35.2,
+          19.9,
+          -41.5
+        ],
+        "dist_to_pocket": 59.8
+      },
+      {
+        "chain": "M",
+        "resname": "MAN",
+        "resnum": 10,
+        "center": [
+          47.6,
+          40.9,
+          61.5
+        ],
+        "dist_to_pocket": 59.8
+      },
+      {
+        "chain": "M",
+        "resname": "MAN",
+        "resnum": 4,
+        "center": [
+          58.0,
+          30.6,
+          64.0
+        ],
+        "dist_to_pocket": 60.0
+      },
+      {
+        "chain": "K",
+        "resname": "MAN",
+        "resnum": 11,
+        "center": [
+          26.3,
+          52.7,
+          52.4
+        ],
+        "dist_to_pocket": 60.1
+      },
+      {
+        "chain": "A",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          66.5,
+          5.7,
+          -33.5
+        ],
+        "dist_to_pocket": 60.6
+      },
+      {
+        "chain": "W",
+        "resname": "MAN",
+        "resnum": 5,
+        "center": [
+          17.6,
+          61.9,
+          35.1
+        ],
+        "dist_to_pocket": 61.6
+      },
+      {
+        "chain": "A",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          70.3,
+          2.8,
+          -32.1
+        ],
+        "dist_to_pocket": 61.7
+      },
+      {
+        "chain": "K",
+        "resname": "MAN",
+        "resnum": 8,
+        "center": [
+          27.4,
+          50.5,
+          58.6
+        ],
+        "dist_to_pocket": 62.2
+      },
+      {
+        "chain": "K",
+        "resname": "MAN",
+        "resnum": 9,
+        "center": [
+          30.3,
+          53.7,
+          55.7
+        ],
+        "dist_to_pocket": 62.6
+      },
+      {
+        "chain": "N",
+        "resname": "MAN",
+        "resnum": 10,
+        "center": [
+          42.4,
+          18.2,
+          76.6
+        ],
+        "dist_to_pocket": 62.6
+      },
+      {
+        "chain": "M",
+        "resname": "MAN",
+        "resnum": 8,
+        "center": [
+          55.4,
+          42.5,
+          61.4
+        ],
+        "dist_to_pocket": 63.1
+      },
+      {
+        "chain": "K",
+        "resname": "MAN",
+        "resnum": 6,
+        "center": [
+          38.5,
+          52.3,
+          58.0
+        ],
+        "dist_to_pocket": 63.3
+      },
+      {
+        "chain": "J",
+        "resname": "MAN",
+        "resnum": 5,
+        "center": [
+          33.1,
+          23.3,
+          -44.8
+        ],
+        "dist_to_pocket": 63.8
+      },
+      {
+        "chain": "M",
+        "resname": "MAN",
+        "resnum": 9,
+        "center": [
+          52.5,
+          46.8,
+          62.5
+        ],
+        "dist_to_pocket": 65.5
+      },
+      {
+        "chain": "e",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          -10.7,
+          23.0,
+          68.9
+        ],
+        "dist_to_pocket": 70.1
+      },
+      {
+        "chain": "e",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          -16.5,
+          22.9,
+          69.0
+        ],
+        "dist_to_pocket": 73.7
+      },
+      {
+        "chain": "e",
+        "resname": "MAN",
+        "resnum": 6,
+        "center": [
+          -24.4,
+          18.8,
+          64.4
+        ],
+        "dist_to_pocket": 75.4
+      },
+      {
+        "chain": "e",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          -22.0,
+          21.5,
+          68.0
+        ],
+        "dist_to_pocket": 76.6
+      },
+      {
+        "chain": "e",
+        "resname": "MAN",
+        "resnum": 4,
+        "center": [
+          -24.6,
+          26.4,
+          70.0
+        ],
+        "dist_to_pocket": 80.9
+      },
+      {
+        "chain": "e",
+        "resname": "MAN",
+        "resnum": 5,
+        "center": [
+          -25.6,
+          28.2,
+          75.4
+        ],
+        "dist_to_pocket": 85.7
+      }
+    ],
+    "sugars_within_15A": [],
+    "sugars_within_25A": [
+      {
+        "chain": "a",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          29.7,
+          12.5,
+          30.8
+        ],
+        "dist_to_pocket": 16.4
+      },
+      {
+        "chain": "G",
+        "resname": "NAG",
+        "resnum": 3921,
+        "center": [
+          18.8,
+          12.0,
+          26.3
+        ],
+        "dist_to_pocket": 17.9
+      },
+      {
+        "chain": "a",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          29.5,
+          8.1,
+          34.2
+        ],
+        "dist_to_pocket": 18.3
+      },
+      {
+        "chain": "a",
+        "resname": "MAN",
+        "resnum": 9,
+        "center": [
+          31.7,
+          0.4,
+          35.0
+        ],
+        "dist_to_pocket": 19.3
+      },
+      {
+        "chain": "S",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          40.6,
+          -2.2,
+          -0.7
+        ],
+        "dist_to_pocket": 20.4
+      },
+      {
+        "chain": "P",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          30.9,
+          4.4,
+          -5.0
+        ],
+        "dist_to_pocket": 21.3
+      },
+      {
+        "chain": "Y",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          16.1,
+          15.0,
+          6.2
+        ],
+        "dist_to_pocket": 21.3
+      },
+      {
+        "chain": "a",
+        "resname": "BMA",
+        "resnum": 3,
+        "center": [
+          32.0,
+          4.7,
+          38.2
+        ],
+        "dist_to_pocket": 21.9
+      },
+      {
+        "chain": "Z",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          19.1,
+          -3.5,
+          0.7
+        ],
+        "dist_to_pocket": 22.0
+      },
+      {
+        "chain": "P",
+        "resname": "NAG",
+        "resnum": 2,
+        "center": [
+          27.2,
+          0.4,
+          -4.8
+        ],
+        "dist_to_pocket": 22.2
+      },
+      {
+        "chain": "d",
+        "resname": "NAG",
+        "resnum": 1,
+        "center": [
+          16.9,
+          -9.9,
+          9.4
+        ],
+        "dist_to_pocket": 22.4
+      },
+      {
+        "chain": "a",
+        "resname": "MAN",
+        "resnum": 6,
+        "center": [
+          22.0,
+          3.5,
+          38.7
+        ],
+        "dist_to_pocket": 24.6
+      }
+    ]
+  }
+}

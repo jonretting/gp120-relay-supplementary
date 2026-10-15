@@ -1,0 +1,265 @@
+{
+  "wild_type": {
+    "gnm": {
+      "mean_coupling": 0.8568387148529869,
+      "max_coupling": 0.9832828112175676,
+      "min_coupling": 0.7198570475643488,
+      "n_relay": 8,
+      "n_cd4": 6,
+      "mean_relay_fluctuation": 0.01215488275264354,
+      "mean_all_fluctuation": 0.03325157779060119,
+      "rigidity_ratio": 0.3655430376623875,
+      "total_relay_contacts": 489,
+      "mean_intra_pocket_corr": 0.9160843131841888,
+      "total_contact_pairs": 3751
+    },
+    "docking": {
+      "bms626529": -4.205,
+      "vicriviroc": -8.749
+    }
+  },
+  "mutants": {
+    "ARG465": {
+      "residue_id": 465,
+      "original_resname": "ARG",
+      "mutation": "ARG465Ala",
+      "gnm": {
+        "mean_coupling": 0.8378035212490321,
+        "max_coupling": 0.9821752542525237,
+        "min_coupling": 0.6569095202468733,
+        "n_relay": 8,
+        "n_cd4": 6,
+        "mean_relay_fluctuation": 0.012276052932991575,
+        "mean_all_fluctuation": 0.03335219350367935,
+        "rigidity_ratio": 0.36807333021851485,
+        "total_relay_contacts": 442,
+        "mean_intra_pocket_corr": 0.9154461534370678,
+        "total_contact_pairs": 3748
+      },
+      "gnm_coupling_delta": -0.01903519360395478,
+      "gnm_coupling_pct_change": -2.2215608695063187,
+      "contacts_lost": 47,
+      "docking": {
+        "bms626529": -3.733,
+        "bms626529_delta": 0.472,
+        "vicriviroc": -6.93,
+        "vicriviroc_delta": 1.8190000000000008
+      }
+    },
+    "PRO466": {
+      "residue_id": 466,
+      "original_resname": "PRO",
+      "mutation": "PRO466Ala",
+      "gnm": {
+        "mean_coupling": 0.8558853815173176,
+        "max_coupling": 0.9831197004510812,
+        "min_coupling": 0.719192167024665,
+        "n_relay": 8,
+        "n_cd4": 6,
+        "mean_relay_fluctuation": 0.012187711075589098,
+        "mean_all_fluctuation": 0.03327075954340728,
+        "rigidity_ratio": 0.3663189912958911,
+        "total_relay_contacts": 463,
+        "mean_intra_pocket_corr": 0.9174990314823347,
+        "total_contact_pairs": 3750
+      },
+      "gnm_coupling_delta": -0.0009533333356692708,
+      "gnm_coupling_pct_change": -0.11126170178162877,
+      "contacts_lost": 26,
+      "docking": {
+        "bms626529": -3.665,
+        "bms626529_delta": 0.54,
+        "vicriviroc": -6.909,
+        "vicriviroc_delta": 1.8400000000000007
+      }
+    },
+    "GLY467": {
+      "residue_id": 467,
+      "original_resname": "GLY",
+      "mutation": "GLY467Ala",
+      "gnm": {
+        "mean_coupling": 0.8568387148529869,
+        "max_coupling": 0.9832828112175676,
+        "min_coupling": 0.7198570475643488,
+        "n_relay": 8,
+        "n_cd4": 6,
+        "mean_relay_fluctuation": 0.01215488275264354,
+        "mean_all_fluctuation": 0.03325157779060119,
+        "rigidity_ratio": 0.3655430376623875,
+        "total_relay_contacts": 489,
+        "mean_intra_pocket_corr": 0.9160843131841888,
+        "total_contact_pairs": 3751
+      },
+      "gnm_coupling_delta": 0.0,
+      "gnm_coupling_pct_change": 0.0,
+      "contacts_lost": null,
+      "docking": {
+        "bms626529": -3.731,
+        "bms626529_delta": 0.4740000000000002,
+        "vicriviroc": -6.944,
+        "vicriviroc_delta": 1.8050000000000006
+      }
+    },
+    "GLY468": {
+      "residue_id": 468,
+      "original_resname": "GLY",
+      "mutation": "GLY468Ala",
+      "gnm": {
+        "mean_coupling": 0.8568387148529869,
+        "max_coupling": 0.9832828112175676,
+        "min_coupling": 0.7198570475643488,
+        "n_relay": 8,
+        "n_cd4": 6,
+        "mean_relay_fluctuation": 0.01215488275264354,
+        "mean_all_fluctuation": 0.03325157779060119,
+        "rigidity_ratio": 0.3655430376623875,
+        "total_relay_contacts": 489,
+        "mean_intra_pocket_corr": 0.9160843131841888,
+        "total_contact_pairs": 3751
+      },
+      "gnm_coupling_delta": 0.0,
+      "gnm_coupling_pct_change": 0.0,
+      "contacts_lost": null,
+      "docking": {
+        "bms626529": -4.854,
+        "bms626529_delta": -0.649,
+        "vicriviroc": -6.915,
+        "vicriviroc_delta": 1.8340000000000005
+      }
+    },
+    "GLY469": {
+      "residue_id": 469,
+      "original_resname": "GLY",
+      "mutation": "GLY469Ala",
+      "gnm": {
+        "mean_coupling": 0.8568387148529869,
+        "max_coupling": 0.9832828112175676,
+        "min_coupling": 0.7198570475643488,
+        "n_relay": 8,
+        "n_cd4": 6,
+        "mean_relay_fluctuation": 0.01215488275264354,
+        "mean_all_fluctuation": 0.03325157779060119,
+        "rigidity_ratio": 0.3655430376623875,
+        "total_relay_contacts": 489,
+        "mean_intra_pocket_corr": 0.9160843131841888,
+        "total_contact_pairs": 3751
+      },
+      "gnm_coupling_delta": 0.0,
+      "gnm_coupling_pct_change": 0.0,
+      "contacts_lost": null,
+      "docking": {
+        "bms626529": -4.436,
+        "bms626529_delta": -0.23099999999999987,
+        "vicriviroc": -6.939,
+        "vicriviroc_delta": 1.8100000000000005
+      }
+    },
+    "ASP470": {
+      "residue_id": 470,
+      "original_resname": "ASP",
+      "mutation": "ASP470Ala",
+      "gnm": {
+        "mean_coupling": 0.8536863588461893,
+        "max_coupling": 0.9821592692639843,
+        "min_coupling": 0.7068905361580409,
+        "n_relay": 8,
+        "n_cd4": 6,
+        "mean_relay_fluctuation": 0.012181613494242228,
+        "mean_all_fluctuation": 0.033274508858420024,
+        "rigidity_ratio": 0.36609446426614056,
+        "total_relay_contacts": 466,
+        "mean_intra_pocket_corr": 0.9140312682335614,
+        "total_contact_pairs": 3751
+      },
+      "gnm_coupling_delta": -0.003152356006797641,
+      "gnm_coupling_pct_change": -0.3679054123200432,
+      "contacts_lost": 23,
+      "docking": {
+        "bms626529": -8.106,
+        "bms626529_delta": -3.901,
+        "vicriviroc": -7.617,
+        "vicriviroc_delta": 1.1320000000000006
+      }
+    },
+    "MET471": {
+      "residue_id": 471,
+      "original_resname": "MET",
+      "mutation": "MET471Ala",
+      "gnm": {
+        "mean_coupling": 0.8556848467588116,
+        "max_coupling": 0.9861630605729184,
+        "min_coupling": 0.7194685029488991,
+        "n_relay": 8,
+        "n_cd4": 6,
+        "mean_relay_fluctuation": 0.01232358280331988,
+        "mean_all_fluctuation": 0.0332861652787609,
+        "rigidity_ratio": 0.37023137691331665,
+        "total_relay_contacts": 461,
+        "mean_intra_pocket_corr": 0.9126145619468167,
+        "total_contact_pairs": 3748
+      },
+      "gnm_coupling_delta": -0.001153868094175281,
+      "gnm_coupling_pct_change": -0.13466572812052,
+      "contacts_lost": 28,
+      "docking": {
+        "bms626529": -3.725,
+        "bms626529_delta": 0.48,
+        "vicriviroc": -6.911,
+        "vicriviroc_delta": 1.838000000000001
+      }
+    },
+    "ARG472": {
+      "residue_id": 472,
+      "original_resname": "ARG",
+      "mutation": "ARG472Ala",
+      "gnm": {
+        "mean_coupling": 0.8535674033803134,
+        "max_coupling": 0.9822758365940357,
+        "min_coupling": 0.706784604120952,
+        "n_relay": 8,
+        "n_cd4": 6,
+        "mean_relay_fluctuation": 0.012132251133924243,
+        "mean_all_fluctuation": 0.03333071016858258,
+        "rigidity_ratio": 0.3639961786760867,
+        "total_relay_contacts": 452,
+        "mean_intra_pocket_corr": 0.9221330961196161,
+        "total_contact_pairs": 3749
+      },
+      "gnm_coupling_delta": -0.003271311472673455,
+      "gnm_coupling_pct_change": -0.38178847617018963,
+      "contacts_lost": 37,
+      "docking": {
+        "bms626529": -8.73,
+        "bms626529_delta": -4.525,
+        "vicriviroc": -7.806,
+        "vicriviroc_delta": 0.9430000000000005
+      }
+    }
+  },
+  "metadata": {
+    "pdb": "6MEO",
+    "chain": "G",
+    "relay_residues": [
+      "ARG465",
+      "PRO466",
+      "GLY467",
+      "GLY468",
+      "GLY469",
+      "ASP470",
+      "MET471",
+      "ARG472"
+    ],
+    "method": "Contact-weighted GNM (spring constants = heavy-atom contact count)",
+    "contact_cutoff_angstroms": 4.5,
+    "gnm_modes": 20,
+    "docking_method": "AutoDock Vina 1.2.7, exhaustiveness 16, box 22x22x22 A",
+    "cd4_reference_residues": [
+      25,
+      39,
+      40,
+      43,
+      45,
+      46
+    ]
+  }
+}

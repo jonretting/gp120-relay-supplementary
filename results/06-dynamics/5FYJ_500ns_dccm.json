@@ -1,0 +1,60 @@
+{
+  "pdb_id": "5FYJ",
+  "method": "DCCM from GROMACS covariance (gmx covar), 500ns, dt=50ps",
+  "n_ca_atoms": 102,
+  "relay_motif": "RPAGGDMR",
+  "relay_residues_gromacs": [
+    469,
+    470,
+    471,
+    472,
+    473,
+    474,
+    475,
+    476
+  ],
+  "intra_pocket": {
+    "all_28_positive": true,
+    "mean_correlation": 0.7177,
+    "min_correlation": 0.206,
+    "max_correlation": 0.9939,
+    "sequential_neighbor_mean": 0.9685,
+    "pairs": {
+      "ARG469-PRO470": 0.9939,
+      "ARG469-ALA471": 0.9415,
+      "ARG469-GLY472": 0.8272,
+      "ARG469-GLY473": 0.6108,
+      "ARG469-ASP474": 0.4232,
+      "ARG469-MET475": 0.206,
+      "ARG469-ARG476": 0.2493,
+      "PRO470-ALA471": 0.9521,
+      "PRO470-GLY472": 0.8473,
+      "PRO470-GLY473": 0.6391,
+      "PRO470-ASP474": 0.453,
+      "PRO470-MET475": 0.2425,
+      "PRO470-ARG476": 0.2793,
+      "ALA471-GLY472": 0.9661,
+      "ALA471-GLY473": 0.8315,
+      "ALA471-ASP474": 0.6905,
+      "ALA471-MET475": 0.5014,
+      "ALA471-ARG476": 0.5401,
+      "GLY472-GLY473": 0.9402,
+      "GLY472-ASP474": 0.8459,
+      "GLY472-MET475": 0.6944,
+      "GLY472-ARG476": 0.7252,
+      "GLY473-ASP474": 0.9688,
+      "GLY473-MET475": 0.8869,
+      "GLY473-ARG476": 0.9031,
+      "ASP474-MET475": 0.966,
+      "ASP474-ARG476": 0.9777,
+      "MET475-ARG476": 0.9925
+    }
+  },
+  "comparison_6meo_500ns": {
+    "all_28_positive": true,
+    "mean_correlation": 0.79,
+    "min_correlation": 0.37,
+    "max_correlation": 0.99,
+    "sequential_neighbor_mean": 0.97
+  }
+}

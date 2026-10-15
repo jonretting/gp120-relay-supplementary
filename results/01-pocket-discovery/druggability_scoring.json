@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "author": "Jonathan Michael Retting",
+    "license": "CC-BY-4.0",
+    "study": "Identification of a Novel Druggable Pocket in the HIV-1 gp120 C5 Domain at the Conformational Relay Junction"
+  },
+  "analysis": "Druggability scoring - gp120 relay pocket",
+  "source_pharmacophore": "relay_pharmacophore_differentiated.json",
+  "pocket_dimensions_angstrom": [
+    12.8,
+    13.4,
+    13.3
+  ],
+  "ellipsoid_volume_angstrom3": 1588.0,
+  "principal_semiaxes_angstrom": [
+    8.0,
+    6.9,
+    6.8
+  ],
+  "radius_of_gyration_angstrom": 6.3,
+  "feature_count": 55,
+  "feature_distribution": {
+    "hbond_donor": 20,
+    "hbond_acceptor": 10,
+    "hydrophobic": 22,
+    "hbond_donor_acceptor": 2,
+    "aromatic": 1
+  },
+  "hydrophobic_fraction": 0.418,
+  "polar_fraction": 0.582,
+  "hp_ratio": 0.72,
+  "mean_wall_distance_angstrom": 0.73,
+  "mean_nearest_atom_distance_angstrom": 2.4,
+  "feature_density_per_angstrom3": 0.03464,
+  "sphericity": 0.96,
+  "druggability_criteria": {
+    "Volume >= 250 A^3": {
+      "pass": true,
+      "value": "1588 A^3"
+    },
+    "Hydrophobic fraction 0.3-0.7": {
+      "pass": true,
+      "value": "0.42"
+    },
+    "Polar fraction >= 0.2": {
+      "pass": true,
+      "value": "0.58"
+    },
+    "Sphericity >= 0.5": {
+      "pass": true,
+      "value": "0.96"
+    },
+    "Features >= 10": {
+      "pass": true,
+      "value": "55"
+    }
+  },
+  "verdict": "DRUGGABLE",
+  "reference": "Halgren 2009, J. Med. Chem. 52, 18, 5438-5451"
+}

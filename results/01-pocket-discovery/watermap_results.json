@@ -1,0 +1,261 @@
+{
+  "analysis": "WaterMap / Hydration Site Analysis",
+  "trajectory": "~/md-relay-pocket/md/md.xtc",
+  "frames_analyzed": 2022,
+  "skip_frames": 5,
+  "shell_radius_A": 6.0,
+  "grid_spacing_A": 1.0,
+  "pocket_residues_in_tpr": [
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76
+  ],
+  "pocket_residues_original": [
+    465,
+    466,
+    467,
+    468,
+    469,
+    470,
+    471,
+    472
+  ],
+  "pocket_center": [
+    31.19,
+    31.7,
+    27.57
+  ],
+  "bulk_mean_density": 0.000877,
+  "threshold": 0.001316,
+  "total_sites": 22,
+  "structural_sites": 0,
+  "displaceable_sites": 8,
+  "peripheral_sites": 14,
+  "sites": [
+    {
+      "id": 10,
+      "x": 28.19,
+      "y": 31.7,
+      "z": 21.57,
+      "density": 0.0025,
+      "density_ratio": 2.82,
+      "dist_to_pocket_center": 6.71,
+      "class": "peripheral"
+    },
+    {
+      "id": 22,
+      "x": 35.19,
+      "y": 32.7,
+      "z": 21.57,
+      "density": 0.0025,
+      "density_ratio": 2.82,
+      "dist_to_pocket_center": 7.28,
+      "class": "peripheral"
+    },
+    {
+      "id": 15,
+      "x": 30.19,
+      "y": 31.7,
+      "z": 22.57,
+      "density": 0.002,
+      "density_ratio": 2.26,
+      "dist_to_pocket_center": 5.1,
+      "class": "displaceable"
+    },
+    {
+      "id": 1,
+      "x": 25.19,
+      "y": 32.7,
+      "z": 24.57,
+      "density": 0.0015,
+      "density_ratio": 1.69,
+      "dist_to_pocket_center": 6.78,
+      "class": "peripheral"
+    },
+    {
+      "id": 2,
+      "x": 25.19,
+      "y": 36.7,
+      "z": 29.57,
+      "density": 0.0015,
+      "density_ratio": 1.69,
+      "dist_to_pocket_center": 8.06,
+      "class": "peripheral"
+    },
+    {
+      "id": 3,
+      "x": 25.19,
+      "y": 36.7,
+      "z": 32.57,
+      "density": 0.0015,
+      "density_ratio": 1.69,
+      "dist_to_pocket_center": 9.27,
+      "class": "peripheral"
+    },
+    {
+      "id": 4,
+      "x": 26.19,
+      "y": 30.7,
+      "z": 23.57,
+      "density": 0.0015,
+      "density_ratio": 1.69,
+      "dist_to_pocket_center": 6.48,
+      "class": "displaceable"
+    },
+    {
+      "id": 5,
+      "x": 26.19,
+      "y": 36.7,
+      "z": 21.57,
+      "density": 0.0015,
+      "density_ratio": 1.69,
+      "dist_to_pocket_center": 9.27,
+      "class": "peripheral"
+    },
+    {
+      "id": 6,
+      "x": 26.19,
+      "y": 36.7,
+      "z": 25.57,
+      "density": 0.0015,
+      "density_ratio": 1.69,
+      "dist_to_pocket_center": 7.35,
+      "class": "peripheral"
+    },
+    {
+      "id": 7,
+      "x": 26.19,
+      "y": 36.7,
+      "z": 27.57,
+      "density": 0.0015,
+      "density_ratio": 1.69,
+      "dist_to_pocket_center": 7.07,
+      "class": "peripheral"
+    },
+    {
+      "id": 8,
+      "x": 27.19,
+      "y": 34.7,
+      "z": 22.57,
+      "density": 0.0015,
+      "density_ratio": 1.69,
+      "dist_to_pocket_center": 7.07,
+      "class": "peripheral"
+    },
+    {
+      "id": 9,
+      "x": 27.19,
+      "y": 37.7,
+      "z": 31.57,
+      "density": 0.0015,
+      "density_ratio": 1.69,
+      "dist_to_pocket_center": 8.25,
+      "class": "peripheral"
+    },
+    {
+      "id": 11,
+      "x": 28.19,
+      "y": 35.7,
+      "z": 28.57,
+      "density": 0.0015,
+      "density_ratio": 1.69,
+      "dist_to_pocket_center": 5.1,
+      "class": "displaceable"
+    },
+    {
+      "id": 12,
+      "x": 29.19,
+      "y": 36.7,
+      "z": 31.57,
+      "density": 0.0015,
+      "density_ratio": 1.69,
+      "dist_to_pocket_center": 6.71,
+      "class": "peripheral"
+    },
+    {
+      "id": 13,
+      "x": 30.19,
+      "y": 25.7,
+      "z": 22.57,
+      "density": 0.0015,
+      "density_ratio": 1.69,
+      "dist_to_pocket_center": 7.87,
+      "class": "peripheral"
+    },
+    {
+      "id": 14,
+      "x": 30.19,
+      "y": 29.7,
+      "z": 22.57,
+      "density": 0.0015,
+      "density_ratio": 1.69,
+      "dist_to_pocket_center": 5.48,
+      "class": "displaceable"
+    },
+    {
+      "id": 16,
+      "x": 30.19,
+      "y": 35.7,
+      "z": 22.57,
+      "density": 0.0015,
+      "density_ratio": 1.69,
+      "dist_to_pocket_center": 6.48,
+      "class": "displaceable"
+    },
+    {
+      "id": 17,
+      "x": 31.19,
+      "y": 33.7,
+      "z": 22.57,
+      "density": 0.0015,
+      "density_ratio": 1.69,
+      "dist_to_pocket_center": 5.39,
+      "class": "displaceable"
+    },
+    {
+      "id": 18,
+      "x": 31.19,
+      "y": 36.7,
+      "z": 28.57,
+      "density": 0.0015,
+      "density_ratio": 1.69,
+      "dist_to_pocket_center": 5.1,
+      "class": "displaceable"
+    },
+    {
+      "id": 19,
+      "x": 32.19,
+      "y": 35.7,
+      "z": 23.57,
+      "density": 0.0015,
+      "density_ratio": 1.69,
+      "dist_to_pocket_center": 5.74,
+      "class": "displaceable"
+    },
+    {
+      "id": 20,
+      "x": 33.19,
+      "y": 37.7,
+      "z": 30.57,
+      "density": 0.0015,
+      "density_ratio": 1.69,
+      "dist_to_pocket_center": 7.0,
+      "class": "peripheral"
+    },
+    {
+      "id": 21,
+      "x": 34.19,
+      "y": 37.7,
+      "z": 23.57,
+      "density": 0.0015,
+      "density_ratio": 1.69,
+      "dist_to_pocket_center": 7.81,
+      "class": "peripheral"
+    }
+  ]
+}

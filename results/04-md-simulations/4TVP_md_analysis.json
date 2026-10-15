@@ -1,0 +1,60 @@
+{
+  "pdb_id": "4TVP",
+  "simulation": {
+    "duration_ns": 20,
+    "timestep_fs": 2,
+    "force_field": "amber99sb-ildn",
+    "water_model": "tip3p",
+    "temperature_K": 300,
+    "salt_conc_M": 0.15
+  },
+  "relay_pocket": {
+    "residues_gromacs": [
+      469,
+      470,
+      471,
+      472,
+      473,
+      474,
+      475,
+      476
+    ],
+    "motif": "RPGGGDMR",
+    "n_atoms": 112,
+    "n_ca_atoms": 8
+  },
+  "pocket_rmsd_angstrom": {
+    "mean": 1.29,
+    "std": 0.342,
+    "min": 0.004,
+    "max": 2.423,
+    "n_frames": 2001
+  },
+  "backbone_rmsd_angstrom": {
+    "mean": 4.393,
+    "std": 1.476,
+    "max": 6.482
+  },
+  "pocket_rg_angstrom": {
+    "mean": 7.39,
+    "std": 0.23
+  },
+  "temperature_K": {
+    "mean": 299.948,
+    "std": 1.816
+  },
+  "potential_energy_kJ_mol": {
+    "mean": -455220.7,
+    "drift": -624.1
+  },
+  "reference_comparison": {
+    "ref_pdb": "6MEO",
+    "ref_pocket_rmsd": 0.708,
+    "ref_pocket_rmsd_std": 0.145,
+    "ratio": 1.82
+  },
+  "intra_pocket_distances": {
+    "mean_change_angstrom": 0.39,
+    "max_change_angstrom": 1.13
+  }
+}
