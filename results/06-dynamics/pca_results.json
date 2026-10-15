@@ -1,0 +1,75 @@
+{
+  "analysis": "PCA / Essential Dynamics",
+  "method": "GROMACS gmx covar + gmx anaeig on Relay_Pocket group (112 atoms)",
+  "trajectory": "100ns reduced system (10,110 frames)",
+  "total_variance_nm2": 2.4776,
+  "eigenvalues": [
+    {
+      "pc": 1,
+      "eigenvalue_nm2": 0.5795,
+      "percent_variance": 23.4,
+      "cumulative_percent": 23.4
+    },
+    {
+      "pc": 2,
+      "eigenvalue_nm2": 0.4545,
+      "percent_variance": 18.3,
+      "cumulative_percent": 41.7
+    },
+    {
+      "pc": 3,
+      "eigenvalue_nm2": 0.2293,
+      "percent_variance": 9.3,
+      "cumulative_percent": 51.0
+    },
+    {
+      "pc": 4,
+      "eigenvalue_nm2": 0.2033,
+      "percent_variance": 8.2,
+      "cumulative_percent": 59.2
+    },
+    {
+      "pc": 5,
+      "eigenvalue_nm2": 0.1567,
+      "percent_variance": 6.3,
+      "cumulative_percent": 65.5
+    },
+    {
+      "pc": 6,
+      "eigenvalue_nm2": 0.0899,
+      "percent_variance": 3.6,
+      "cumulative_percent": 69.2
+    },
+    {
+      "pc": 7,
+      "eigenvalue_nm2": 0.0833,
+      "percent_variance": 3.4,
+      "cumulative_percent": 72.5
+    },
+    {
+      "pc": 8,
+      "eigenvalue_nm2": 0.0517,
+      "percent_variance": 2.1,
+      "cumulative_percent": 74.6
+    },
+    {
+      "pc": 9,
+      "eigenvalue_nm2": 0.0478,
+      "percent_variance": 1.9,
+      "cumulative_percent": 76.5
+    },
+    {
+      "pc": 10,
+      "eigenvalue_nm2": 0.0431,
+      "percent_variance": 1.7,
+      "cumulative_percent": 78.3
+    }
+  ],
+  "top3_explain_percent": 51.0,
+  "top5_explain_percent": 65.5,
+  "output_files": {
+    "eigenvalues": "pca_eigenvalues.xvg",
+    "2d_projection": "pca_2d_pc1_pc2.xvg",
+    "full_log": "pca_output.log"
+  }
+}

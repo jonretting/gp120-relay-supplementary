@@ -1,0 +1,1045 @@
+{
+  "total_proteins_scanned": 20431,
+  "source": "UniProt reviewed human proteome (Swiss-Prot)",
+  "date": "2026-07-22",
+  "motif_results": {
+    "RPGGGDMR": {
+      "description": "Full 8-mer relay motif",
+      "proteins_with_motif": 0,
+      "total_occurrences": 0,
+      "matches": []
+    },
+    "RPGGGDM": {
+      "description": "7-mer (no C-term Arg)",
+      "proteins_with_motif": 0,
+      "total_occurrences": 0,
+      "matches": []
+    },
+    "PGGGDMR": {
+      "description": "7-mer (no N-term Arg)",
+      "proteins_with_motif": 0,
+      "total_occurrences": 0,
+      "matches": []
+    },
+    "RPGGG": {
+      "description": "5-mer N-terminal half",
+      "proteins_with_motif": 30,
+      "total_occurrences": 30,
+      "matches": [
+        {
+          "accession": "O00268",
+          "gene": "TAF4",
+          "name": "TAF4_HUMAN Transcription initiation factor TFIID subunit 4",
+          "positions": [
+            96
+          ],
+          "count": 1
+        },
+        {
+          "accession": "O14654",
+          "gene": "IRS4",
+          "name": "IRS4_HUMAN Insulin receptor substrate 4",
+          "positions": [
+            563
+          ],
+          "count": 1
+        },
+        {
+          "accession": "O95672",
+          "gene": "ECEL1",
+          "name": "ECEL1_HUMAN Endothelin-converting enzyme-like 1",
+          "positions": [
+            167
+          ],
+          "count": 1
+        },
+        {
+          "accession": "P07203",
+          "gene": "GPX1",
+          "name": "GPX1_HUMAN Glutathione peroxidase 1",
+          "positions": [
+            100
+          ],
+          "count": 1
+        },
+        {
+          "accession": "P09603",
+          "gene": "CSF1",
+          "name": "CSF1_HUMAN Macrophage colony-stimulating factor 1",
+          "positions": [
+            327
+          ],
+          "count": 1
+        },
+        {
+          "accession": "P11137",
+          "gene": "MAP2",
+          "name": "MTAP2_HUMAN Microtubule-associated protein 2",
+          "positions": [
+            1717
+          ],
+          "count": 1
+        },
+        {
+          "accession": "P11831",
+          "gene": "SRF",
+          "name": "SRF_HUMAN Serum response factor",
+          "positions": [
+            29
+          ],
+          "count": 1
+        },
+        {
+          "accession": "P18283",
+          "gene": "GPX2",
+          "name": "GPX2_HUMAN Glutathione peroxidase 2",
+          "positions": [
+            90
+          ],
+          "count": 1
+        },
+        {
+          "accession": "P22352",
+          "gene": "GPX3",
+          "name": "GPX3_HUMAN Glutathione peroxidase 3",
+          "positions": [
+            123
+          ],
+          "count": 1
+        },
+        {
+          "accession": "P51798",
+          "gene": "CLCN7",
+          "name": "CLCN7_HUMAN H(+)/Cl(-) exchange transporter 7",
+          "positions": [
+            29
+          ],
+          "count": 1
+        },
+        {
+          "accession": "P55107",
+          "gene": "GDF10",
+          "name": "GDF10_HUMAN Growth/differentiation factor 10",
+          "positions": [
+            92
+          ],
+          "count": 1
+        },
+        {
+          "accession": "Q13253",
+          "gene": "NOG",
+          "name": "NOGG_HUMAN Noggin",
+          "positions": [
+            87
+          ],
+          "count": 1
+        },
+        {
+          "accession": "Q32P44",
+          "gene": "EML3",
+          "name": "EMAL3_HUMAN Echinoderm microtubule-associated protein-like 3",
+          "positions": [
+            285
+          ],
+          "count": 1
+        },
+        {
+          "accession": "Q5JSZ5",
+          "gene": "PRRC2B",
+          "name": "PRC2B_HUMAN Protein PRRC2B",
+          "positions": [
+            1446
+          ],
+          "count": 1
+        },
+        {
+          "accession": "Q5XG87",
+          "gene": "TENT4A",
+          "name": "PAPD7_HUMAN Terminal nucleotidyltransferase 4A",
+          "positions": [
+            140
+          ],
+          "count": 1
+        },
+        {
+          "accession": "Q6UXY1",
+          "gene": "BAIAP2L2",
+          "name": "BI2L2_HUMAN BAR/IMD domain-containing adapter protein 2-like 2",
+          "positions": [
+            319
+          ],
+          "count": 1
+        },
+        {
+          "accession": "Q6ZMQ8",
+          "gene": "AATK",
+          "name": "LMTK1_HUMAN Serine/threonine-protein kinase LMTK1",
+          "positions": [
+            418
+          ],
+          "count": 1
+        },
+        {
+          "accession": "Q702N8",
+          "gene": "XIRP1",
+          "name": "XIRP1_HUMAN Xin actin-binding repeat-containing protein 1",
+          "positions": [
+            1104
+          ],
+          "count": 1
+        },
+        {
+          "accession": "Q76LX8",
+          "gene": "ADAMTS13",
+          "name": "ATS13_HUMAN A disintegrin and metalloproteinase with thrombospondin motifs 13",
+          "positions": [
+            1277
+          ],
+          "count": 1
+        },
+        {
+          "accession": "Q7Z6E9",
+          "gene": "RBBP6",
+          "name": "RBBP6_HUMAN E3 ubiquitin-protein ligase RBBP6",
+          "positions": [
+            497
+          ],
+          "count": 1
+        }
+      ]
+    },
+    "GGGDM": {
+      "description": "5-mer C-terminal core",
+      "proteins_with_motif": 4,
+      "total_occurrences": 4,
+      "matches": [
+        {
+          "accession": "P08621",
+          "gene": "SNRNP70",
+          "name": "RU17_HUMAN U1 small nuclear ribonucleoprotein 70 kDa",
+          "positions": [
+            312
+          ],
+          "count": 1
+        },
+        {
+          "accession": "Q9Y2W6",
+          "gene": "TDRKH",
+          "name": "TDRKH_HUMAN Tudor and KH domain-containing protein",
+          "positions": [
+            257
+          ],
+          "count": 1
+        },
+        {
+          "accession": "Q8IY67",
+          "gene": "RAVER1",
+          "name": "RAVR1_HUMAN Ribonucleoprotein PTB-binding 1",
+          "positions": [
+            539
+          ],
+          "count": 1
+        },
+        {
+          "accession": "Q9ULJ7",
+          "gene": "ANKRD50",
+          "name": "ANR50_HUMAN Ankyrin repeat domain-containing protein 50",
+          "positions": [
+            1142
+          ],
+          "count": 1
+        }
+      ]
+    },
+    "PGGGD": {
+      "description": "5-mer central pentamer",
+      "proteins_with_motif": 31,
+      "total_occurrences": 31,
+      "matches": [
+        {
+          "accession": "O75914",
+          "gene": "PAK3",
+          "name": "PAK3_HUMAN Serine/threonine-protein kinase PAK 3",
+          "positions": [
+            53
+          ],
+          "count": 1
+        },
+        {
+          "accession": "O94810",
+          "gene": "RGS11",
+          "name": "RGS11_HUMAN Regulator of G protein signaling 11",
+          "positions": [
+            460
+          ],
+          "count": 1
+        },
+        {
+          "accession": "O95429",
+          "gene": "BAG4",
+          "name": "BAG4_HUMAN BAG family molecular chaperone regulator 4",
+          "positions": [
+            23
+          ],
+          "count": 1
+        },
+        {
+          "accession": "P0C0L4",
+          "gene": "C4A",
+          "name": "CO4A_HUMAN Complement C4-A",
+          "positions": [
+            637
+          ],
+          "count": 1
+        },
+        {
+          "accession": "P0C0L5",
+          "gene": "C4B",
+          "name": "CO4B_HUMAN Complement C4-B",
+          "positions": [
+            637
+          ],
+          "count": 1
+        },
+        {
+          "accession": "P23467",
+          "gene": "PTPRB",
+          "name": "PTPRB_HUMAN Receptor-type tyrosine-protein phosphatase beta",
+          "positions": [
+            930
+          ],
+          "count": 1
+        },
+        {
+          "accession": "P27816",
+          "gene": "MAP4",
+          "name": "MAP4_HUMAN Microtubule-associated protein 4",
+          "positions": [
+            1049
+          ],
+          "count": 1
+        },
+        {
+          "accession": "P40425",
+          "gene": "PBX2",
+          "name": "PBX2_HUMAN Pre-B-cell leukemia transcription factor 2",
+          "positions": [
+            32
+          ],
+          "count": 1
+        },
+        {
+          "accession": "P48200",
+          "gene": "IREB2",
+          "name": "IREB2_HUMAN Iron-responsive element-binding protein 2",
+          "positions": [
+            145
+          ],
+          "count": 1
+        },
+        {
+          "accession": "P49796",
+          "gene": "RGS3",
+          "name": "RGS3_HUMAN Regulator of G protein signaling 3",
+          "positions": [
+            287
+          ],
+          "count": 1
+        },
+        {
+          "accession": "Q06643",
+          "gene": "LTB",
+          "name": "TNFC_HUMAN Lymphotoxin-beta",
+          "positions": [
+            147
+          ],
+          "count": 1
+        },
+        {
+          "accession": "Q13009",
+          "gene": "TIAM1",
+          "name": "TIAM1_HUMAN Rho guanine nucleotide exchange factor TIAM1",
+          "positions": [
+            1475
+          ],
+          "count": 1
+        },
+        {
+          "accession": "Q15742",
+          "gene": "NAB2",
+          "name": "NAB2_HUMAN NGFI-A-binding protein 2",
+          "positions": [
+            13
+          ],
+          "count": 1
+        },
+        {
+          "accession": "Q3YEC7",
+          "gene": "RABL6",
+          "name": "RABL6_HUMAN Rab-like protein 6",
+          "positions": [
+            721
+          ],
+          "count": 1
+        },
+        {
+          "accession": "Q5JSZ5",
+          "gene": "PRRC2B",
+          "name": "PRC2B_HUMAN Protein PRRC2B",
+          "positions": [
+            1447
+          ],
+          "count": 1
+        },
+        {
+          "accession": "Q702N8",
+          "gene": "XIRP1",
+          "name": "XIRP1_HUMAN Xin actin-binding repeat-containing protein 1",
+          "positions": [
+            148
+          ],
+          "count": 1
+        },
+        {
+          "accession": "Q8WU90",
+          "gene": "ZC3H15",
+          "name": "ZC3HF_HUMAN Zinc finger CCCH domain-containing protein 15",
+          "positions": [
+            199
+          ],
+          "count": 1
+        },
+        {
+          "accession": "Q8WVR3",
+          "gene": "TRAPPC14",
+          "name": "TPC14_HUMAN Trafficking protein particle complex subunit 14",
+          "positions": [
+            105
+          ],
+          "count": 1
+        },
+        {
+          "accession": "Q92521",
+          "gene": "PIGB",
+          "name": "PIGB_HUMAN GPI alpha-1,2-mannosyltransferase 3",
+          "positions": [
+            12
+          ],
+          "count": 1
+        },
+        {
+          "accession": "Q96IY4",
+          "gene": "CPB2",
+          "name": "CBPB2_HUMAN Carboxypeptidase B2",
+          "positions": [
+            366
+          ],
+          "count": 1
+        }
+      ]
+    },
+    "PGGG": {
+      "description": "4-mer Pro-Gly-Gly-Gly",
+      "proteins_with_motif": 592,
+      "total_occurrences": 663,
+      "matches": [
+        {
+          "accession": "A1A5C7",
+          "gene": "SLC22A23",
+          "name": "S22AN_HUMAN Solute carrier family 22 member 23",
+          "positions": [
+            44,
+            58
+          ],
+          "count": 2
+        },
+        {
+          "accession": "A2VEC9",
+          "gene": "SSPOP",
+          "name": "SSPO_HUMAN SCO-spondin",
+          "positions": [
+            337,
+            2792
+          ],
+          "count": 2
+        },
+        {
+          "accession": "A4D0S4",
+          "gene": "LAMB4",
+          "name": "LAMB4_HUMAN Laminin subunit beta-4",
+          "positions": [
+            1036
+          ],
+          "count": 1
+        },
+        {
+          "accession": "A6QL63",
+          "gene": "ABTB3",
+          "name": "ABTB3_HUMAN Ankyrin repeat- and BTB/POZ domain-containing protein 3",
+          "positions": [
+            291
+          ],
+          "count": 1
+        },
+        {
+          "accession": "A7E2V4",
+          "gene": "ZSWIM8",
+          "name": "ZSWM8_HUMAN Zinc finger SWIM domain-containing protein 8",
+          "positions": [
+            580
+          ],
+          "count": 1
+        },
+        {
+          "accession": "O00165",
+          "gene": "HAX1",
+          "name": "HAX1_HUMAN HCLS1-associated protein X-1",
+          "positions": [
+            69
+          ],
+          "count": 1
+        },
+        {
+          "accession": "O00267",
+          "gene": "SUPT5H",
+          "name": "SPT5H_HUMAN Transcription elongation factor SPT5",
+          "positions": [
+            687
+          ],
+          "count": 1
+        },
+        {
+          "accession": "O00268",
+          "gene": "TAF4",
+          "name": "TAF4_HUMAN Transcription initiation factor TFIID subunit 4",
+          "positions": [
+            97,
+            823
+          ],
+          "count": 2
+        },
+        {
+          "accession": "O00287",
+          "gene": "RFXAP",
+          "name": "RFXAP_HUMAN Regulatory factor X-associated protein",
+          "positions": [
+            99
+          ],
+          "count": 1
+        },
+        {
+          "accession": "O00471",
+          "gene": "EXOC5",
+          "name": "EXOC5_HUMAN Exocyst complex component 5",
+          "positions": [
+            26
+          ],
+          "count": 1
+        },
+        {
+          "accession": "O00488",
+          "gene": "ZNF593",
+          "name": "ZN593_HUMAN Zinc finger protein 593",
+          "positions": [
+            56
+          ],
+          "count": 1
+        },
+        {
+          "accession": "O00754",
+          "gene": "MAN2B1",
+          "name": "MA2B1_HUMAN Lysosomal alpha-mannosidase",
+          "positions": [
+            873
+          ],
+          "count": 1
+        },
+        {
+          "accession": "O14497",
+          "gene": "ARID1A",
+          "name": "ARI1A_HUMAN AT-rich interactive domain-containing protein 1A",
+          "positions": [
+            121
+          ],
+          "count": 1
+        },
+        {
+          "accession": "O14649",
+          "gene": "KCNK3",
+          "name": "KCNK3_HUMAN Potassium channel subfamily K member 3",
+          "positions": [
+            347
+          ],
+          "count": 1
+        },
+        {
+          "accession": "O14654",
+          "gene": "IRS4",
+          "name": "IRS4_HUMAN Insulin receptor substrate 4",
+          "positions": [
+            564
+          ],
+          "count": 1
+        },
+        {
+          "accession": "O14874",
+          "gene": "BCKDK",
+          "name": "BCKD_HUMAN Branched-chain alpha-ketoacid dehydrogenase kinase",
+          "positions": [
+            11
+          ],
+          "count": 1
+        },
+        {
+          "accession": "O15047",
+          "gene": "SETD1A",
+          "name": "SET1A_HUMAN Histone-lysine N-methyltransferase SETD1A",
+          "positions": [
+            440
+          ],
+          "count": 1
+        },
+        {
+          "accession": "O15350",
+          "gene": "TP73",
+          "name": "P73_HUMAN Tumor protein p73",
+          "positions": [
+            602
+          ],
+          "count": 1
+        },
+        {
+          "accession": "O15353",
+          "gene": "FOXN1",
+          "name": "FOXN1_HUMAN Forkhead box protein N1",
+          "positions": [
+            236
+          ],
+          "count": 1
+        },
+        {
+          "accession": "O15399",
+          "gene": "GRIN2D",
+          "name": "NMDE4_HUMAN Glutamate receptor ionotropic, NMDA 2D",
+          "positions": [
+            41
+          ],
+          "count": 1
+        }
+      ]
+    },
+    "GGGD": {
+      "description": "4-mer Gly-Gly-Gly-Asp",
+      "proteins_with_motif": 304,
+      "total_occurrences": 315,
+      "matches": [
+        {
+          "accession": "A6NCS4",
+          "gene": "NKX2-6",
+          "name": "NKX26_HUMAN Homeobox protein Nkx-2.6",
+          "positions": [
+            61
+          ],
+          "count": 1
+        },
+        {
+          "accession": "A6NHQ2",
+          "gene": "FBLL1",
+          "name": "FBLL1_HUMAN RNA 2'-O-methyltransferase FBLL1",
+          "positions": [
+            37,
+            67
+          ],
+          "count": 2
+        },
+        {
+          "accession": "A6NIH7",
+          "gene": "UNC119B",
+          "name": "U119B_HUMAN Protein unc-119 homolog B",
+          "positions": [
+            128
+          ],
+          "count": 1
+        },
+        {
+          "accession": "B1AK53",
+          "gene": "ESPN",
+          "name": "ESPN_HUMAN Espin",
+          "positions": [
+            127
+          ],
+          "count": 1
+        },
+        {
+          "accession": "B7ZBB8",
+          "gene": "PPP1R3G",
+          "name": "PP13G_HUMAN Protein phosphatase 1 regulatory subunit 3G",
+          "positions": [
+            37
+          ],
+          "count": 1
+        },
+        {
+          "accession": "O14497",
+          "gene": "ARID1A",
+          "name": "ARI1A_HUMAN AT-rich interactive domain-containing protein 1A",
+          "positions": [
+            1847
+          ],
+          "count": 1
+        },
+        {
+          "accession": "O14512",
+          "gene": "SOCS7",
+          "name": "SOCS7_HUMAN Suppressor of cytokine signaling 7",
+          "positions": [
+            228
+          ],
+          "count": 1
+        },
+        {
+          "accession": "O14763",
+          "gene": "TNFRSF10B",
+          "name": "TR10B_HUMAN Tumor necrosis factor receptor superfamily member 10B",
+          "positions": [
+            251
+          ],
+          "count": 1
+        },
+        {
+          "accession": "O15021",
+          "gene": "MAST4",
+          "name": "MAST4_HUMAN Microtubule-associated serine/threonine-protein kinase 4",
+          "positions": [
+            1632
+          ],
+          "count": 1
+        },
+        {
+          "accession": "O15047",
+          "gene": "SETD1A",
+          "name": "SET1A_HUMAN Histone-lysine N-methyltransferase SETD1A",
+          "positions": [
+            5
+          ],
+          "count": 1
+        },
+        {
+          "accession": "O15060",
+          "gene": "ZBTB39",
+          "name": "ZBT39_HUMAN Zinc finger and BTB domain-containing protein 39",
+          "positions": [
+            161
+          ],
+          "count": 1
+        },
+        {
+          "accession": "O15431",
+          "gene": "SLC31A1",
+          "name": "COPT1_HUMAN High affinity copper uptake protein 1",
+          "positions": [
+            34
+          ],
+          "count": 1
+        },
+        {
+          "accession": "O15534",
+          "gene": "PER1",
+          "name": "PER1_HUMAN Period circadian protein homolog 1",
+          "positions": [
+            10
+          ],
+          "count": 1
+        },
+        {
+          "accession": "O43151",
+          "gene": "TET3",
+          "name": "TET3_HUMAN Methylcytosine dioxygenase TET3",
+          "positions": [
+            46
+          ],
+          "count": 1
+        },
+        {
+          "accession": "O43248",
+          "gene": "HOXC11",
+          "name": "HXC11_HUMAN Homeobox protein Hox-C11",
+          "positions": [
+            161
+          ],
+          "count": 1
+        },
+        {
+          "accession": "O43488",
+          "gene": "AKR7A2",
+          "name": "ARK72_HUMAN Aflatoxin B1 aldehyde reductase member 2",
+          "positions": [
+            94
+          ],
+          "count": 1
+        },
+        {
+          "accession": "O43525",
+          "gene": "KCNQ3",
+          "name": "KCNQ3_HUMAN Potassium voltage-gated channel subfamily KQT member 3",
+          "positions": [
+            14
+          ],
+          "count": 1
+        },
+        {
+          "accession": "O43541",
+          "gene": "SMAD6",
+          "name": "SMAD6_HUMAN SMAD family member 6",
+          "positions": [
+            31
+          ],
+          "count": 1
+        },
+        {
+          "accession": "O43900",
+          "gene": "PRICKLE3",
+          "name": "PRIC3_HUMAN Prickle planar cell polarity protein 3",
+          "positions": [
+            194
+          ],
+          "count": 1
+        },
+        {
+          "accession": "O60292",
+          "gene": "SIPA1L3",
+          "name": "SI1L3_HUMAN Signal-induced proliferation-associated 1-like protein 3",
+          "positions": [
+            292
+          ],
+          "count": 1
+        }
+      ]
+    },
+    "GGG": {
+      "description": "Triple glycine",
+      "proteins_with_motif": 3878,
+      "total_occurrences": 9219,
+      "matches": [
+        {
+          "accession": "A0AV96",
+          "gene": "RBM47",
+          "name": "RBM47_HUMAN RNA-binding protein 47",
+          "positions": [
+            333
+          ],
+          "count": 1
+        },
+        {
+          "accession": "A0JLT2",
+          "gene": "MED19",
+          "name": "MED19_HUMAN Mediator of RNA polymerase II transcription subunit 19",
+          "positions": [
+            37
+          ],
+          "count": 1
+        },
+        {
+          "accession": "A1A519",
+          "gene": "FAM170A",
+          "name": "F170A_HUMAN Protein FAM170A",
+          "positions": [
+            22
+          ],
+          "count": 1
+        },
+        {
+          "accession": "A1A5C7",
+          "gene": "SLC22A23",
+          "name": "S22AN_HUMAN Solute carrier family 22 member 23",
+          "positions": [
+            11,
+            45,
+            59,
+            92
+          ],
+          "count": 4
+        },
+        {
+          "accession": "A1L390",
+          "gene": "PLEKHG3",
+          "name": "PKHG3_HUMAN Pleckstrin homology domain-containing family G member 3",
+          "positions": [
+            1067,
+            1108
+          ],
+          "count": 2
+        },
+        {
+          "accession": "A1L4H1",
+          "gene": "SSC5D",
+          "name": "SRCRL_HUMAN Soluble scavenger receptor cysteine-rich domain-containing protein SSC5D",
+          "positions": [
+            268
+          ],
+          "count": 1
+        },
+        {
+          "accession": "A1Z1Q3",
+          "gene": "MACROD2",
+          "name": "MACD2_HUMAN ADP-ribose glycohydrolase MACROD2",
+          "positions": [
+            97,
+            98
+          ],
+          "count": 2
+        },
+        {
+          "accession": "A2VEC9",
+          "gene": "SSPOP",
+          "name": "SSPO_HUMAN SCO-spondin",
+          "positions": [
+            338,
+            2573,
+            2793,
+            3058,
+            3270,
+            3531,
+            3663,
+            4023,
+            4272,
+            4649,
+            4783
+          ],
+          "count": 11
+        },
+        {
+          "accession": "A3KN83",
+          "gene": "SBNO1",
+          "name": "SBNO1_HUMAN Protein strawberry notch homolog 1",
+          "positions": [
+            646
+          ],
+          "count": 1
+        },
+        {
+          "accession": "A4D0S4",
+          "gene": "LAMB4",
+          "name": "LAMB4_HUMAN Laminin subunit beta-4",
+          "positions": [
+            1037
+          ],
+          "count": 1
+        },
+        {
+          "accession": "A4D1P6",
+          "gene": "WDR91",
+          "name": "WDR91_HUMAN WD repeat-containing protein 91",
+          "positions": [
+            387
+          ],
+          "count": 1
+        },
+        {
+          "accession": "A4D2B0",
+          "gene": "MBLAC1",
+          "name": "MBLC1_HUMAN Metallo-beta-lactamase domain-containing protein 1",
+          "positions": [
+            248
+          ],
+          "count": 1
+        },
+        {
+          "accession": "A4D2B8",
+          "gene": "PMS2P1",
+          "name": "PM2P1_HUMAN Putative postmeiotic segregation increased 2-like protein 1",
+          "positions": [
+            34
+          ],
+          "count": 1
+        },
+        {
+          "accession": "A6NCS4",
+          "gene": "NKX2-6",
+          "name": "NKX26_HUMAN Homeobox protein Nkx-2.6",
+          "positions": [
+            59,
+            60,
+            61,
+            102
+          ],
+          "count": 4
+        },
+        {
+          "accession": "A6NDB9",
+          "gene": "PALM3",
+          "name": "PALM3_HUMAN Paralemmin-3",
+          "positions": [
+            214,
+            385
+          ],
+          "count": 2
+        },
+        {
+          "accession": "A6NED2",
+          "gene": "RCCD1",
+          "name": "RCCD1_HUMAN RCC1 domain-containing protein 1",
+          "positions": [
+            183
+          ],
+          "count": 1
+        },
+        {
+          "accession": "A6NFQ2",
+          "gene": "TCAF2",
+          "name": "TCAF2_HUMAN TRPM8 channel-associated factor 2",
+          "positions": [
+            146,
+            354
+          ],
+          "count": 2
+        },
+        {
+          "accession": "A6NHL2",
+          "gene": "TUBAL3",
+          "name": "TBAL3_HUMAN Tubulin alpha chain-like 3",
+          "positions": [
+            149
+          ],
+          "count": 1
+        },
+        {
+          "accession": "A6NHQ2",
+          "gene": "FBLL1",
+          "name": "FBLL1_HUMAN RNA 2'-O-methyltransferase FBLL1",
+          "positions": [
+            9,
+            10,
+            11,
+            12,
+            16,
+            17,
+            24,
+            28,
+            29,
+            30,
+            36,
+            37,
+            41,
+            58,
+            59,
+            67,
+            75,
+            76
+          ],
+          "count": 18
+        },
+        {
+          "accession": "A6NHR9",
+          "gene": "SMCHD1",
+          "name": "SMHD1_HUMAN Structural maintenance of chromosomes flexible hinge domain-containing protein 1",
+          "positions": [
+            6,
+            20
+          ],
+          "count": 2
+        }
+      ]
+    }
+  }
+}

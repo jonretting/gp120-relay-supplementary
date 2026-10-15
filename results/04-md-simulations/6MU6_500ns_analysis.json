@@ -1,0 +1,197 @@
+{
+  "pdb_id": "6MU6",
+  "simulation": {
+    "duration_ns": 500,
+    "timestep_fs": 2,
+    "force_field": "amber99sb-ildn",
+    "water_model": "tip3p",
+    "temperature_K": 300,
+    "salt_conc_M": 0.15,
+    "performance_ns_day": 54.64,
+    "completed": "Tue Aug 25 03:27:01 2026"
+  },
+  "relay_pocket": {
+    "residues_gromacs": [
+      469,
+      470,
+      471,
+      472,
+      473,
+      474,
+      475,
+      476
+    ],
+    "motif": "RPGGGDMR",
+    "n_atoms": 112,
+    "n_ca_atoms": 8
+  },
+  "pocket_rmsd_angstrom": {
+    "mean": 1.719,
+    "std": 0.442,
+    "min": 0.005,
+    "max": 4.92,
+    "n_frames": 50001,
+    "segments_100ns": [
+      {
+        "ns": "0-100",
+        "mean": 1.48,
+        "std": 0.332
+      },
+      {
+        "ns": "100-200",
+        "mean": 1.641,
+        "std": 0.23
+      },
+      {
+        "ns": "200-300",
+        "mean": 1.694,
+        "std": 0.105
+      },
+      {
+        "ns": "300-400",
+        "mean": 1.706,
+        "std": 0.105
+      },
+      {
+        "ns": "400-500",
+        "mean": 2.074,
+        "std": 0.776
+      }
+    ]
+  },
+  "backbone_rmsd_angstrom": {
+    "mean": 6.902,
+    "std": 1.009,
+    "max": 10.379,
+    "segments_100ns": [
+      {
+        "ns": "0-100",
+        "mean": 5.268,
+        "std": 0.73
+      },
+      {
+        "ns": "100-200",
+        "mean": 6.852,
+        "std": 0.525
+      },
+      {
+        "ns": "200-300",
+        "mean": 7.24,
+        "std": 0.147
+      },
+      {
+        "ns": "300-400",
+        "mean": 7.328,
+        "std": 0.172
+      },
+      {
+        "ns": "400-500",
+        "mean": 7.821,
+        "std": 0.646
+      }
+    ]
+  },
+  "rmsf_angstrom": {
+    "relay_pocket": {
+      "ARG469": 1.388,
+      "PRO470": 0.845,
+      "GLY471": 1.075,
+      "GLY472": 1.041,
+      "GLY473": 1.302,
+      "ASP474": 1.119,
+      "MET475": 1.602,
+      "ARG476": 1.181
+    },
+    "relay_mean": 1.194,
+    "system_mean": 2.565,
+    "relay_percentile": 0.0,
+    "total_residues": 85
+  },
+  "pocket_rg_angstrom": {
+    "mean": 7.1,
+    "std": 0.3,
+    "segments_100ns": [
+      {
+        "ns": "0-100",
+        "mean": 7.231,
+        "std": 0.206
+      },
+      {
+        "ns": "100-200",
+        "mean": 7.149,
+        "std": 0.146
+      },
+      {
+        "ns": "200-300",
+        "mean": 7.152,
+        "std": 0.118
+      },
+      {
+        "ns": "300-400",
+        "mean": 7.122,
+        "std": 0.123
+      },
+      {
+        "ns": "400-500",
+        "mean": 6.823,
+        "std": 0.514
+      }
+    ]
+  },
+  "pocket_sasa_angstrom2": {
+    "mean": 1279.4,
+    "std": 32.8,
+    "n_frames": 50001,
+    "segments_100ns": [
+      {
+        "ns": "0-100",
+        "mean": 1281.3,
+        "std": 34.6
+      },
+      {
+        "ns": "100-200",
+        "mean": 1282.0,
+        "std": 28.5
+      },
+      {
+        "ns": "200-300",
+        "mean": 1280.5,
+        "std": 30.2
+      },
+      {
+        "ns": "300-400",
+        "mean": 1284.8,
+        "std": 27.6
+      },
+      {
+        "ns": "400-500",
+        "mean": 1268.4,
+        "std": 39.2
+      }
+    ]
+  },
+  "temperature_K": {
+    "mean": 300.015,
+    "std": 1.796
+  },
+  "potential_energy_kJ_mol": {
+    "mean": -453414.8,
+    "drift": -1831.5
+  },
+  "equilibration": {
+    "equilibrated": true,
+    "first_last_drift_angstrom": 0.59
+  },
+  "reference_comparison": {
+    "ref_pdb": "6MEO",
+    "ref_pocket_rmsd_20ns": 0.708,
+    "ref_pocket_rmsd_std": 0.145,
+    "self_pocket_rmsd_20ns": 1.34,
+    "self_pocket_rmsd_20ns_std": 0.268,
+    "ratio_vs_6meo": 2.43
+  },
+  "intra_pocket_distances": {
+    "mean_change_angstrom": 1.46,
+    "max_change_angstrom": 8.13
+  }
+}

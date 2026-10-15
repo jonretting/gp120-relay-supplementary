@@ -1,0 +1,148 @@
+{
+  "analysis": "CCR5 hotspot residue conservation in CCR2 and CXCR4",
+  "purpose": "Assess off-target binding risk if CCR5-directed drugs cross-react with CCR2 or CXCR4",
+  "structures_used": {
+    "CCR5": "PDB 6MEO chain B (UniProt P51681)",
+    "CCR2": "PDB 5T1A (UniProt P41597) \u2014 ~73% identity with CCR5",
+    "CXCR4": "PDB 3ODU (UniProt P61073) \u2014 ~34% identity with CCR5"
+  },
+  "residue_comparison": [
+    {
+      "ccr5_position": 7,
+      "ccr5_residue": "SER",
+      "ccr5_region": "N-terminus",
+      "ccr2_residue": "ASP",
+      "ccr2_equivalent": "D7",
+      "ccr2_conservation": "different",
+      "ccr2_note": "Different charge",
+      "cxcr4_residue": "GLU",
+      "cxcr4_equivalent": "E13",
+      "cxcr4_conservation": "different",
+      "cxcr4_note": "Different - charged"
+    },
+    {
+      "ccr5_position": 29,
+      "ccr5_residue": "ALA",
+      "ccr5_region": "N-terminus",
+      "ccr2_residue": "THR",
+      "ccr2_equivalent": "T29",
+      "ccr2_conservation": "different",
+      "ccr2_note": "Larger, polar",
+      "cxcr4_residue": "ASP",
+      "cxcr4_equivalent": "D22",
+      "cxcr4_conservation": "different",
+      "cxcr4_note": "Different - charged"
+    },
+    {
+      "ccr5_position": 109,
+      "ccr5_residue": "PHE",
+      "ccr5_region": "TM3",
+      "ccr2_residue": "PHE",
+      "ccr2_equivalent": "F109",
+      "ccr2_conservation": "identical",
+      "ccr2_note": "Conserved",
+      "cxcr4_residue": "TRP",
+      "cxcr4_equivalent": "W102",
+      "cxcr4_conservation": "different",
+      "cxcr4_note": "Both aromatic but different"
+    },
+    {
+      "ccr5_position": 174,
+      "ccr5_residue": "LEU",
+      "ccr5_region": "ECL2",
+      "ccr2_residue": "LEU",
+      "ccr2_equivalent": "L174",
+      "ccr2_conservation": "identical",
+      "ccr2_note": "Conserved",
+      "cxcr4_residue": "VAL",
+      "cxcr4_equivalent": "V176",
+      "cxcr4_conservation": "different",
+      "cxcr4_note": "Both hydrophobic"
+    },
+    {
+      "ccr5_position": 184,
+      "ccr5_residue": "TYR",
+      "ccr5_region": "ECL2",
+      "ccr2_residue": "TYR",
+      "ccr2_equivalent": "Y184",
+      "ccr2_conservation": "identical",
+      "ccr2_note": "Conserved",
+      "cxcr4_residue": "ASP",
+      "cxcr4_equivalent": "D187",
+      "cxcr4_conservation": "different",
+      "cxcr4_note": "Very different - charge vs aromatic"
+    },
+    {
+      "ccr5_position": 194,
+      "ccr5_residue": "GLN",
+      "ccr5_region": "ECL2",
+      "ccr2_residue": "GLN",
+      "ccr2_equivalent": "Q194",
+      "ccr2_conservation": "identical",
+      "ccr2_note": "Conserved",
+      "cxcr4_residue": "HIS",
+      "cxcr4_equivalent": "H199",
+      "cxcr4_conservation": "different",
+      "cxcr4_note": "Both polar"
+    },
+    {
+      "ccr5_position": 251,
+      "ccr5_residue": "TYR",
+      "ccr5_region": "ECL3/TM6",
+      "ccr2_residue": "TYR",
+      "ccr2_equivalent": "Y251",
+      "ccr2_conservation": "identical",
+      "ccr2_note": "Conserved",
+      "cxcr4_residue": "HIS",
+      "cxcr4_equivalent": "H256",
+      "cxcr4_conservation": "different",
+      "cxcr4_note": "Both aromatic ring"
+    },
+    {
+      "ccr5_position": 255,
+      "ccr5_residue": "LEU",
+      "ccr5_region": "ECL3/TM6",
+      "ccr2_residue": "LEU",
+      "ccr2_equivalent": "L255",
+      "ccr2_conservation": "identical",
+      "ccr2_note": "Conserved",
+      "cxcr4_residue": "LEU",
+      "cxcr4_equivalent": "L260",
+      "cxcr4_conservation": "identical",
+      "cxcr4_note": "Conserved"
+    },
+    {
+      "ccr5_position": 258,
+      "ccr5_residue": "ASN",
+      "ccr5_region": "ECL3/TM6",
+      "ccr2_residue": "ASN",
+      "ccr2_equivalent": "N258",
+      "ccr2_conservation": "identical",
+      "ccr2_note": "Conserved",
+      "cxcr4_residue": "ASP",
+      "cxcr4_equivalent": "D262",
+      "cxcr4_conservation": "different",
+      "cxcr4_note": "Similar polarity"
+    },
+    {
+      "ccr5_position": 276,
+      "ccr5_residue": "ASP",
+      "ccr5_region": "TM7",
+      "ccr2_residue": "ASP",
+      "ccr2_equivalent": "D276",
+      "ccr2_conservation": "identical",
+      "ccr2_note": "Conserved",
+      "cxcr4_residue": "GLU",
+      "cxcr4_equivalent": "E277",
+      "cxcr4_conservation": "different",
+      "cxcr4_note": "Both acidic - conserved"
+    }
+  ],
+  "summary": {
+    "ccr2_conservation": "8/10 (80%) residues identical",
+    "cxcr4_conservation": "1/10 (10%) residues identical",
+    "off_target_risk_ccr2": "HIGH \u2014 most hotspot residues are conserved in CCR2. A drug targeting these sites on CCR5 may also bind CCR2. This is relevant for safety profiling but may be acceptable since CCR2 antagonists (e.g. cenicriviroc) have reached clinical trials with manageable safety.",
+    "off_target_risk_cxcr4": "LOW \u2014 most hotspot residues differ between CCR5 and CXCR4. A CCR5-targeted drug is unlikely to bind CXCR4, minimizing risk of CXCR4-mediated side effects (which include bone marrow toxicity).",
+    "recommendation": "ECL2 hotspots (L174, Y184, Q194) are highly conserved between CCR5 and CCR2. Drugs targeting ECL2 should be tested against CCR2 in counter-screens. The N-terminal hotspots (S7, A29) diverge between CCR5/CCR2 and CCR5/CXCR4, offering better selectivity handles. The novel ECL3 residues (Y251, L255, N258) are conserved in CCR2 but diverge from CXCR4, so they carry CCR2 cross-reactivity risk but not CXCR4 risk."
+  }
+}

@@ -1,0 +1,2534 @@
+{
+  "experiment": "Virtual screening against gp120 C5 relay pocket",
+  "date": "2026-07-16",
+  "software": "AutoDock Vina v1.2.7",
+  "structure": "PDB 6MEO",
+  "total_compounds": 48,
+  "successful": 48,
+  "failed": [],
+  "results": [
+    {
+      "index": 3,
+      "name": "Vicriviroc",
+      "tier": "A",
+      "class": "ccr5_antagonist",
+      "smiles": "CC(=O)N1CC(c2ccc3c(c2)OCO3)CC1c1nc(C(F)(F)F)cc(=O)[nH]1",
+      "relay_best_kcal_mol": -8.797,
+      "control_best_kcal_mol": -6.611,
+      "delta_kcal_mol": -2.186,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -8.797,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -6.334,
+          "rmsd_lb": 2.638,
+          "rmsd_ub": 4.143
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -5.997,
+          "rmsd_lb": 4.164,
+          "rmsd_ub": 7.577
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -6.611,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -6.146,
+          "rmsd_lb": 3.291,
+          "rmsd_ub": 6.785
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -6.106,
+          "rmsd_lb": 2.876,
+          "rmsd_ub": 6.879
+        }
+      ],
+      "selective": true,
+      "druggable": true
+    },
+    {
+      "index": 1,
+      "name": "Maraviroc",
+      "tier": "A",
+      "class": "ccr5_antagonist",
+      "smiles": "CC(C)c1nnc(C)n1[C@@H]1C[C@@H](n2cc(C(=O)NC3CC4CCCCC4C3)nn2)C1",
+      "relay_best_kcal_mol": -7.036,
+      "control_best_kcal_mol": -7.396,
+      "delta_kcal_mol": 0.36,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -7.036,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -5.859,
+          "rmsd_lb": 2.783,
+          "rmsd_ub": 10.47
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -5.829,
+          "rmsd_lb": 2.506,
+          "rmsd_ub": 10.89
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -7.396,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -6.734,
+          "rmsd_lb": 0.7366,
+          "rmsd_ub": 2.101
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -6.269,
+          "rmsd_lb": 1.613,
+          "rmsd_ub": 2.106
+        }
+      ],
+      "selective": false,
+      "druggable": true
+    },
+    {
+      "index": 2,
+      "name": "Cenicriviroc",
+      "tier": "A",
+      "class": "ccr5_antagonist",
+      "smiles": "CC(C)OC(=O)Oc1ccc(Cn2c(=S)[nH]c3ccc(CC(=O)Nc4ccc(C)cc4OC)cc32)cc1",
+      "relay_best_kcal_mol": -6.642,
+      "control_best_kcal_mol": -6.976,
+      "delta_kcal_mol": 0.334,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -6.642,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -6.583,
+          "rmsd_lb": 1.377,
+          "rmsd_ub": 2.026
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -5.98,
+          "rmsd_lb": 1.053,
+          "rmsd_ub": 1.545
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -6.976,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -5.973,
+          "rmsd_lb": 4.065,
+          "rmsd_ub": 11.65
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -5.94,
+          "rmsd_lb": 2.73,
+          "rmsd_ub": 3.66
+        }
+      ],
+      "selective": false,
+      "druggable": true
+    },
+    {
+      "index": 26,
+      "name": "Frag_Quinoline",
+      "tier": "C",
+      "class": "fragment",
+      "smiles": "c1ccc2ncccc2c1",
+      "relay_best_kcal_mol": -6.315,
+      "control_best_kcal_mol": -6.646,
+      "delta_kcal_mol": 0.331,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -6.315,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -5.773,
+          "rmsd_lb": 0.8371,
+          "rmsd_ub": 3.392
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -5.644,
+          "rmsd_lb": 1.229,
+          "rmsd_ub": 3.971
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -6.646,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -6.365,
+          "rmsd_lb": 2.765,
+          "rmsd_ub": 3.48
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -6.3,
+          "rmsd_lb": 1.23,
+          "rmsd_ub": 3.972
+        }
+      ],
+      "selective": false,
+      "druggable": true
+    },
+    {
+      "index": 33,
+      "name": "Frag_Acetanilide",
+      "tier": "C",
+      "class": "fragment",
+      "smiles": "CC(=O)Nc1ccccc1",
+      "relay_best_kcal_mol": -6.115,
+      "control_best_kcal_mol": -5.953,
+      "delta_kcal_mol": -0.162,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -6.115,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -5.628,
+          "rmsd_lb": 19.7,
+          "rmsd_ub": 20.16
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -5.08,
+          "rmsd_lb": 19.05,
+          "rmsd_ub": 19.64
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -5.953,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -5.947,
+          "rmsd_lb": 0.0853,
+          "rmsd_ub": 1.525
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -5.924,
+          "rmsd_lb": 2.216,
+          "rmsd_ub": 4.331
+        }
+      ],
+      "selective": false,
+      "druggable": true
+    },
+    {
+      "index": 28,
+      "name": "Frag_Naphthalene",
+      "tier": "C",
+      "class": "fragment",
+      "smiles": "c1ccc2ccccc2c1",
+      "relay_best_kcal_mol": -6.075,
+      "control_best_kcal_mol": -6.742,
+      "delta_kcal_mol": 0.667,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -6.075,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -6.069,
+          "rmsd_lb": 0.04939,
+          "rmsd_ub": 2.07
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -5.286,
+          "rmsd_lb": 13.84,
+          "rmsd_ub": 15.57
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -6.742,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -6.738,
+          "rmsd_lb": 0.06913,
+          "rmsd_ub": 4.021
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -6.736,
+          "rmsd_lb": 0.03432,
+          "rmsd_ub": 3.447
+        }
+      ],
+      "selective": false,
+      "druggable": true
+    },
+    {
+      "index": 41,
+      "name": "Frag_Barbiturate",
+      "tier": "C",
+      "class": "fragment",
+      "smiles": "O=C1CC(=O)NC(=O)N1",
+      "relay_best_kcal_mol": -6.046,
+      "control_best_kcal_mol": -5.498,
+      "delta_kcal_mol": -0.548,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -6.046,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -6.003,
+          "rmsd_lb": 0.1099,
+          "rmsd_ub": 2.76
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -5.743,
+          "rmsd_lb": 1.282,
+          "rmsd_ub": 2.554
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -5.498,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -5.487,
+          "rmsd_lb": 0.3166,
+          "rmsd_ub": 2.773
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -5.445,
+          "rmsd_lb": 0.8805,
+          "rmsd_ub": 3.321
+        }
+      ],
+      "selective": false,
+      "druggable": true
+    },
+    {
+      "index": 39,
+      "name": "Frag_Urea_phenyl",
+      "tier": "C",
+      "class": "fragment",
+      "smiles": "NC(=O)Nc1ccccc1",
+      "relay_best_kcal_mol": -5.984,
+      "control_best_kcal_mol": -6.4,
+      "delta_kcal_mol": 0.416,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -5.984,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -5.674,
+          "rmsd_lb": 3.104,
+          "rmsd_ub": 3.908
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -5.576,
+          "rmsd_lb": 1.311,
+          "rmsd_ub": 2.026
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -6.4,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -5.853,
+          "rmsd_lb": 1.492,
+          "rmsd_ub": 2.127
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -5.743,
+          "rmsd_lb": 2.746,
+          "rmsd_ub": 4.545
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 4,
+      "name": "Aplaviroc",
+      "tier": "A",
+      "class": "ccr5_antagonist",
+      "smiles": "OC(=O)CCC(=O)N(Cc1ccc(Cl)cc1)C1CCN(Cc2ccccc2)CC1",
+      "relay_best_kcal_mol": -5.889,
+      "control_best_kcal_mol": -7.143,
+      "delta_kcal_mol": 1.254,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -5.889,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -5.7,
+          "rmsd_lb": 3.462,
+          "rmsd_ub": 6.257
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -5.535,
+          "rmsd_lb": 1.256,
+          "rmsd_ub": 1.849
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -7.143,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -6.634,
+          "rmsd_lb": 1.395,
+          "rmsd_ub": 2.141
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -6.11,
+          "rmsd_lb": 2.839,
+          "rmsd_ub": 6.93
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 27,
+      "name": "Frag_Isoquinoline",
+      "tier": "C",
+      "class": "fragment",
+      "smiles": "c1ccc2cnccc2c1",
+      "relay_best_kcal_mol": -5.887,
+      "control_best_kcal_mol": -6.475,
+      "delta_kcal_mol": 0.588,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -5.887,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -5.817,
+          "rmsd_lb": 1.676,
+          "rmsd_ub": 3.992
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -5.582,
+          "rmsd_lb": 0.5292,
+          "rmsd_ub": 2.056
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -6.475,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -6.452,
+          "rmsd_lb": 0.6636,
+          "rmsd_ub": 2.062
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -6.152,
+          "rmsd_lb": 2.327,
+          "rmsd_ub": 4.291
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 6,
+      "name": "NBD-556",
+      "tier": "A",
+      "class": "cd4_mimic",
+      "smiles": "O=[N+]([O-])c1ccc(NC(=O)c2cc(Cl)c(Cl)cc2Cl)c(O)c1",
+      "relay_best_kcal_mol": -5.883,
+      "control_best_kcal_mol": -7.062,
+      "delta_kcal_mol": 1.179,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -5.883,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -5.829,
+          "rmsd_lb": 1.084,
+          "rmsd_ub": 2.258
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -5.626,
+          "rmsd_lb": 3.921,
+          "rmsd_ub": 7.974
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -7.062,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -6.232,
+          "rmsd_lb": 3.973,
+          "rmsd_ub": 8.174
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -5.999,
+          "rmsd_lb": 3.308,
+          "rmsd_ub": 5.228
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 14,
+      "name": "Frag_Indole",
+      "tier": "C",
+      "class": "fragment",
+      "smiles": "c1ccc2[nH]ccc2c1",
+      "relay_best_kcal_mol": -5.825,
+      "control_best_kcal_mol": -6.005,
+      "delta_kcal_mol": 0.18,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -5.825,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -5.618,
+          "rmsd_lb": 1.125,
+          "rmsd_ub": 3.101
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -5.538,
+          "rmsd_lb": 1.489,
+          "rmsd_ub": 3.66
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -6.005,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -5.914,
+          "rmsd_lb": 1.732,
+          "rmsd_ub": 3.697
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -5.857,
+          "rmsd_lb": 2.799,
+          "rmsd_ub": 3.752
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 36,
+      "name": "Frag_Sulfonamide",
+      "tier": "C",
+      "class": "fragment",
+      "smiles": "NS(=O)(=O)c1ccccc1",
+      "relay_best_kcal_mol": -5.771,
+      "control_best_kcal_mol": -6.286,
+      "delta_kcal_mol": 0.515,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -5.771,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -5.734,
+          "rmsd_lb": 19.08,
+          "rmsd_ub": 19.65
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -5.721,
+          "rmsd_lb": 1.144,
+          "rmsd_ub": 2.065
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -6.286,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -6.256,
+          "rmsd_lb": 0.0642,
+          "rmsd_ub": 1.535
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -5.955,
+          "rmsd_lb": 1.803,
+          "rmsd_ub": 2.645
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 34,
+      "name": "Frag_Nicotinamide",
+      "tier": "C",
+      "class": "fragment",
+      "smiles": "NC(=O)c1cccnc1",
+      "relay_best_kcal_mol": -5.767,
+      "control_best_kcal_mol": -5.805,
+      "delta_kcal_mol": 0.038,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -5.767,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -5.525,
+          "rmsd_lb": 19.11,
+          "rmsd_ub": 19.43
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -5.502,
+          "rmsd_lb": 14.42,
+          "rmsd_ub": 15.17
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -5.805,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -5.528,
+          "rmsd_lb": 2.489,
+          "rmsd_ub": 3.838
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -5.44,
+          "rmsd_lb": 3.734,
+          "rmsd_ub": 5.195
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 31,
+      "name": "Frag_Benzoic_acid",
+      "tier": "C",
+      "class": "fragment",
+      "smiles": "OC(=O)c1ccccc1",
+      "relay_best_kcal_mol": -5.764,
+      "control_best_kcal_mol": -6.123,
+      "delta_kcal_mol": 0.359,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -5.764,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -5.593,
+          "rmsd_lb": 13.19,
+          "rmsd_ub": 14.39
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -5.437,
+          "rmsd_lb": 15.16,
+          "rmsd_ub": 16.17
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -6.123,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -6.1,
+          "rmsd_lb": 0.1408,
+          "rmsd_ub": 1.62
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -5.696,
+          "rmsd_lb": 4.183,
+          "rmsd_ub": 5.074
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 15,
+      "name": "Frag_Benzimidazole",
+      "tier": "C",
+      "class": "fragment",
+      "smiles": "c1ccc2[nH]cnc2c1",
+      "relay_best_kcal_mol": -5.763,
+      "control_best_kcal_mol": -5.672,
+      "delta_kcal_mol": -0.091,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -5.763,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -5.661,
+          "rmsd_lb": 13.34,
+          "rmsd_ub": 14.68
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -5.648,
+          "rmsd_lb": 12.85,
+          "rmsd_ub": 14.13
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -5.672,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -5.66,
+          "rmsd_lb": 3.053,
+          "rmsd_ub": 3.511
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -5.636,
+          "rmsd_lb": 3.292,
+          "rmsd_ub": 4.212
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 32,
+      "name": "Frag_Benzamide",
+      "tier": "C",
+      "class": "fragment",
+      "smiles": "NC(=O)c1ccccc1",
+      "relay_best_kcal_mol": -5.716,
+      "control_best_kcal_mol": -6.091,
+      "delta_kcal_mol": 0.375,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -5.716,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -5.618,
+          "rmsd_lb": 13.1,
+          "rmsd_ub": 14.14
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -5.545,
+          "rmsd_lb": 18.72,
+          "rmsd_ub": 19.18
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -6.091,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -6.054,
+          "rmsd_lb": 0.1773,
+          "rmsd_ub": 1.62
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -5.896,
+          "rmsd_lb": 1.637,
+          "rmsd_ub": 2.415
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 37,
+      "name": "Frag_Catechol",
+      "tier": "C",
+      "class": "fragment",
+      "smiles": "Oc1ccccc1O",
+      "relay_best_kcal_mol": -5.546,
+      "control_best_kcal_mol": -5.533,
+      "delta_kcal_mol": -0.013,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -5.546,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -5.537,
+          "rmsd_lb": 0.02594,
+          "rmsd_ub": 2.191
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -5.162,
+          "rmsd_lb": 14.73,
+          "rmsd_ub": 15.67
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -5.533,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -5.529,
+          "rmsd_lb": 0.06885,
+          "rmsd_ub": 2.192
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -5.197,
+          "rmsd_lb": 2.715,
+          "rmsd_ub": 3.204
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 35,
+      "name": "Frag_Isonicotinamide",
+      "tier": "C",
+      "class": "fragment",
+      "smiles": "NC(=O)c1ccncc1",
+      "relay_best_kcal_mol": -5.541,
+      "control_best_kcal_mol": -5.579,
+      "delta_kcal_mol": 0.038,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -5.541,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -5.526,
+          "rmsd_lb": 19.02,
+          "rmsd_ub": 19.41
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -5.34,
+          "rmsd_lb": 15.46,
+          "rmsd_ub": 16.29
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -5.579,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -5.375,
+          "rmsd_lb": 3.243,
+          "rmsd_ub": 5.018
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -5.348,
+          "rmsd_lb": 2.147,
+          "rmsd_ub": 3.863
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 40,
+      "name": "Frag_Hydantoin",
+      "tier": "C",
+      "class": "fragment",
+      "smiles": "O=C1NC(=O)CN1",
+      "relay_best_kcal_mol": -5.214,
+      "control_best_kcal_mol": -4.528,
+      "delta_kcal_mol": -0.686,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -5.214,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -5.091,
+          "rmsd_lb": 1.451,
+          "rmsd_ub": 3.176
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -4.83,
+          "rmsd_lb": 1.475,
+          "rmsd_ub": 1.96
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -4.528,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -4.506,
+          "rmsd_lb": 11.7,
+          "rmsd_ub": 12.1
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -4.463,
+          "rmsd_lb": 1.671,
+          "rmsd_ub": 3.331
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 30,
+      "name": "Frag_Aniline",
+      "tier": "C",
+      "class": "fragment",
+      "smiles": "Nc1ccccc1",
+      "relay_best_kcal_mol": -5.048,
+      "control_best_kcal_mol": -5.052,
+      "delta_kcal_mol": 0.004,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -5.048,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -5.042,
+          "rmsd_lb": 0.1589,
+          "rmsd_ub": 1.817
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -4.769,
+          "rmsd_lb": 12.44,
+          "rmsd_ub": 13.56
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -5.052,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -4.762,
+          "rmsd_lb": 3.417,
+          "rmsd_ub": 4.046
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -4.722,
+          "rmsd_lb": 1.907,
+          "rmsd_ub": 2.644
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 46,
+      "name": "Frag_Hydroxypyridine",
+      "tier": "C",
+      "class": "fragment",
+      "smiles": "Oc1ccccn1",
+      "relay_best_kcal_mol": -5.024,
+      "control_best_kcal_mol": -5.044,
+      "delta_kcal_mol": 0.02,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -5.024,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -4.968,
+          "rmsd_lb": 14.96,
+          "rmsd_ub": 15.68
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -4.669,
+          "rmsd_lb": 1.788,
+          "rmsd_ub": 2.227
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -5.044,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -4.756,
+          "rmsd_lb": 1.999,
+          "rmsd_ub": 2.284
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -4.605,
+          "rmsd_lb": 2.407,
+          "rmsd_ub": 2.651
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 29,
+      "name": "Frag_Phenol",
+      "tier": "C",
+      "class": "fragment",
+      "smiles": "Oc1ccccc1",
+      "relay_best_kcal_mol": -4.981,
+      "control_best_kcal_mol": -4.966,
+      "delta_kcal_mol": -0.015,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -4.981,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -4.785,
+          "rmsd_lb": 12.15,
+          "rmsd_ub": 13.29
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -4.727,
+          "rmsd_lb": 14.79,
+          "rmsd_ub": 15.66
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -4.966,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -4.951,
+          "rmsd_lb": 0.2479,
+          "rmsd_ub": 1.838
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -4.709,
+          "rmsd_lb": 2.032,
+          "rmsd_ub": 3.017
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 45,
+      "name": "Frag_Aminopyridine",
+      "tier": "C",
+      "class": "fragment",
+      "smiles": "Nc1ccccn1",
+      "relay_best_kcal_mol": -4.908,
+      "control_best_kcal_mol": -4.907,
+      "delta_kcal_mol": -0.001,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -4.908,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -4.698,
+          "rmsd_lb": 13.06,
+          "rmsd_ub": 13.88
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -4.608,
+          "rmsd_lb": 12.14,
+          "rmsd_ub": 12.99
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -4.907,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -4.849,
+          "rmsd_lb": 1.78,
+          "rmsd_ub": 2.236
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -4.564,
+          "rmsd_lb": 1.936,
+          "rmsd_ub": 2.778
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 12,
+      "name": "GDC-0199",
+      "tier": "B",
+      "class": "ppi_inhibitor",
+      "smiles": "CC(C)c1cc(-c2cc3cc(NS(=O)(=O)c4ccc(NCC5CCOCC5)c([N+](=O)[O-])c4)ccc3[nH]2)no1",
+      "relay_best_kcal_mol": -4.771,
+      "control_best_kcal_mol": -7.923,
+      "delta_kcal_mol": 3.152,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -4.771,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -4.013,
+          "rmsd_lb": 2.926,
+          "rmsd_ub": 11.08
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -3.049,
+          "rmsd_lb": 1.865,
+          "rmsd_ub": 2.425
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -7.923,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -7.92,
+          "rmsd_lb": 4.275,
+          "rmsd_ub": 5.887
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -4.839,
+          "rmsd_lb": 3.37,
+          "rmsd_ub": 5.042
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 0,
+      "name": "BMS-626529",
+      "tier": "A",
+      "class": "attachment_inhibitor",
+      "smiles": "COc1cnc(C(=O)N2CCN(c3cccc4[nH]nc(C)c34)CC2)c(OC[C@@H]2CC(F)(F)CO2)c1",
+      "relay_best_kcal_mol": -4.214,
+      "control_best_kcal_mol": -7.91,
+      "delta_kcal_mol": 3.696,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -4.214,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -4.14,
+          "rmsd_lb": 3.207,
+          "rmsd_ub": 5.221
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -3.608,
+          "rmsd_lb": 2.98,
+          "rmsd_ub": 5.072
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -7.91,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -5.853,
+          "rmsd_lb": 3.292,
+          "rmsd_ub": 8.524
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -5.786,
+          "rmsd_lb": 3.284,
+          "rmsd_ub": 4.131
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 44,
+      "name": "Frag_Tetrazole",
+      "tier": "C",
+      "class": "fragment",
+      "smiles": "c1nn[nH]n1",
+      "relay_best_kcal_mol": -4.165,
+      "control_best_kcal_mol": -3.858,
+      "delta_kcal_mol": -0.307,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -4.165,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -4.142,
+          "rmsd_lb": 21.27,
+          "rmsd_ub": 21.77
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -4.064,
+          "rmsd_lb": 13.09,
+          "rmsd_ub": 13.64
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -3.858,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -3.599,
+          "rmsd_lb": 9.955,
+          "rmsd_ub": 10.41
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -3.597,
+          "rmsd_lb": 7.239,
+          "rmsd_ub": 7.817
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 21,
+      "name": "Frag_Piperidine",
+      "tier": "C",
+      "class": "fragment",
+      "smiles": "C1CCNCC1",
+      "relay_best_kcal_mol": -4.135,
+      "control_best_kcal_mol": -4.231,
+      "delta_kcal_mol": 0.096,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -4.135,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -3.976,
+          "rmsd_lb": 1.466,
+          "rmsd_ub": 2.414
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -3.955,
+          "rmsd_lb": 11.83,
+          "rmsd_ub": 12.64
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -4.231,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -4.147,
+          "rmsd_lb": 4.278,
+          "rmsd_ub": 4.994
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -3.997,
+          "rmsd_lb": 3.489,
+          "rmsd_ub": 4.137
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 47,
+      "name": "Frag_Methylimidazole",
+      "tier": "C",
+      "class": "fragment",
+      "smiles": "Cc1c[nH]cn1",
+      "relay_best_kcal_mol": -4.104,
+      "control_best_kcal_mol": -4.03,
+      "delta_kcal_mol": -0.074,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -4.104,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -4.081,
+          "rmsd_lb": 1.047,
+          "rmsd_ub": 2.038
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -4.012,
+          "rmsd_lb": 13.04,
+          "rmsd_ub": 14.07
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -4.03,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -4.005,
+          "rmsd_lb": 12.71,
+          "rmsd_ub": 13.49
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -3.971,
+          "rmsd_lb": 12.38,
+          "rmsd_ub": 13.32
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 19,
+      "name": "Frag_Piperazine",
+      "tier": "C",
+      "class": "fragment",
+      "smiles": "C1CNCCN1",
+      "relay_best_kcal_mol": -3.974,
+      "control_best_kcal_mol": -3.788,
+      "delta_kcal_mol": -0.186,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -3.974,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -3.966,
+          "rmsd_lb": 1.308,
+          "rmsd_ub": 1.779
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -3.952,
+          "rmsd_lb": 1.261,
+          "rmsd_ub": 2.524
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -3.788,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -3.777,
+          "rmsd_lb": 1.394,
+          "rmsd_ub": 2.206
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -3.769,
+          "rmsd_lb": 0.0784,
+          "rmsd_ub": 2.127
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 25,
+      "name": "Frag_Pyridine",
+      "tier": "C",
+      "class": "fragment",
+      "smiles": "c1ccncc1",
+      "relay_best_kcal_mol": -3.952,
+      "control_best_kcal_mol": -3.983,
+      "delta_kcal_mol": 0.031,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -3.952,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -3.943,
+          "rmsd_lb": 0.1792,
+          "rmsd_ub": 1.921
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -3.915,
+          "rmsd_lb": 14.48,
+          "rmsd_ub": 15.02
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -3.983,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -3.972,
+          "rmsd_lb": 0.1623,
+          "rmsd_ub": 1.926
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -3.927,
+          "rmsd_lb": 2.234,
+          "rmsd_ub": 2.468
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 7,
+      "name": "BMS-378806",
+      "tier": "A",
+      "class": "attachment_inhibitor",
+      "smiles": "COc1cnc(C(=O)N2CCN(c3cccc4[nH]nc(C)c34)CC2)c(OCC2CCCO2)c1",
+      "relay_best_kcal_mol": -3.917,
+      "control_best_kcal_mol": -7.415,
+      "delta_kcal_mol": 3.498,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -3.917,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -3.546,
+          "rmsd_lb": 1.369,
+          "rmsd_ub": 2.063
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -2.694,
+          "rmsd_lb": 1.845,
+          "rmsd_ub": 4.601
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -7.415,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -5.458,
+          "rmsd_lb": 3.071,
+          "rmsd_ub": 8.618
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -4.989,
+          "rmsd_lb": 3.74,
+          "rmsd_ub": 6.657
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 18,
+      "name": "Frag_Triazole",
+      "tier": "C",
+      "class": "fragment",
+      "smiles": "c1cn[nH]n1",
+      "relay_best_kcal_mol": -3.877,
+      "control_best_kcal_mol": -3.594,
+      "delta_kcal_mol": -0.283,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -3.877,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -3.847,
+          "rmsd_lb": 21.22,
+          "rmsd_ub": 21.46
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -3.658,
+          "rmsd_lb": 15.55,
+          "rmsd_ub": 15.93
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -3.594,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -3.387,
+          "rmsd_lb": 13.18,
+          "rmsd_ub": 13.85
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -3.334,
+          "rmsd_lb": 1.825,
+          "rmsd_ub": 2.092
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 20,
+      "name": "Frag_Morpholine",
+      "tier": "C",
+      "class": "fragment",
+      "smiles": "C1COCCN1",
+      "relay_best_kcal_mol": -3.872,
+      "control_best_kcal_mol": -3.788,
+      "delta_kcal_mol": -0.084,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -3.872,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -3.806,
+          "rmsd_lb": 1.437,
+          "rmsd_ub": 2.529
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -3.773,
+          "rmsd_lb": 14.22,
+          "rmsd_ub": 14.56
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -3.788,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -3.755,
+          "rmsd_lb": 1.606,
+          "rmsd_ub": 2.263
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -3.695,
+          "rmsd_lb": 1.456,
+          "rmsd_ub": 2.297
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 38,
+      "name": "Frag_Guanidine",
+      "tier": "C",
+      "class": "fragment",
+      "smiles": "NC(=N)N",
+      "relay_best_kcal_mol": -3.827,
+      "control_best_kcal_mol": -3.896,
+      "delta_kcal_mol": 0.069,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -3.827,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -3.789,
+          "rmsd_lb": 3.968,
+          "rmsd_ub": 4.643
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -3.757,
+          "rmsd_lb": 18.55,
+          "rmsd_ub": 18.81
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -3.896,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -3.753,
+          "rmsd_lb": 11.77,
+          "rmsd_ub": 12.29
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -3.47,
+          "rmsd_lb": 18.09,
+          "rmsd_ub": 18.59
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 16,
+      "name": "Frag_Pyrazole",
+      "tier": "C",
+      "class": "fragment",
+      "smiles": "c1cc[nH]n1",
+      "relay_best_kcal_mol": -3.737,
+      "control_best_kcal_mol": -3.71,
+      "delta_kcal_mol": -0.027,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -3.737,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -3.715,
+          "rmsd_lb": 13.19,
+          "rmsd_ub": 13.42
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -3.676,
+          "rmsd_lb": 14.4,
+          "rmsd_ub": 14.56
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -3.71,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -3.709,
+          "rmsd_lb": 13.84,
+          "rmsd_ub": 14.17
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -3.405,
+          "rmsd_lb": 1.518,
+          "rmsd_ub": 2.087
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 17,
+      "name": "Frag_Imidazole",
+      "tier": "C",
+      "class": "fragment",
+      "smiles": "c1c[nH]cn1",
+      "relay_best_kcal_mol": -3.606,
+      "control_best_kcal_mol": -3.262,
+      "delta_kcal_mol": -0.344,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -3.606,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -3.47,
+          "rmsd_lb": 1.583,
+          "rmsd_ub": 2.214
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -3.404,
+          "rmsd_lb": 18.85,
+          "rmsd_ub": 19.8
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -3.262,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -3.207,
+          "rmsd_lb": 1.75,
+          "rmsd_ub": 2.256
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -3.174,
+          "rmsd_lb": 12.56,
+          "rmsd_ub": 12.99
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 22,
+      "name": "Frag_Pyrrolidine",
+      "tier": "C",
+      "class": "fragment",
+      "smiles": "C1CCNC1",
+      "relay_best_kcal_mol": -3.572,
+      "control_best_kcal_mol": -3.581,
+      "delta_kcal_mol": 0.009,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -3.572,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -3.465,
+          "rmsd_lb": 13.52,
+          "rmsd_ub": 14.09
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -3.438,
+          "rmsd_lb": 1.948,
+          "rmsd_ub": 2.523
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -3.581,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -3.554,
+          "rmsd_lb": 11.54,
+          "rmsd_ub": 12.11
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -3.476,
+          "rmsd_lb": 0.9231,
+          "rmsd_ub": 2.048
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 24,
+      "name": "Frag_Furan",
+      "tier": "C",
+      "class": "fragment",
+      "smiles": "c1ccoc1",
+      "relay_best_kcal_mol": -3.387,
+      "control_best_kcal_mol": -3.568,
+      "delta_kcal_mol": 0.181,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -3.387,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -3.325,
+          "rmsd_lb": 14.37,
+          "rmsd_ub": 14.61
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -3.315,
+          "rmsd_lb": 14.36,
+          "rmsd_ub": 14.7
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -3.568,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -3.342,
+          "rmsd_lb": 12.78,
+          "rmsd_ub": 13.3
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -3.331,
+          "rmsd_lb": 12.77,
+          "rmsd_ub": 13.31
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 42,
+      "name": "Frag_Oxazole",
+      "tier": "C",
+      "class": "fragment",
+      "smiles": "c1cocn1",
+      "relay_best_kcal_mol": -3.329,
+      "control_best_kcal_mol": -3.164,
+      "delta_kcal_mol": -0.165,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -3.329,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -3.23,
+          "rmsd_lb": 19.65,
+          "rmsd_ub": 19.83
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -3.144,
+          "rmsd_lb": 2.141,
+          "rmsd_ub": 2.563
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -3.164,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -3.1,
+          "rmsd_lb": 2.114,
+          "rmsd_ub": 2.582
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -3.033,
+          "rmsd_lb": 12.2,
+          "rmsd_ub": 12.69
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 43,
+      "name": "Frag_Thiazole",
+      "tier": "C",
+      "class": "fragment",
+      "smiles": "c1cscn1",
+      "relay_best_kcal_mol": -3.24,
+      "control_best_kcal_mol": -3.081,
+      "delta_kcal_mol": -0.159,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -3.24,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -3.208,
+          "rmsd_lb": 19.45,
+          "rmsd_ub": 19.84
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -3.017,
+          "rmsd_lb": 20.05,
+          "rmsd_ub": 20.45
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -3.081,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -3.049,
+          "rmsd_lb": 1.933,
+          "rmsd_ub": 2.036
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -2.986,
+          "rmsd_lb": 3.998,
+          "rmsd_ub": 4.129
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 23,
+      "name": "Frag_Thiophene",
+      "tier": "C",
+      "class": "fragment",
+      "smiles": "c1ccsc1",
+      "relay_best_kcal_mol": -3.199,
+      "control_best_kcal_mol": -3.281,
+      "delta_kcal_mol": 0.082,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -3.199,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -3.14,
+          "rmsd_lb": 13.58,
+          "rmsd_ub": 14.41
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -3.138,
+          "rmsd_lb": 2.498,
+          "rmsd_ub": 2.668
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -3.281,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -3.225,
+          "rmsd_lb": 2.43,
+          "rmsd_ub": 3.246
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -3.165,
+          "rmsd_lb": 3.395,
+          "rmsd_ub": 4.383
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 11,
+      "name": "AT-406",
+      "tier": "B",
+      "class": "ppi_inhibitor",
+      "smiles": "CNC(=O)c1cc(Oc2ccc3[nH]c(C(=O)NC4CCC(N5CCN(C)CC5)CC4)cc3c2)cc(C(C)(C)C)c1O",
+      "relay_best_kcal_mol": -1.571,
+      "control_best_kcal_mol": -4.098,
+      "delta_kcal_mol": 2.527,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -1.571,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -1.156,
+          "rmsd_lb": 1.23,
+          "rmsd_ub": 1.844
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -0.6348,
+          "rmsd_lb": 2.238,
+          "rmsd_ub": 4.072
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -4.098,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -3.069,
+          "rmsd_lb": 1.899,
+          "rmsd_ub": 3.318
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -2.754,
+          "rmsd_lb": 2.469,
+          "rmsd_ub": 2.97
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 5,
+      "name": "Temsavir",
+      "tier": "A",
+      "class": "attachment_inhibitor_prodrug",
+      "smiles": "CC(=O)OC(C)OC(=O)N1CCN(c2cccc3[nH]nc(C)c23)CC1c1ncc(OC)cc1OC[C@@H]1CC(F)(F)CO1",
+      "relay_best_kcal_mol": -1.465,
+      "control_best_kcal_mol": -3.15,
+      "delta_kcal_mol": 1.685,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -1.465,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -0.4846,
+          "rmsd_lb": 3.106,
+          "rmsd_ub": 7.011
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": 2.217,
+          "rmsd_lb": 3.488,
+          "rmsd_ub": 7.713
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -3.15,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -2.743,
+          "rmsd_lb": 3.315,
+          "rmsd_ub": 6.789
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -0.5157,
+          "rmsd_lb": 1.578,
+          "rmsd_ub": 2.056
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 8,
+      "name": "ABT-263_Navitoclax",
+      "tier": "B",
+      "class": "ppi_inhibitor",
+      "smiles": "CC1(C)CCC(c2ccc(Cl)cc2)=C(c2ccc(OCCN3CCN(c4ccc(OC(=O)NS(=O)(=O)c5ccc(NCC6CCOCC6)c([N+](=O)[O-])c5)cc4)CC3)cc2)C1",
+      "relay_best_kcal_mol": 3.836,
+      "control_best_kcal_mol": -0.2948,
+      "delta_kcal_mol": 4.131,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": 3.836,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": 4.232,
+          "rmsd_lb": 1.477,
+          "rmsd_ub": 2.1
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": 4.274,
+          "rmsd_lb": 1.408,
+          "rmsd_ub": 2.078
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -0.2948,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": 1.275,
+          "rmsd_lb": 2.694,
+          "rmsd_ub": 4.111
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": 4.646,
+          "rmsd_lb": 4.212,
+          "rmsd_ub": 12.86
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 9,
+      "name": "ABT-199_Venetoclax",
+      "tier": "B",
+      "class": "ppi_inhibitor",
+      "smiles": "CC1(C)CCC(c2ccc(Cl)cc2)=C(c2ccc(OCCN3CCN(c4ccc(OC(=O)NS(=O)(=O)c5ccc(NCC6CCOCC6)c([N+](=O)[O-])c5)cc4)CC3)cc2)C1",
+      "relay_best_kcal_mol": 3.963,
+      "control_best_kcal_mol": -1.029,
+      "delta_kcal_mol": 4.992,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": 3.963,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": 4.401,
+          "rmsd_lb": 1.427,
+          "rmsd_ub": 2.026
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": 6.093,
+          "rmsd_lb": 4.298,
+          "rmsd_ub": 13.3
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -1.029,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -0.3171,
+          "rmsd_lb": 14.19,
+          "rmsd_ub": 19.65
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": 3.254,
+          "rmsd_lb": 13.87,
+          "rmsd_ub": 19.85
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 13,
+      "name": "Idasanutlin",
+      "tier": "B",
+      "class": "ppi_inhibitor",
+      "smiles": "COc1cc(F)c(C2=NC(CC(=O)O)(c3ccc(Cl)cc3)C(c3ccc(Cl)cc3F)N2C(=O)C2CCC2)c(F)c1",
+      "relay_best_kcal_mol": 4.965,
+      "control_best_kcal_mol": -0.1776,
+      "delta_kcal_mol": 5.143,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": 4.965,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": 14.31,
+          "rmsd_lb": 1.534,
+          "rmsd_ub": 5.86
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": 113.7,
+          "rmsd_lb": 2.898,
+          "rmsd_ub": 6.154
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -0.1776,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": 0.9738,
+          "rmsd_lb": 2.937,
+          "rmsd_ub": 6.666
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": 1.299,
+          "rmsd_lb": 2.299,
+          "rmsd_ub": 6.988
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    },
+    {
+      "index": 10,
+      "name": "Nutlin-3a",
+      "tier": "B",
+      "class": "ppi_inhibitor",
+      "smiles": "COc1ccc(C2=NC(c3ccc(Cl)cc3)C(c3ccc(Cl)cc3)N2C(=O)N2CCCC2)c(OC(C)C)c1",
+      "relay_best_kcal_mol": 15.23,
+      "control_best_kcal_mol": -3.487,
+      "delta_kcal_mol": 18.717,
+      "relay_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": 15.23,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": 18.4,
+          "rmsd_lb": 4.902,
+          "rmsd_ub": 9.628
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": 24.47,
+          "rmsd_lb": 6.176,
+          "rmsd_ub": 10.15
+        }
+      ],
+      "control_modes": [
+        {
+          "mode": 1,
+          "affinity_kcal_mol": -3.487,
+          "rmsd_lb": 0.0,
+          "rmsd_ub": 0.0
+        },
+        {
+          "mode": 2,
+          "affinity_kcal_mol": -3.449,
+          "rmsd_lb": 1.298,
+          "rmsd_ub": 2.768
+        },
+        {
+          "mode": 3,
+          "affinity_kcal_mol": -2.67,
+          "rmsd_lb": 2.281,
+          "rmsd_ub": 5.56
+        }
+      ],
+      "selective": false,
+      "druggable": false
+    }
+  ],
+  "summary": {
+    "druggable_count": 7,
+    "selective_count": 1,
+    "tier_breakdown": {
+      "A": {
+        "count": 8,
+        "mean_affinity": -5.48,
+        "best_affinity": -8.8,
+        "druggable": 3,
+        "selective": 1
+      },
+      "B": {
+        "count": 6,
+        "mean_affinity": 3.61,
+        "best_affinity": -4.77,
+        "druggable": 0,
+        "selective": 0
+      },
+      "C": {
+        "count": 34,
+        "mean_affinity": -4.8,
+        "best_affinity": -6.32,
+        "druggable": 4,
+        "selective": 0
+      }
+    }
+  }
+}

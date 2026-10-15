@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pharmacophore name="CCR5 ECL3" pharmacophoreType="LIGAND_SCOUT">
+  <point name="HBD" featureId="1_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="148.70" y3="139.11" z3="171.77" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="1_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="148.70" y3="139.11" z3="171.77" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="2_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="149.10" y3="139.91" z3="166.37" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="2_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="149.10" y3="139.91" z3="166.37" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="3_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="157.90" y3="146.01" z3="166.47" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="3_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="157.90" y3="146.01" z3="166.47" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="4_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="160.97" y3="146.57" z3="171.64" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="4_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="160.97" y3="146.57" z3="171.64" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="5_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="157.50" y3="137.51" z3="170.97" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="5_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="157.50" y3="137.51" z3="170.97" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="6_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="147.90" y3="145.11" z3="170.77" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="6_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="147.90" y3="145.11" z3="170.77" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="7_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="151.90" y3="137.00" z3="168.71" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="7_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="151.90" y3="137.00" z3="168.71" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="8_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="157.90" y3="148.42" z3="173.94" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="8_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="157.90" y3="148.42" z3="173.94" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="9_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="155.42" y3="137.42" z3="169.19" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="9_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="155.42" y3="137.42" z3="169.19" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="10_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="160.79" y3="140.80" z3="171.32" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="10_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="160.79" y3="140.80" z3="171.32" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="11_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="155.46" y3="142.84" z3="175.06" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="11_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="155.46" y3="142.84" z3="175.06" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="12_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="150.70" y3="150.51" z3="170.37" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="12_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="150.70" y3="150.51" z3="170.37" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="13_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="160.02" y3="148.14" z3="168.23" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="13_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="160.02" y3="148.14" z3="168.23" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="14_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="157.95" y3="147.82" z3="169.10" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="14_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="157.95" y3="147.82" z3="169.10" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="15_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="157.42" y3="143.64" z3="162.88" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="15_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="157.42" y3="143.64" z3="162.88" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="16_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="156.48" y3="145.62" z3="175.31" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="16_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="156.48" y3="145.62" z3="175.31" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="17_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="160.70" y3="147.91" z3="169.37" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="17_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="160.70" y3="147.91" z3="169.37" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="18_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="161.20" y3="143.51" z3="167.47" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="18_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="161.20" y3="143.51" z3="167.47" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="19_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="150.84" y3="140.84" z3="175.10" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="19_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="150.84" y3="140.84" z3="175.10" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="20_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="156.33" y3="143.48" z3="171.34" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="20_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="156.33" y3="143.48" z3="171.34" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="21_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="154.54" y3="142.23" z3="168.73" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="21_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="154.54" y3="142.23" z3="168.73" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="22_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="160.86" y3="141.19" z3="169.37" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="22_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="160.86" y3="141.19" z3="169.37" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="23_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="148.30" y3="146.79" z3="168.65" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="23_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="148.30" y3="146.79" z3="168.65" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="24_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="157.90" y3="137.51" z3="168.57" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="24_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="157.90" y3="137.51" z3="168.57" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="25_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="156.63" y3="149.87" z3="171.04" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="25_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="156.63" y3="149.87" z3="171.04" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="26_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="155.24" y3="142.31" z3="170.57" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="26_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="155.24" y3="142.31" z3="170.57" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="27_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="153.24" y3="140.97" z3="176.30" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="27_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="153.24" y3="140.97" z3="176.30" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="28_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="159.68" y3="142.08" z3="165.60" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="28_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="159.68" y3="142.08" z3="165.60" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="29_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="155.10" y3="136.71" z3="166.97" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="29_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="155.10" y3="136.71" z3="166.97" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="30_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="154.30" y3="143.91" z3="169.99" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="30_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="154.30" y3="143.91" z3="169.99" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="31_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="155.10" y3="150.31" z3="165.37" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="31_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="155.10" y3="150.31" z3="165.37" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="32_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="152.17" y3="142.31" z3="166.97" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="32_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="152.17" y3="142.31" z3="166.97" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="33_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="153.50" y3="146.57" z3="172.97" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="33_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="153.50" y3="146.57" z3="172.97" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="34_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="157.90" y3="141.51" z3="164.17" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="34_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="157.90" y3="141.51" z3="164.17" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="35_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="152.17" y3="139.11" z3="164.84" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="35_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="152.17" y3="139.11" z3="164.84" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="36_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="150.84" y3="145.64" z3="169.50" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="36_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="150.84" y3="145.64" z3="169.50" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="37_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="150.04" y3="142.57" z3="173.37" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="37_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="150.04" y3="142.57" z3="173.37" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="38_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="154.90" y3="145.11" z3="174.97" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="38_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="154.90" y3="145.11" z3="174.97" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="39_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="155.10" y3="146.31" z3="176.57" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="39_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="155.10" y3="146.31" z3="176.57" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="40_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="155.10" y3="137.51" z3="164.97" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="40_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="155.10" y3="137.51" z3="164.97" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="41_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="156.70" y3="151.11" z3="169.37" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="41_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="156.70" y3="151.11" z3="169.37" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="42_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="157.50" y3="137.51" z3="166.17" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="42_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="157.50" y3="137.51" z3="166.17" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="43_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="155.50" y3="147.11" z3="162.57" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="43_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="155.50" y3="147.11" z3="162.57" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="44_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="149.50" y3="144.17" z3="164.04" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="44_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="149.50" y3="144.17" z3="164.04" tolerance="0.50" />
+  </point>
+  <point name="HBD" featureId="45_hbd" optional="false" disabled="false" weight="1.0">
+    <position x3="152.70" y3="144.31" z3="169.77" tolerance="0.50" />
+  </point>
+  <point name="HBA" featureId="45_hba" optional="false" disabled="false" weight="1.0">
+    <position x3="152.70" y3="144.31" z3="169.77" tolerance="0.50" />
+  </point>
+</pharmacophore>

@@ -1,0 +1,296 @@
+{
+  "simulation": "20ns full ternary complex MM-PBSA (1.1b)",
+  "comparison_with_1_1a": {
+    "overall_dG_1_1a_kcal": -31.37,
+    "overall_dG_1_1b_kcal": -38.02,
+    "relay_pocket_dG_1_1a_kcal": -3.07,
+    "relay_pocket_dG_1_1b_kcal": 0.024
+  },
+  "top20_contributors": [
+    {
+      "rank": 1,
+      "residue": "VAL",
+      "resnum_reduced": 332,
+      "chain": "gp120",
+      "dG_total": 0.0287,
+      "dG_vdw": 0.0,
+      "dG_elec": 0.0756,
+      "is_relay": false
+    },
+    {
+      "rank": 2,
+      "residue": "TYR",
+      "resnum_reduced": 106,
+      "chain": "gp120",
+      "dG_total": 0.0275,
+      "dG_vdw": 0.0,
+      "dG_elec": 0.1157,
+      "is_relay": false
+    },
+    {
+      "rank": 3,
+      "residue": "SER",
+      "resnum_reduced": 278,
+      "chain": "gp120",
+      "dG_total": 0.0225,
+      "dG_vdw": 0.0,
+      "dG_elec": 0.0832,
+      "is_relay": false
+    },
+    {
+      "rank": 4,
+      "residue": "ASN",
+      "resnum_reduced": 103,
+      "chain": "gp120",
+      "dG_total": 0.0217,
+      "dG_vdw": 0.0,
+      "dG_elec": 0.0946,
+      "is_relay": false
+    },
+    {
+      "rank": 5,
+      "residue": "ASP",
+      "resnum_reduced": 281,
+      "chain": "gp120",
+      "dG_total": 0.0205,
+      "dG_vdw": 0.0,
+      "dG_elec": 0.0384,
+      "is_relay": false
+    },
+    {
+      "rank": 6,
+      "residue": "ALA",
+      "resnum_reduced": 196,
+      "chain": "gp120",
+      "dG_total": 0.0201,
+      "dG_vdw": 0.0,
+      "dG_elec": 0.052,
+      "is_relay": false
+    },
+    {
+      "rank": 7,
+      "residue": "ARG",
+      "resnum_reduced": 107,
+      "chain": "gp120",
+      "dG_total": 0.0167,
+      "dG_vdw": 0.0,
+      "dG_elec": 0.0437,
+      "is_relay": false
+    },
+    {
+      "rank": 8,
+      "residue": "ASP",
+      "resnum_reduced": 377,
+      "chain": "gp120",
+      "dG_total": 0.0127,
+      "dG_vdw": 0.0,
+      "dG_elec": 0.0604,
+      "is_relay": true
+    },
+    {
+      "rank": 9,
+      "residue": "ASN",
+      "resnum_reduced": 362,
+      "chain": "gp120",
+      "dG_total": -0.0113,
+      "dG_vdw": 0.0,
+      "dG_elec": -0.0036,
+      "is_relay": false
+    },
+    {
+      "rank": 10,
+      "residue": "LYS",
+      "resnum_reduced": 197,
+      "chain": "gp120",
+      "dG_total": 0.0112,
+      "dG_vdw": 0.0,
+      "dG_elec": 0.0243,
+      "is_relay": false
+    },
+    {
+      "rank": 11,
+      "residue": "GLY",
+      "resnum_reduced": 361,
+      "chain": "gp120",
+      "dG_total": 0.0102,
+      "dG_vdw": 0.0,
+      "dG_elec": 0.05,
+      "is_relay": false
+    },
+    {
+      "rank": 12,
+      "residue": "ILE",
+      "resnum_reduced": 284,
+      "chain": "gp120",
+      "dG_total": 0.0101,
+      "dG_vdw": 0.0,
+      "dG_elec": 0.03,
+      "is_relay": false
+    },
+    {
+      "rank": 13,
+      "residue": "LYS",
+      "resnum_reduced": 136,
+      "chain": "CD4",
+      "dG_total": -0.0094,
+      "dG_vdw": -0.1189,
+      "dG_elec": -0.0571,
+      "is_relay": false
+    },
+    {
+      "rank": 14,
+      "residue": "LYS",
+      "resnum_reduced": 21,
+      "chain": "CD4",
+      "dG_total": -0.0084,
+      "dG_vdw": -0.1308,
+      "dG_elec": -0.0795,
+      "is_relay": false
+    },
+    {
+      "rank": 15,
+      "residue": "GLY",
+      "resnum_reduced": 279,
+      "chain": "gp120",
+      "dG_total": 0.0083,
+      "dG_vdw": 0.0,
+      "dG_elec": 0.0624,
+      "is_relay": false
+    },
+    {
+      "rank": 16,
+      "residue": "ARG",
+      "resnum_reduced": 134,
+      "chain": "CD4",
+      "dG_total": -0.0083,
+      "dG_vdw": -0.1528,
+      "dG_elec": -0.0715,
+      "is_relay": false
+    },
+    {
+      "rank": 17,
+      "residue": "GLU",
+      "resnum_reduced": 331,
+      "chain": "gp120",
+      "dG_total": 0.0082,
+      "dG_vdw": 0.0,
+      "dG_elec": 0.0333,
+      "is_relay": false
+    },
+    {
+      "rank": 18,
+      "residue": "LYS",
+      "resnum_reduced": 50,
+      "chain": "CD4",
+      "dG_total": -0.0079,
+      "dG_vdw": -0.1279,
+      "dG_elec": -0.0618,
+      "is_relay": false
+    },
+    {
+      "rank": 19,
+      "residue": "ASP",
+      "resnum_reduced": 105,
+      "chain": "CD4",
+      "dG_total": -0.0079,
+      "dG_vdw": -0.1057,
+      "dG_elec": -0.0665,
+      "is_relay": false
+    },
+    {
+      "rank": 20,
+      "residue": "PRO",
+      "resnum_reduced": 93,
+      "chain": "gp120",
+      "dG_total": 0.0078,
+      "dG_vdw": 0.0,
+      "dG_elec": 0.0287,
+      "is_relay": false
+    }
+  ],
+  "relay_pocket": {
+    "residues": [
+      {
+        "resname": "ARG",
+        "resnum_reduced": 372,
+        "resnum_6meo": 465,
+        "dG_total": 0.0019,
+        "dG_vdw": 0.0,
+        "dG_elec": 0.0043,
+        "dG_polar": 1.096,
+        "dG_nonpolar": 1.1846
+      },
+      {
+        "resname": "PRO",
+        "resnum_reduced": 373,
+        "resnum_6meo": 466,
+        "dG_total": 0.0,
+        "dG_vdw": 0.0,
+        "dG_elec": -0.0005,
+        "dG_polar": 0.0493,
+        "dG_nonpolar": 0.055
+      },
+      {
+        "resname": "GLY",
+        "resnum_reduced": 374,
+        "resnum_6meo": 467,
+        "dG_total": 0.0001,
+        "dG_vdw": 0.0,
+        "dG_elec": 0.0004,
+        "dG_polar": 0.0183,
+        "dG_nonpolar": 0.01
+      },
+      {
+        "resname": "GLY",
+        "resnum_reduced": 375,
+        "resnum_6meo": 468,
+        "dG_total": -0.0012,
+        "dG_vdw": 0.0,
+        "dG_elec": 0.0114,
+        "dG_polar": 0.0257,
+        "dG_nonpolar": 0.0382
+      },
+      {
+        "resname": "GLY",
+        "resnum_reduced": 376,
+        "resnum_6meo": 469,
+        "dG_total": 0.0067,
+        "dG_vdw": 0.0,
+        "dG_elec": 0.0584,
+        "dG_polar": 0.0146,
+        "dG_nonpolar": 0.1037
+      },
+      {
+        "resname": "ASP",
+        "resnum_reduced": 377,
+        "resnum_6meo": 470,
+        "dG_total": 0.0127,
+        "dG_vdw": 0.0,
+        "dG_elec": 0.0604,
+        "dG_polar": 0.7956,
+        "dG_nonpolar": 0.8156
+      },
+      {
+        "resname": "MET",
+        "resnum_reduced": 378,
+        "resnum_6meo": 471,
+        "dG_total": -0.001,
+        "dG_vdw": 0.0,
+        "dG_elec": -0.0006,
+        "dG_polar": -0.0005,
+        "dG_nonpolar": 0.0178
+      },
+      {
+        "resname": "ARG",
+        "resnum_reduced": 379,
+        "resnum_6meo": 472,
+        "dG_total": 0.0048,
+        "dG_vdw": 0.0,
+        "dG_elec": 0.0071,
+        "dG_polar": 0.361,
+        "dG_nonpolar": 0.3543
+      }
+    ],
+    "total_dG": 0.024
+  }
+}

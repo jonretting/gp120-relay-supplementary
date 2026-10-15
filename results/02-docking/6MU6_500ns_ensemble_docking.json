@@ -1,0 +1,28 @@
+{
+  "pdb_id": "6MU6",
+  "method": "AutoDock Vina 1.2.7, BMS-626529, GROMOS 2.5A clusters from 500ns MD",
+  "n_frames": 3,
+  "mean_affinity_kcal_mol": -3.904,
+  "std_affinity_kcal_mol": 0.331,
+  "best_affinity_kcal_mol": -4.37,
+  "worst_affinity_kcal_mol": -3.638,
+  "per_cluster": [
+    {
+      "cluster": 1,
+      "affinity_kcal_mol": -3.638
+    },
+    {
+      "cluster": 2,
+      "affinity_kcal_mol": -3.704
+    },
+    {
+      "cluster": 3,
+      "affinity_kcal_mol": -4.37
+    }
+  ],
+  "comparison_6meo_100ns": {
+    "mean": -6.808,
+    "std": 0.75,
+    "n_frames": 20
+  }
+}

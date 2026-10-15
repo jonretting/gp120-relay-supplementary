@@ -1,0 +1,286 @@
+{
+  "system": "drug_bound",
+  "trajectory": "md.xtc",
+  "topology": "md.tpr",
+  "n_atoms": 292812,
+  "n_ca": 887,
+  "n_frames_total": 1001,
+  "n_frames_used": 201,
+  "stride": 5,
+  "chains": {
+    "seg_0_Protein_chain_A": 398,
+    "seg_1_Protein_chain_B": 176,
+    "seg_2_Protein_chain_C": 313
+  },
+  "dccm_stats": {
+    "mean": 0.30073428167127886,
+    "mean_abs": 0.39896811740054194,
+    "range": [
+      -0.7743513090513254,
+      1.0
+    ]
+  },
+  "relay_pocket": {
+    "indices": [
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378
+    ],
+    "resids": [
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379
+    ],
+    "intra_dccm_mean": 0.8939127837196474,
+    "intra_dccm_range": [
+      0.6856134275879291,
+      0.9937581166360108
+    ],
+    "centrality": {
+      "372": 0.0021578605042659833,
+      "373": 0.0006427669587175269,
+      "374": 0.00037494739258522403,
+      "375": 0.0007371414724974813,
+      "376": 0.00042596064327709123,
+      "377": 0.0003264848044279502,
+      "378": 0.0003443394421701037,
+      "379": 0.000275471553736083
+    },
+    "centrality_ranks": {
+      "372": 85,
+      "375": 242,
+      "373": 270,
+      "376": 364,
+      "374": 396,
+      "378": 422,
+      "377": 448,
+      "379": 506
+    }
+  },
+  "cross_domain_correlations": {
+    "seg_0_Protein_chain_A-seg_1_Protein_chain_B": {
+      "mean": 0.12290774845200463,
+      "mean_abs": 0.27480444518395064,
+      "max": 0.9994355597065061,
+      "min": -0.7743513090513254,
+      "n_positive": 40044,
+      "n_negative": 30004,
+      "n_total": 70048
+    },
+    "seg_0_Protein_chain_A-seg_2_Protein_chain_C": {
+      "mean": 0.3055955412432972,
+      "mean_abs": 0.3467782642173135,
+      "max": 0.9930566308598026,
+      "min": -0.4510737748160274,
+      "n_positive": 100060,
+      "n_negative": 24514,
+      "n_total": 124574
+    },
+    "seg_1_Protein_chain_B-seg_2_Protein_chain_C": {
+      "mean": -0.09710150579381827,
+      "mean_abs": 0.19095030804169102,
+      "max": 0.9784268246485934,
+      "min": -0.7710283363737898,
+      "n_positive": 12744,
+      "n_negative": 42344,
+      "n_total": 55088
+    }
+  },
+  "relay_cross_domain": {
+    "relay-seg_0_Protein_chain_A": {
+      "mean": 0.5808706657774746,
+      "mean_abs": 0.6091030343304304,
+      "max": 0.9881945575565982,
+      "min": -0.35201739544691035
+    },
+    "relay-seg_1_Protein_chain_B": {
+      "mean": 0.2941875888269357,
+      "mean_abs": 0.3989102353724419,
+      "max": 0.9701300412350169,
+      "min": -0.48728126334730953
+    },
+    "relay-seg_2_Protein_chain_C": {
+      "mean": 0.22831962768545425,
+      "mean_abs": 0.24183312942610943,
+      "max": 0.830397522098562,
+      "min": -0.33230892640364007
+    }
+  },
+  "top_centrality": [
+    {
+      "rank": 1,
+      "resid": 61,
+      "resname": "ASN",
+      "chain": "seg_0_Protein_chain_A",
+      "centrality": 0.016944051217303698,
+      "is_relay": false
+    },
+    {
+      "rank": 2,
+      "resid": 152,
+      "resname": "GLY",
+      "chain": "seg_0_Protein_chain_A",
+      "centrality": 0.015982451441762,
+      "is_relay": false
+    },
+    {
+      "rank": 3,
+      "resid": 803,
+      "resname": "LYS",
+      "chain": "seg_2_Protein_chain_C",
+      "centrality": 0.015013199678616522,
+      "is_relay": false
+    },
+    {
+      "rank": 4,
+      "resid": 366,
+      "resname": "ASN",
+      "chain": "seg_0_Protein_chain_A",
+      "centrality": 0.014464807233678949,
+      "is_relay": false
+    },
+    {
+      "rank": 5,
+      "resid": 147,
+      "resname": "LYS",
+      "chain": "seg_0_Protein_chain_A",
+      "centrality": 0.011199959189399446,
+      "is_relay": false
+    },
+    {
+      "rank": 6,
+      "resid": 60,
+      "resname": "GLU",
+      "chain": "seg_0_Protein_chain_A",
+      "centrality": 0.010159288875285355,
+      "is_relay": false
+    },
+    {
+      "rank": 7,
+      "resid": 501,
+      "resname": "ASN",
+      "chain": "seg_1_Protein_chain_B",
+      "centrality": 0.010082768999247555,
+      "is_relay": false
+    },
+    {
+      "rank": 8,
+      "resid": 535,
+      "resname": "ASN",
+      "chain": "seg_1_Protein_chain_B",
+      "centrality": 0.00982005075818444,
+      "is_relay": false
+    },
+    {
+      "rank": 9,
+      "resid": 502,
+      "resname": "SER",
+      "chain": "seg_1_Protein_chain_B",
+      "centrality": 0.009417046077718687,
+      "is_relay": false
+    },
+    {
+      "rank": 10,
+      "resid": 546,
+      "resname": "GLN",
+      "chain": "seg_1_Protein_chain_B",
+      "centrality": 0.009042098685133464,
+      "is_relay": false
+    },
+    {
+      "rank": 11,
+      "resid": 367,
+      "resname": "THR",
+      "chain": "seg_0_Protein_chain_A",
+      "centrality": 0.008830393694762215,
+      "is_relay": false
+    },
+    {
+      "rank": 12,
+      "resid": 799,
+      "resname": "ARG",
+      "chain": "seg_2_Protein_chain_C",
+      "centrality": 0.00798357373327722,
+      "is_relay": false
+    },
+    {
+      "rank": 13,
+      "resid": 504,
+      "resname": "THR",
+      "chain": "seg_1_Protein_chain_B",
+      "centrality": 0.006147096708369999,
+      "is_relay": false
+    },
+    {
+      "rank": 14,
+      "resid": 565,
+      "resname": "LYS",
+      "chain": "seg_1_Protein_chain_B",
+      "centrality": 0.0060221142441749245,
+      "is_relay": false
+    },
+    {
+      "rank": 15,
+      "resid": 800,
+      "resname": "ASN",
+      "chain": "seg_2_Protein_chain_C",
+      "centrality": 0.005894581117445257,
+      "is_relay": false
+    },
+    {
+      "rank": 16,
+      "resid": 512,
+      "resname": "LEU",
+      "chain": "seg_1_Protein_chain_B",
+      "centrality": 0.005693078777212381,
+      "is_relay": false
+    },
+    {
+      "rank": 17,
+      "resid": 527,
+      "resname": "GLN",
+      "chain": "seg_1_Protein_chain_B",
+      "centrality": 0.0056089069135708,
+      "is_relay": false
+    },
+    {
+      "rank": 18,
+      "resid": 308,
+      "resname": "TRP",
+      "chain": "seg_0_Protein_chain_A",
+      "centrality": 0.005591052275828647,
+      "is_relay": false
+    },
+    {
+      "rank": 19,
+      "resid": 363,
+      "resname": "ASN",
+      "chain": "seg_0_Protein_chain_A",
+      "centrality": 0.005534937700067593,
+      "is_relay": false
+    },
+    {
+      "rank": 20,
+      "resid": 526,
+      "resname": "VAL",
+      "chain": "seg_1_Protein_chain_B",
+      "centrality": 0.005519633724860033,
+      "is_relay": false
+    }
+  ],
+  "network": {
+    "nodes": 887,
+    "edges": 254208,
+    "correlation_threshold": 0.2
+  }
+}

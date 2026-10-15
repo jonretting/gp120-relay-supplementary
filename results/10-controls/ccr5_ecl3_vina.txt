@@ -1,0 +1,17 @@
+# AutoDock Vina configuration -- CCR5 ECL3
+# Target: ccr5_ecl3
+# Source: PDB 6MEO, pharmacophore-guided docking
+#
+# Usage: vina --config ccr5_ecl3_vina.txt --receptor receptor.pdbqt --ligand ligand.pdbqt
+
+center_x = 155.1
+center_y = 143.5
+center_z = 169.5
+
+size_x = 21.3
+size_y = 22.4
+size_z = 22.0
+
+exhaustiveness = 32
+num_modes = 20
+energy_range = 4

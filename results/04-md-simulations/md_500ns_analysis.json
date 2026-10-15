@@ -1,0 +1,65 @@
+{
+  "pocket_rmsd": {
+    "mean_angstrom": 13.425,
+    "std_angstrom": 7.737,
+    "max_angstrom": 34.589,
+    "min_angstrom": 0.006,
+    "frames": 50001,
+    "unit": "angstrom",
+    "description": "CA RMSD of relay pocket residues 465-472 vs initial structure, fit to backbone"
+  },
+  "rmsf": {
+    "relay_pocket": {
+      "ARG465": 11.025,
+      "PRO466": 8.842,
+      "GLY467": 9.611,
+      "GLY468": 10.71,
+      "GLY469": 12.595,
+      "ASP470": 14.885,
+      "MET471": 17.269,
+      "ARG472": 18.154
+    },
+    "relay_mean_angstrom": 12.886,
+    "system_mean_angstrom": 13.572,
+    "relay_percentile": 57.1,
+    "total_residues": 105
+  },
+  "pocket_rg": {
+    "mean_angstrom": 9.11,
+    "std_angstrom": 0.45,
+    "initial_angstrom": 9.05,
+    "final_angstrom": 8.98,
+    "change_percent": -0.8
+  },
+  "pocket_sasa": {
+    "mean_angstrom2": 1269.3,
+    "std_angstrom2": 45.5,
+    "frames": 50001
+  },
+  "metadata": {
+    "system": "Reduced relay pocket (105 residues, 33713 atoms, AMBER99SB-ILDN/TIP3P)",
+    "duration_ns": 500,
+    "frames": 50001,
+    "timestep_ps": 10,
+    "completed": "Aug 6, 2026 22:38 UTC",
+    "runtime": "16d 7h 47m",
+    "performance_ns_per_day": 24.503,
+    "comparison_100ns": {
+      "pocket_rmsd_angstrom": "2.47 +/- 0.23",
+      "pocket_rg_angstrom": "9.70 +/- 0.23",
+      "pocket_sasa_angstrom2": "1252.6 +/- 43.1"
+    }
+  },
+  "pocket_internal_rmsd_ca": {
+    "mean_angstrom": 1.974,
+    "std_angstrom": 0.405,
+    "max_angstrom": 3.033,
+    "frames": 50001
+  },
+  "pocket_internal_rmsd_all": {
+    "mean_angstrom": 2.958,
+    "std_angstrom": 0.51,
+    "max_angstrom": 5.257,
+    "frames": 50001
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "method": "DCCM from GROMACS covariance matrix (gmx covar)",
+  "trajectory": "500ns reduced system (10,001 frames, dt=50ps)",
+  "atoms": "105 C-alpha atoms",
+  "intra_pocket": {
+    "all_28_positive": true,
+    "mean_correlation": 0.7869,
+    "min_correlation": 0.3678,
+    "max_correlation": 0.9883,
+    "sequential_neighbor_mean": 0.9716,
+    "pairs": {
+      "ARG465-PRO466": 0.9709,
+      "ARG465-GLY467": 0.8736,
+      "ARG465-GLY468": 0.7105,
+      "ARG465-GLY469": 0.5516,
+      "ARG465-ASP470": 0.4805,
+      "ARG465-MET471": 0.3678,
+      "ARG465-ARG472": 0.3719,
+      "PRO466-GLY467": 0.9564,
+      "PRO466-GLY468": 0.8395,
+      "PRO466-GLY469": 0.7054,
+      "PRO466-ASP470": 0.6269,
+      "PRO466-MET471": 0.5234,
+      "PRO466-ARG472": 0.5321,
+      "GLY467-GLY468": 0.9518,
+      "GLY467-GLY469": 0.8647,
+      "GLY467-ASP470": 0.7952,
+      "GLY467-MET471": 0.7061,
+      "GLY467-ARG472": 0.724,
+      "GLY468-GLY469": 0.9718,
+      "GLY468-ASP470": 0.9251,
+      "GLY468-MET471": 0.8647,
+      "GLY468-ARG472": 0.8792,
+      "GLY469-ASP470": 0.9783,
+      "GLY469-MET471": 0.9474,
+      "GLY469-ARG472": 0.9591,
+      "ASP470-MET471": 0.9839,
+      "ASP470-ARG472": 0.9818,
+      "MET471-ARG472": 0.9883
+    }
+  },
+  "comparison_100ns": {
+    "all_28_positive_100ns": true,
+    "range_100ns": "+0.08 to +0.82",
+    "sequential_neighbor_mean_100ns": ">0.75"
+  },
+  "betweenness_centrality": {
+    "top_10": [
+      [
+        444,
+        0.0691
+      ],
+      [
+        381,
+        0.0541
+      ],
+      [
+        445,
+        0.0463
+      ],
+      [
+        256,
+        0.0441
+      ],
+      [
+        446,
+        0.0357
+      ],
+      [
+        104,
+        0.0284
+      ],
+      [
+        423,
+        0.0273
+      ],
+      [
+        101,
+        0.0261
+      ],
+      [
+        424,
+        0.026
+      ],
+      [
+        254,
+        0.0239
+      ]
+    ],
+    "relay_residues": {
+      "465": 0.0039,
+      "466": 0.0004,
+      "467": 0.0009,
+      "468": 0.0004,
+      "469": 0.0,
+      "470": 0.0006,
+      "471": 0.0007,
+      "472": 0.0028
+    },
+    "relay_in_top_6": 0,
+    "edges_above_0.2": 4262,
+    "total_nodes": 105
+  }
+}

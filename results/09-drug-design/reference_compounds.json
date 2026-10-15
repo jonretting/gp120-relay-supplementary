@@ -1,0 +1,40 @@
+{
+  "maraviroc": {
+    "name": "Maraviroc",
+    "trade_name": "Selzentry/Celsentri",
+    "smiles": "CC(C)c1nnc(C)n1[C@@H]1C[C@@H](n2cc(C(=O)NC3CC4CCCCC4C3)nn2)C1",
+    "target": "CCR5 TM pocket",
+    "year_approved": 2007,
+    "mechanism": "Allosteric CCR5 antagonist",
+    "molecular_weight": 513.67,
+    "chembl_id": "CHEMBL294873",
+    "drugbank_id": "DB04835",
+    "pdb_ligand": "MRV (in PDB 4MBS)",
+    "relevance": "Contacts F109 (our hotspot B:109); binds TM pocket below our ECL2 pharmacophore"
+  },
+  "bms626529": {
+    "name": "BMS-626529 (Fostemsavir active metabolite)",
+    "trade_name": "Rukobia (fostemsavir prodrug)",
+    "smiles": "COc1cnc(C(=O)N2CCN(c3cccc4[nH]nc(C)c34)CC2)c(OC[C@@H]2CC(F)(F)CO2)c1",
+    "target": "gp120 attachment site (beta20-beta21)",
+    "year_approved": 2020,
+    "mechanism": "Attachment inhibitor (blocks CD4 binding)",
+    "molecular_weight": 531.55,
+    "chembl_id": "CHEMBL2107839",
+    "drugbank_id": "DB16139",
+    "pdb_ligand": "BMS (in PDB 5U7O)",
+    "relevance": "Binds near I418/HXB2-I423 (our hotspot G:418); targets attachment not relay"
+  },
+  "enfuvirtide": {
+    "name": "Enfuvirtide",
+    "trade_name": "Fuzeon",
+    "type": "peptide",
+    "sequence": "YTSLIHSLIEESQNQQEKNEQELLELDKWASLWNWF",
+    "target": "gp41 HR1",
+    "year_approved": 2003,
+    "mechanism": "Fusion inhibitor (gp41 HR1 peptide mimic)",
+    "chembl_id": "CHEMBL707",
+    "drugbank_id": "DB00109",
+    "relevance": "Acts downstream of our gp120-gp41 relay; validates relay as druggable step"
+  }
+}

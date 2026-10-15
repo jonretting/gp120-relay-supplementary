@@ -1,0 +1,49 @@
+{
+  "method": "MM-GBSA (igb=5, saltcon=0.15)",
+  "software": "gmx_MMPBSA 1.6.5 / AmberTools 26 / sander",
+  "system": "BMS-626529 (UNL) bound to gp120+CD4+CCR5 ternary complex",
+  "receptor_mask": ":1-887",
+  "ligand_mask": ":888",
+  "ligand_residue_name": "UNL",
+  "frames_analyzed": 40,
+  "frame_interval": 5,
+  "trajectory_source": "10 ns production MD, PBC-unwrapped (gmx trjconv -pbc mol -center)",
+  "temperature_K": 298.15,
+  "units": "kcal/mol",
+  "delta_binding": {
+    "BOND": {"avg": 0.00, "sd": 0.00},
+    "ANGLE": {"avg": 0.00, "sd": 0.00},
+    "DIHED": {"avg": 0.00, "sd": 0.00},
+    "VDWAALS": {"avg": -68.14, "sd": 2.83},
+    "EEL": {"avg": 8.59, "sd": 8.44},
+    "1-4_VDW": {"avg": 0.00, "sd": 0.00},
+    "1-4_EEL": {"avg": 0.00, "sd": 0.00},
+    "EGB": {"avg": 29.94, "sd": 7.99},
+    "ESURF": {"avg": -8.05, "sd": 0.44},
+    "GGAS": {"avg": -59.55, "sd": 9.57},
+    "GSOLV": {"avg": 21.89, "sd": 7.74},
+    "TOTAL": {"avg": -37.66, "sd": 3.47, "sem": 0.55}
+  },
+  "per_residue_decomposition": {
+    "method": "idecomp=1, within 6 A",
+    "numbering_note": "GROMACS uses sequential residue numbering (chain A = gp120, 398 residues). PDB 6MEO chain G uses reference sequence numbering with gaps at unresolved variable loops (V1/V2: +55 offset, V4: +8 offset). Mapping: GROMACS 1-100 = PDB G:31-130 (+30), GROMACS 101-349 = PDB G:186-434 (+85), GROMACS 350-398 = PDB G:443-491 (+93).",
+    "significant_residues": [
+      {"residue": "LEU85", "pdb_residue": "G:LEU115", "pdb_domain": "C1", "chain": "A", "delta_total": -2.97},
+      {"residue": "VAL123", "pdb_residue": "G:VAL208", "pdb_domain": "C2", "chain": "A", "delta_total": -2.84},
+      {"residue": "PHE125", "pdb_residue": "G:PHE210", "pdb_domain": "C2", "chain": "A", "delta_total": -2.59},
+      {"residue": "VAL169", "pdb_residue": "G:VAL254", "pdb_domain": "C2", "chain": "A", "delta_total": -1.41},
+      {"residue": "LYS86", "pdb_residue": "G:LYS116", "pdb_domain": "C1", "chain": "A", "delta_total": -1.33},
+      {"residue": "PRO121", "pdb_residue": "G:PRO206", "pdb_domain": "C2", "chain": "A", "delta_total": -1.26},
+      {"residue": "PRO127", "pdb_residue": "G:PRO212", "pdb_domain": "C2", "chain": "A", "delta_total": -1.22},
+      {"residue": "PHE289", "pdb_residue": "G:PHE374", "pdb_domain": "C3", "chain": "A", "delta_total": -1.04},
+      {"residue": "PHE295", "pdb_residue": "G:PHE380", "pdb_domain": "C3", "chain": "A", "delta_total": -1.01}
+    ]
+  },
+  "notes": [
+    "PBC unwrapping required before gmx_MMPBSA (gmx trjconv -pbc mol -center)",
+    "Binding dominated by van der Waals contacts (hydrophobic pocket)",
+    "All significant residues are gp120 residues lining the relay pocket cavity, spanning C1, C2, and C3 domains (proximal in 3D to the C5 RPGGGDMR motif at G:465-472)",
+    "No entropic correction applied (see IE-MMPBSA results for TdeltaS)",
+    "GROMACS-to-PDB mapping verified Sep 28 2026 by aligning _GMXMMPBSA_COM.pdb chain A against original hiv_6meo.pdb chain G on dev-mini-1 (100% amino acid match, 17/17 positions)"
+  ]
+}

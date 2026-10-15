@@ -1,0 +1,127 @@
+{
+  "pdb_id": "4TVP",
+  "method": "DCCM from GROMACS covariance (gmx covar), 500ns, dt=50ps",
+  "n_ca_atoms": 85,
+  "relay_motif": "RPGGGDMR",
+  "relay_residues_gromacs": [
+    469,
+    470,
+    471,
+    472,
+    473,
+    474,
+    475,
+    476
+  ],
+  "intra_pocket": {
+    "all_28_positive": false,
+    "mean_correlation": 0.3072,
+    "min_correlation": -0.4716,
+    "max_correlation": 0.9216,
+    "sequential_neighbor_mean": 0.7949,
+    "pairs": {
+      "ARG469-PRO470": 0.8319,
+      "ARG469-GLY471": 0.5279,
+      "ARG469-GLY472": 0.08,
+      "ARG469-GLY473": -0.2926,
+      "ARG469-ASP474": -0.3451,
+      "ARG469-MET475": -0.3545,
+      "ARG469-ARG476": -0.4716,
+      "PRO470-GLY471": 0.7627,
+      "PRO470-GLY472": 0.3375,
+      "PRO470-GLY473": -0.0665,
+      "PRO470-ASP474": -0.1515,
+      "PRO470-MET475": -0.1389,
+      "PRO470-ARG476": -0.2372,
+      "GLY471-GLY472": 0.6262,
+      "GLY471-GLY473": 0.2469,
+      "GLY471-ASP474": 0.1366,
+      "GLY471-MET475": 0.1052,
+      "GLY471-ARG476": 0.0841,
+      "GLY472-GLY473": 0.649,
+      "GLY472-ASP474": 0.4529,
+      "GLY472-MET475": 0.3549,
+      "GLY472-ARG476": 0.3933,
+      "GLY473-ASP474": 0.8864,
+      "GLY473-MET475": 0.7614,
+      "GLY473-ARG476": 0.7483,
+      "ASP474-MET475": 0.9216,
+      "ASP474-ARG476": 0.8651,
+      "MET475-ARG476": 0.8867
+    }
+  },
+  "comparison_6meo_500ns": {
+    "all_28_positive": true,
+    "mean_correlation": 0.79,
+    "min_correlation": 0.37,
+    "max_correlation": 0.99,
+    "sequential_neighbor_mean": 0.97
+  },
+  "betweenness_centrality": {
+    "top_10": [
+      [
+        "ARG480",
+        0.0293
+      ],
+      [
+        "ASP457",
+        0.025
+      ],
+      [
+        "ASN283",
+        0.0218
+      ],
+      [
+        "ASN279",
+        0.0204
+      ],
+      [
+        "ASP474",
+        0.0204
+      ],
+      [
+        "ARG456",
+        0.0189
+      ],
+      [
+        "TRP427",
+        0.0175
+      ],
+      [
+        "PHE376",
+        0.0169
+      ],
+      [
+        "ASP368",
+        0.0161
+      ],
+      [
+        "VAL254",
+        0.0158
+      ]
+    ],
+    "relay_residues": {
+      "ARG469": 0.0083,
+      "PRO470": 0.0086,
+      "GLY471": 0.0003,
+      "GLY472": 0.0063,
+      "GLY473": 0.0129,
+      "ASP474": 0.0204,
+      "MET475": 0.0109,
+      "ARG476": 0.004
+    },
+    "relay_ranks": {
+      "ARG469": 25,
+      "PRO470": 24,
+      "GLY471": 84,
+      "GLY472": 33,
+      "GLY473": 15,
+      "ASP474": 4,
+      "MET475": 20,
+      "ARG476": 49
+    },
+    "relay_in_top_10": 1,
+    "edges_above_0.2": 2359,
+    "total_nodes": 85
+  }
+}

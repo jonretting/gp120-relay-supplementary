@@ -1,0 +1,499 @@
+{
+  "tool": "fpocket",
+  "version": "4.0",
+  "structure": "PDB 6MEO",
+  "total_pockets_detected": 85,
+  "relay_pocket_analysis": {
+    "relay_residues_searched": "G:Arg465-Arg472",
+    "fpocket_fragments": [
+      {
+        "fpocket_pocket_id": 14,
+        "fpocket_rank": 14,
+        "score": 0.087,
+        "druggability_score": 0.006,
+        "volume_A3": 309.798,
+        "alpha_spheres": 46.0,
+        "total_SASA": 96.782,
+        "polar_SASA": 38.816,
+        "apolar_SASA": 57.966,
+        "chains_involved": [
+          "A",
+          "G"
+        ],
+        "relay_residues_in_pocket": [
+          {
+            "chain": "G",
+            "residue": "MET",
+            "number": 471
+          }
+        ],
+        "all_residues": [
+          {
+            "chain": "A",
+            "residue": "PHE",
+            "number": 43
+          },
+          {
+            "chain": "G",
+            "residue": "TRP",
+            "number": 111
+          },
+          {
+            "chain": "G",
+            "residue": "VAL",
+            "number": 255
+          },
+          {
+            "chain": "G",
+            "residue": "THR",
+            "number": 257
+          },
+          {
+            "chain": "G",
+            "residue": "GLU",
+            "number": 368
+          },
+          {
+            "chain": "G",
+            "residue": "SER",
+            "number": 373
+          },
+          {
+            "chain": "G",
+            "residue": "ASN",
+            "number": 375
+          },
+          {
+            "chain": "G",
+            "residue": "PHE",
+            "number": 380
+          },
+          {
+            "chain": "G",
+            "residue": "TYR",
+            "number": 382
+          },
+          {
+            "chain": "G",
+            "residue": "VAL",
+            "number": 419
+          },
+          {
+            "chain": "G",
+            "residue": "ASN",
+            "number": 420
+          },
+          {
+            "chain": "G",
+            "residue": "MET",
+            "number": 421
+          },
+          {
+            "chain": "G",
+            "residue": "TRP",
+            "number": 422
+          },
+          {
+            "chain": "G",
+            "residue": "GLN",
+            "number": 423
+          },
+          {
+            "chain": "G",
+            "residue": "TYR",
+            "number": 430
+          },
+          {
+            "chain": "G",
+            "residue": "MET",
+            "number": 471
+          }
+        ]
+      },
+      {
+        "fpocket_pocket_id": 19,
+        "fpocket_rank": 19,
+        "score": 0.067,
+        "druggability_score": 0.003,
+        "volume_A3": 502.724,
+        "alpha_spheres": 64.0,
+        "total_SASA": 202.0,
+        "polar_SASA": 131.957,
+        "apolar_SASA": 70.042,
+        "chains_involved": [
+          "A",
+          "G"
+        ],
+        "relay_residues_in_pocket": [
+          {
+            "chain": "G",
+            "residue": "ARG",
+            "number": 472
+          },
+          {
+            "chain": "G",
+            "residue": "ASP",
+            "number": 470
+          },
+          {
+            "chain": "G",
+            "residue": "MET",
+            "number": 471
+          }
+        ],
+        "all_residues": [
+          {
+            "chain": "A",
+            "residue": "SER",
+            "number": 23
+          },
+          {
+            "chain": "A",
+            "residue": "ILE",
+            "number": 24
+          },
+          {
+            "chain": "A",
+            "residue": "GLN",
+            "number": 25
+          },
+          {
+            "chain": "A",
+            "residue": "ASN",
+            "number": 39
+          },
+          {
+            "chain": "A",
+            "residue": "GLY",
+            "number": 41
+          },
+          {
+            "chain": "A",
+            "residue": "SER",
+            "number": 42
+          },
+          {
+            "chain": "G",
+            "residue": "TRP",
+            "number": 95
+          },
+          {
+            "chain": "G",
+            "residue": "HIS",
+            "number": 104
+          },
+          {
+            "chain": "G",
+            "residue": "GLU",
+            "number": 275
+          },
+          {
+            "chain": "G",
+            "residue": "LYS",
+            "number": 282
+          },
+          {
+            "chain": "G",
+            "residue": "THR",
+            "number": 283
+          },
+          {
+            "chain": "G",
+            "residue": "TRP",
+            "number": 422
+          },
+          {
+            "chain": "G",
+            "residue": "GLU",
+            "number": 424
+          },
+          {
+            "chain": "G",
+            "residue": "ASP",
+            "number": 470
+          },
+          {
+            "chain": "G",
+            "residue": "MET",
+            "number": 471
+          },
+          {
+            "chain": "G",
+            "residue": "ARG",
+            "number": 472
+          },
+          {
+            "chain": "G",
+            "residue": "ASP",
+            "number": 473
+          },
+          {
+            "chain": "G",
+            "residue": "ARG",
+            "number": 476
+          }
+        ]
+      },
+      {
+        "fpocket_pocket_id": 52,
+        "fpocket_rank": 52,
+        "score": -0.061,
+        "druggability_score": 0.0,
+        "volume_A3": 290.304,
+        "alpha_spheres": 15.0,
+        "total_SASA": 89.465,
+        "polar_SASA": 62.897,
+        "apolar_SASA": 26.568,
+        "chains_involved": [
+          "A",
+          "G"
+        ],
+        "relay_residues_in_pocket": [
+          {
+            "chain": "G",
+            "residue": "ARG",
+            "number": 465
+          }
+        ],
+        "all_residues": [
+          {
+            "chain": "A",
+            "residue": "PRO",
+            "number": 48
+          },
+          {
+            "chain": "A",
+            "residue": "SER",
+            "number": 49
+          },
+          {
+            "chain": "A",
+            "residue": "ASN",
+            "number": 52
+          },
+          {
+            "chain": "G",
+            "residue": "GLN",
+            "number": 360
+          },
+          {
+            "chain": "G",
+            "residue": "PRO",
+            "number": 361
+          },
+          {
+            "chain": "G",
+            "residue": "PRO",
+            "number": 362
+          },
+          {
+            "chain": "G",
+            "residue": "SER",
+            "number": 363
+          },
+          {
+            "chain": "G",
+            "residue": "ASP",
+            "number": 452
+          },
+          {
+            "chain": "G",
+            "residue": "ARG",
+            "number": 465
+          }
+        ]
+      },
+      {
+        "fpocket_pocket_id": 5,
+        "fpocket_rank": 5,
+        "score": 0.14,
+        "druggability_score": 0.004,
+        "volume_A3": 288.606,
+        "alpha_spheres": 44.0,
+        "total_SASA": 82.585,
+        "polar_SASA": 36.695,
+        "apolar_SASA": 45.89,
+        "chains_involved": [
+          "A",
+          "G"
+        ],
+        "relay_residues_in_pocket": [
+          {
+            "chain": "G",
+            "residue": "ARG",
+            "number": 465
+          },
+          {
+            "chain": "G",
+            "residue": "GLY",
+            "number": 467
+          },
+          {
+            "chain": "G",
+            "residue": "GLY",
+            "number": 468
+          },
+          {
+            "chain": "G",
+            "residue": "PRO",
+            "number": 466
+          }
+        ],
+        "all_residues": [
+          {
+            "chain": "A",
+            "residue": "LYS",
+            "number": 35
+          },
+          {
+            "chain": "A",
+            "residue": "GLN",
+            "number": 40
+          },
+          {
+            "chain": "A",
+            "residue": "THR",
+            "number": 45
+          },
+          {
+            "chain": "A",
+            "residue": "GLY",
+            "number": 47
+          },
+          {
+            "chain": "A",
+            "residue": "PRO",
+            "number": 48
+          },
+          {
+            "chain": "G",
+            "residue": "PRO",
+            "number": 362
+          },
+          {
+            "chain": "G",
+            "residue": "SER",
+            "number": 363
+          },
+          {
+            "chain": "G",
+            "residue": "GLY",
+            "number": 364
+          },
+          {
+            "chain": "G",
+            "residue": "ILE",
+            "number": 369
+          },
+          {
+            "chain": "G",
+            "residue": "THR",
+            "number": 450
+          },
+          {
+            "chain": "G",
+            "residue": "ARG",
+            "number": 451
+          },
+          {
+            "chain": "G",
+            "residue": "ASP",
+            "number": 452
+          },
+          {
+            "chain": "G",
+            "residue": "ARG",
+            "number": 465
+          },
+          {
+            "chain": "G",
+            "residue": "PRO",
+            "number": 466
+          },
+          {
+            "chain": "G",
+            "residue": "GLY",
+            "number": 467
+          },
+          {
+            "chain": "G",
+            "residue": "GLY",
+            "number": 468
+          }
+        ]
+      }
+    ],
+    "all_relay_residues_detected": false,
+    "fragmentation_note": "fpocket Voronoi tessellation splits the multi-chain interface cavity into sub-pockets"
+  },
+  "maraviroc_pocket_detection": {
+    "ecl2_residues_searched": "B:Leu174,Tyr184,Gln194",
+    "fpocket_matches": [
+      {
+        "fpocket_pocket_id": 13,
+        "score": 0.089,
+        "druggability_score": 0.967,
+        "volume_A3": 955.619,
+        "ecl2_residues_found": [
+          {
+            "chain": "B",
+            "residue": "GLN",
+            "number": 194
+          }
+        ]
+      },
+      {
+        "fpocket_pocket_id": 59,
+        "score": -0.094,
+        "druggability_score": 0.001,
+        "volume_A3": 441.945,
+        "ecl2_residues_found": [
+          {
+            "chain": "B",
+            "residue": "TYR",
+            "number": 184
+          }
+        ]
+      },
+      {
+        "fpocket_pocket_id": 63,
+        "score": -0.104,
+        "druggability_score": 0.003,
+        "volume_A3": 176.541,
+        "ecl2_residues_found": [
+          {
+            "chain": "B",
+            "residue": "LEU",
+            "number": 174
+          }
+        ]
+      },
+      {
+        "fpocket_pocket_id": 71,
+        "score": -0.137,
+        "druggability_score": 0.017,
+        "volume_A3": 289.949,
+        "ecl2_residues_found": [
+          {
+            "chain": "B",
+            "residue": "TYR",
+            "number": 184
+          }
+        ]
+      },
+      {
+        "fpocket_pocket_id": 76,
+        "score": -0.17,
+        "druggability_score": 0.001,
+        "volume_A3": 352.232,
+        "ecl2_residues_found": [
+          {
+            "chain": "B",
+            "residue": "LEU",
+            "number": 174
+          }
+        ]
+      }
+    ]
+  }
+}

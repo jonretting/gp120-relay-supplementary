@@ -1,0 +1,17 @@
+# AutoDock Vina configuration -- gp120 Conformational Relay
+# Target: gp120_gp41_relay
+# Source: PDB 6MEO, pharmacophore-guided docking
+#
+# Usage: vina --config gp120_gp41_relay_vina.txt --receptor receptor.pdbqt --ligand ligand.pdbqt
+
+center_x = 134.6
+center_y = 183.9
+center_z = 136.7
+
+size_x = 20.8
+size_y = 21.4
+size_z = 21.3
+
+exhaustiveness = 32
+num_modes = 20
+energy_range = 4

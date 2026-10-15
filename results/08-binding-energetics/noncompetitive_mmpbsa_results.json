@@ -1,0 +1,13 @@
+{
+  "task": "6.2",
+  "description": "Non-Competitiveness MM-GBSA (drug-bound ternary)",
+  "receptor": "gp120",
+  "ligand": "CD4",
+  "context": "drug-bound (BMS-626529)",
+  "apo_reference_kcal": -38.02,
+  "deltaG_drug_bound": -28.39,
+  "sd": 28.69,
+  "sd_prop": 50.29,
+  "deltaG_apo": -38.02,
+  "deltadeltaG": 9.63
+}

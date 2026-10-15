@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite the accompanying manuscript."
+type: dataset
+title: "Supplementary Data: Identification of a Novel Druggable Pocket in the HIV-1 gp120 C5 Domain at the Conformational Relay Junction"
+authors:
+  - family-names: Retting
+    given-names: Jonathan Michael
+    affiliation: Independent Researcher
+    city: Los Angeles
+    region: CA
+    country: US
+date-released: "2026-10-15"
+version: "2.0"
+license: CC-BY-4.0
+doi: 10.5281/zenodo.23389294
+url: https://github.com/jonretting/gp120-relay-supplementary
+repository-code: https://github.com/jonretting/gp120-relay-supplementary
+keywords:
+  - HIV-1
+  - gp120
+  - drug target
+  - molecular dynamics
+  - free energy perturbation
+  - conformational relay
+  - C5 domain
+  - druggable pocket
+  - GROMACS
+  - AutoDock Vina
+references:
+  - type: article
+    title: "Identification of a Novel Druggable Pocket in the HIV-1 gp120 C5 Domain at the Conformational Relay Junction"
+    authors:
+      - family-names: Retting
+        given-names: Jonathan Michael
+    year: 2026
+preferred-citation:
+  type: article
+  title: "Identification of a Novel Druggable Pocket in the HIV-1 gp120 C5 Domain at the Conformational Relay Junction"
+  authors:
+    - family-names: Retting
+      given-names: Jonathan Michael
+      affiliation: Independent Researcher
+  year: 2026

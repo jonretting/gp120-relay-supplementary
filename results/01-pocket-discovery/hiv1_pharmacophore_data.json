@@ -1,0 +1,2606 @@
+{
+  "metadata": {
+    "title": "HIV-1 gp120-CD4-CCR5 Binding Hotspots and Pharmacophore Models",
+    "author": "Jonathan Retting",
+    "date": "2026-04-02",
+    "source_structure": {
+      "pdb_id": "6MEO",
+      "method": "Cryo-EM",
+      "resolution_angstrom": 3.9,
+      "citation": "Shaik MM et al. Nature 565, 318-323 (2019). DOI: 10.1038/s41586-018-0804-9",
+      "chains": {
+        "A": {
+          "protein": "CD4",
+          "organism": "Homo sapiens",
+          "residues": "26-201",
+          "role": "Host receptor",
+          "uniprot": "P01730",
+          "gene": "CD4",
+          "pdb_to_uniprot_offset": "+25 (PDB 1 = UniProt 26)"
+        },
+        "B": {
+          "protein": "CCR5",
+          "organism": "Homo sapiens",
+          "residues": "1-313",
+          "role": "Host coreceptor",
+          "uniprot": "P51681",
+          "gene": "CCR5",
+          "pdb_to_uniprot_offset": "0 (numbering matches)"
+        },
+        "G": {
+          "protein": "gp120",
+          "organism": "HIV-1",
+          "residues": "29-489",
+          "role": "Viral envelope glycoprotein",
+          "uniprot": "Q70145",
+          "isolate": "92UG037.8 (Clade A)",
+          "gene": "env",
+          "pdb_to_uniprot_offset": "+2 (PDB 31 = UniProt 29)"
+        }
+      }
+    },
+    "coordinate_system": "PDB 6MEO coordinate frame (Angstroms)",
+    "units": {
+      "coordinates": "Angstrom",
+      "wall_distance": "Angstrom"
+    },
+    "structure_summary": {
+      "total_residues": 885,
+      "total_atoms": 7003,
+      "interface_residues": 131,
+      "hotspot_residues": 22
+    },
+    "numbering": {
+      "gp120_chain_G": "Author numbering from isolate 92UG037.8. HXB2 equivalents provided per-residue.",
+      "cd4_chain_A": "PDB residue N = UniProt P01730 residue N+25",
+      "ccr5_chain_B": "PDB numbering matches UniProt P51681"
+    }
+  },
+  "binding_hotspots": [
+    {
+      "chain": "A",
+      "residue_number": 13,
+      "residue_name": "GLU",
+      "one_letter": "E",
+      "region": "D1 domain",
+      "known_role": "Within D1 gp120-contact face",
+      "novelty": "known",
+      "uniprot_position": 38
+    },
+    {
+      "chain": "A",
+      "residue_number": 15,
+      "residue_name": "THR",
+      "one_letter": "T",
+      "region": "D1 domain",
+      "known_role": "Proximal to D1 binding interface",
+      "novelty": "known",
+      "uniprot_position": 40
+    },
+    {
+      "chain": "A",
+      "residue_number": 27,
+      "residue_name": "HIS",
+      "one_letter": "H",
+      "region": "D1 domain, CC-prime loop",
+      "known_role": "gp120 contact region",
+      "novelty": "known",
+      "uniprot_position": 52
+    },
+    {
+      "chain": "A",
+      "residue_number": 66,
+      "residue_name": "ASN",
+      "one_letter": "N",
+      "region": "D1 domain",
+      "known_role": "Near Phe43 cavity anchor",
+      "novelty": "known",
+      "uniprot_position": 91
+    },
+    {
+      "chain": "B",
+      "residue_number": 7,
+      "residue_name": "SER",
+      "one_letter": "S",
+      "region": "N-terminus",
+      "known_role": "N-terminal contact with gp120 bridging sheet; adjacent to sulfated Tyr10/Tyr14",
+      "novelty": "known",
+      "uniprot_position": 7
+    },
+    {
+      "chain": "B",
+      "residue_number": 29,
+      "residue_name": "ALA",
+      "one_letter": "A",
+      "region": "N-terminus",
+      "known_role": "N-terminal extension contacts gp120",
+      "novelty": "known",
+      "uniprot_position": 29
+    },
+    {
+      "chain": "B",
+      "residue_number": 109,
+      "residue_name": "PHE",
+      "one_letter": "F",
+      "region": "TM3 / ECL1 boundary",
+      "known_role": "Not a primary contact site in current literature",
+      "novelty": "novel",
+      "uniprot_position": 109
+    },
+    {
+      "chain": "B",
+      "residue_number": 174,
+      "residue_name": "LEU",
+      "one_letter": "L",
+      "region": "ECL2",
+      "known_role": "ECL2 contact surface (maraviroc allosteric target region)",
+      "novelty": "known",
+      "uniprot_position": 174
+    },
+    {
+      "chain": "B",
+      "residue_number": 184,
+      "residue_name": "TYR",
+      "one_letter": "Y",
+      "region": "ECL2",
+      "known_role": "ECL2 contact surface",
+      "novelty": "known",
+      "uniprot_position": 184
+    },
+    {
+      "chain": "B",
+      "residue_number": 194,
+      "residue_name": "GLN",
+      "one_letter": "Q",
+      "region": "ECL2",
+      "known_role": "ECL2 primary gp120 contact surface",
+      "novelty": "known",
+      "uniprot_position": 194
+    },
+    {
+      "chain": "B",
+      "residue_number": 251,
+      "residue_name": "TYR",
+      "one_letter": "Y",
+      "region": "TM6 / ECL3 boundary",
+      "known_role": "ECL3 region \u2014 not extensively characterized for HIV contact",
+      "novelty": "novel",
+      "uniprot_position": 251
+    },
+    {
+      "chain": "B",
+      "residue_number": 255,
+      "residue_name": "LEU",
+      "one_letter": "L",
+      "region": "ECL3",
+      "known_role": "ECL3 \u2014 candidate novel target region",
+      "novelty": "novel",
+      "uniprot_position": 255
+    },
+    {
+      "chain": "B",
+      "residue_number": 258,
+      "residue_name": "ASN",
+      "one_letter": "N",
+      "region": "ECL3 / TM6",
+      "known_role": "ECL3 \u2014 not extensively characterized for HIV contact",
+      "novelty": "novel",
+      "uniprot_position": 258
+    },
+    {
+      "chain": "B",
+      "residue_number": 276,
+      "residue_name": "ASP",
+      "one_letter": "D",
+      "region": "TM7 / ECL3 boundary",
+      "known_role": "ECL3/TM7 \u2014 candidate novel allosteric site",
+      "novelty": "novel",
+      "uniprot_position": 276
+    },
+    {
+      "chain": "G",
+      "residue_number": 127,
+      "residue_name": "THR",
+      "one_letter": "T",
+      "region": "V1/V2 stem",
+      "known_role": "V1/V2 shielding region \u2014 not typically targeted",
+      "novelty": "novel",
+      "hxb2_equivalent": 128
+    },
+    {
+      "chain": "G",
+      "residue_number": 282,
+      "residue_name": "LYS",
+      "one_letter": "K",
+      "region": "C2 / bridging sheet",
+      "known_role": "Bridging sheet connecting CD4-induced conformation to CCR5 binding",
+      "novelty": "known",
+      "hxb2_equivalent": 282
+    },
+    {
+      "chain": "G",
+      "residue_number": 323,
+      "residue_name": "GLY",
+      "one_letter": "G",
+      "region": "V3 loop stem",
+      "known_role": "V3 loop \u2014 coreceptor binding determinant",
+      "novelty": "known",
+      "hxb2_equivalent": 324
+    },
+    {
+      "chain": "G",
+      "residue_number": 326,
+      "residue_name": "ARG",
+      "one_letter": "R",
+      "region": "V3 loop",
+      "known_role": "V3 loop base",
+      "novelty": "known",
+      "hxb2_equivalent": 327
+    },
+    {
+      "chain": "G",
+      "residue_number": 418,
+      "residue_name": "ILE",
+      "one_letter": "I",
+      "region": "C4 / CD4 binding loop",
+      "known_role": "Proximal to CD4 binding site",
+      "novelty": "known",
+      "hxb2_equivalent": 423
+    },
+    {
+      "chain": "G",
+      "residue_number": 465,
+      "residue_name": "ARG",
+      "one_letter": "R",
+      "region": "C5 / gp41-interactive",
+      "known_role": "gp41 conformational relay \u2014 not a current drug target",
+      "novelty": "novel",
+      "hxb2_equivalent": 469
+    },
+    {
+      "chain": "G",
+      "residue_number": 467,
+      "residue_name": "GLY",
+      "one_letter": "G",
+      "region": "C5 / gp41-interactive",
+      "known_role": "gp41 interface \u2014 candidate novel target",
+      "novelty": "novel",
+      "hxb2_equivalent": 471
+    },
+    {
+      "chain": "G",
+      "residue_number": 472,
+      "residue_name": "ARG",
+      "one_letter": "R",
+      "region": "C5 / gp41-interactive",
+      "known_role": "gp41 interface \u2014 candidate novel target",
+      "novelty": "novel",
+      "hxb2_equivalent": 476
+    }
+  ],
+  "pharmacophore_targets": [
+    {
+      "target_id": "gp120_gp41_relay",
+      "name": "gp120 Conformational Relay",
+      "novelty": "novel",
+      "proposed_mechanism": "Occupancy prevents conformational signal from gp120 binding event reaching gp41 fusion machinery",
+      "target_residues": [
+        {
+          "chain": "G",
+          "residue_number": 465,
+          "residue_name": "ARG",
+          "hxb2_equivalent": 469
+        },
+        {
+          "chain": "G",
+          "residue_number": 466,
+          "residue_name": "PRO",
+          "hxb2_equivalent": 470
+        },
+        {
+          "chain": "G",
+          "residue_number": 467,
+          "residue_name": "GLY",
+          "hxb2_equivalent": 471
+        },
+        {
+          "chain": "G",
+          "residue_number": 468,
+          "residue_name": "GLY",
+          "hxb2_equivalent": 472
+        },
+        {
+          "chain": "G",
+          "residue_number": 469,
+          "residue_name": "GLY",
+          "hxb2_equivalent": 473
+        },
+        {
+          "chain": "G",
+          "residue_number": 470,
+          "residue_name": "ASP",
+          "hxb2_equivalent": 474
+        },
+        {
+          "chain": "G",
+          "residue_number": 471,
+          "residue_name": "MET",
+          "hxb2_equivalent": 475
+        },
+        {
+          "chain": "G",
+          "residue_number": 472,
+          "residue_name": "ARG",
+          "hxb2_equivalent": 476
+        }
+      ],
+      "bounding_box": {
+        "min_xyz": [
+          128.1,
+          177.6,
+          129.6
+        ],
+        "max_xyz": [
+          140.9,
+          191.0,
+          143.0
+        ],
+        "center_xyz": [
+          134.6,
+          183.9,
+          136.7
+        ],
+        "dimensions_angstrom": [
+          12.8,
+          13.4,
+          13.3
+        ]
+      },
+      "pharmacophore_features": [
+        {
+          "feature_id": 1,
+          "center_xyz_angstrom": [
+            128.11,
+            186.96,
+            136.84
+          ],
+          "feature_type": "hbond_donor",
+          "wall_distance_angstrom": 0.65,
+          "nearest_wall_atom": "G:ASP470:OD2",
+          "nearest_wall_chemistry": "sc_acceptor",
+          "nearest_wall_distance_angstrom": 2.45
+        },
+        {
+          "feature_id": 2,
+          "center_xyz_angstrom": [
+            137.71,
+            183.76,
+            131.11
+          ],
+          "feature_type": "hbond_acceptor",
+          "wall_distance_angstrom": 0.7,
+          "nearest_wall_atom": "G:GLY467:N",
+          "nearest_wall_chemistry": "bb_donor",
+          "nearest_wall_distance_angstrom": 2.07
+        },
+        {
+          "feature_id": 3,
+          "center_xyz_angstrom": [
+            133.31,
+            178.69,
+            140.84
+          ],
+          "feature_type": "hydrophobic",
+          "wall_distance_angstrom": 0.83,
+          "nearest_wall_atom": "G:MET471:CE",
+          "nearest_wall_chemistry": "sc_hydrophobic",
+          "nearest_wall_distance_angstrom": 2.37
+        },
+        {
+          "feature_id": 4,
+          "center_xyz_angstrom": [
+            138.86,
+            180.51,
+            132.84
+          ],
+          "feature_type": "hbond_acceptor",
+          "wall_distance_angstrom": 0.7,
+          "nearest_wall_atom": "G:GLY467:N",
+          "nearest_wall_chemistry": "bb_donor",
+          "nearest_wall_distance_angstrom": 2.67
+        },
+        {
+          "feature_id": 5,
+          "center_xyz_angstrom": [
+            130.65,
+            189.56,
+            140.04
+          ],
+          "feature_type": "hbond_donor",
+          "wall_distance_angstrom": 0.77,
+          "nearest_wall_atom": "G:ASP470:OD2",
+          "nearest_wall_chemistry": "sc_acceptor",
+          "nearest_wall_distance_angstrom": 2.48
+        },
+        {
+          "feature_id": 6,
+          "center_xyz_angstrom": [
+            136.05,
+            185.49,
+            140.78
+          ],
+          "feature_type": "hbond_donor",
+          "wall_distance_angstrom": 0.6,
+          "nearest_wall_atom": "A:GLN40:O",
+          "nearest_wall_chemistry": "bb_acceptor",
+          "nearest_wall_distance_angstrom": 2.42
+        },
+        {
+          "feature_id": 7,
+          "center_xyz_angstrom": [
+            137.67,
+            181.98,
+            142.0
+          ],
+          "feature_type": "hbond_donor",
+          "wall_distance_angstrom": 0.73,
+          "nearest_wall_atom": "G:GLU368:O",
+          "nearest_wall_chemistry": "bb_acceptor",
+          "nearest_wall_distance_angstrom": 2.33
+        },
+        {
+          "feature_id": 8,
+          "center_xyz_angstrom": [
+            135.79,
+            187.76,
+            142.56
+          ],
+          "feature_type": "hbond_donor",
+          "wall_distance_angstrom": 0.65,
+          "nearest_wall_atom": "A:GLN40:O",
+          "nearest_wall_chemistry": "bb_acceptor",
+          "nearest_wall_distance_angstrom": 1.75
+        },
+        {
+          "feature_id": 9,
+          "center_xyz_angstrom": [
+            130.11,
+            185.0,
+            141.91
+          ],
+          "feature_type": "hbond_acceptor",
+          "wall_distance_angstrom": 0.92,
+          "nearest_wall_atom": "G:MET471:N",
+          "nearest_wall_chemistry": "bb_donor",
+          "nearest_wall_distance_angstrom": 2.49
+        },
+        {
+          "feature_id": 10,
+          "center_xyz_angstrom": [
+            135.98,
+            179.43,
+            132.51
+          ],
+          "feature_type": "hydrophobic",
+          "wall_distance_angstrom": 0.7,
+          "nearest_wall_atom": "G:LEU448:CB",
+          "nearest_wall_chemistry": "sc_hydrophobic",
+          "nearest_wall_distance_angstrom": 2.31
+        },
+        {
+          "feature_id": 11,
+          "center_xyz_angstrom": [
+            138.16,
+            180.67,
+            137.44
+          ],
+          "feature_type": "hydrophobic",
+          "wall_distance_angstrom": 0.78,
+          "nearest_wall_atom": "G:THR257:CB",
+          "nearest_wall_chemistry": "sc_hydrophobic",
+          "nearest_wall_distance_angstrom": 2.47
+        },
+        {
+          "feature_id": 12,
+          "center_xyz_angstrom": [
+            133.58,
+            184.89,
+            142.98
+          ],
+          "feature_type": "hbond_donor",
+          "wall_distance_angstrom": 0.84,
+          "nearest_wall_atom": "G:GLY469:O",
+          "nearest_wall_chemistry": "bb_acceptor",
+          "nearest_wall_distance_angstrom": 2.59
+        },
+        {
+          "feature_id": 13,
+          "center_xyz_angstrom": [
+            131.74,
+            184.7,
+            142.66
+          ],
+          "feature_type": "hbond_donor",
+          "wall_distance_angstrom": 0.94,
+          "nearest_wall_atom": "G:GLY469:O",
+          "nearest_wall_chemistry": "bb_acceptor",
+          "nearest_wall_distance_angstrom": 2.44
+        },
+        {
+          "feature_id": 14,
+          "center_xyz_angstrom": [
+            132.78,
+            188.89,
+            137.84
+          ],
+          "feature_type": "hydrophobic",
+          "wall_distance_angstrom": 0.67,
+          "nearest_wall_atom": "A:GLN40:CA",
+          "nearest_wall_chemistry": "bb_hydrophobic",
+          "nearest_wall_distance_angstrom": 2.71
+        },
+        {
+          "feature_id": 15,
+          "center_xyz_angstrom": [
+            134.25,
+            177.56,
+            135.44
+          ],
+          "feature_type": "hydrophobic",
+          "wall_distance_angstrom": 0.67,
+          "nearest_wall_atom": "G:THR257:C",
+          "nearest_wall_chemistry": "bb_hydrophobic",
+          "nearest_wall_distance_angstrom": 2.63
+        },
+        {
+          "feature_id": 16,
+          "center_xyz_angstrom": [
+            140.09,
+            180.4,
+            138.12
+          ],
+          "feature_type": "hbond_donor",
+          "wall_distance_angstrom": 0.75,
+          "nearest_wall_atom": "G:ILE369:O",
+          "nearest_wall_chemistry": "bb_acceptor",
+          "nearest_wall_distance_angstrom": 2.41
+        },
+        {
+          "feature_id": 17,
+          "center_xyz_angstrom": [
+            140.25,
+            185.52,
+            132.36
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.66,
+          "nearest_wall_atom": "G:THR450:OG1",
+          "nearest_wall_chemistry": "sc_donor_acceptor",
+          "nearest_wall_distance_angstrom": 2.28
+        },
+        {
+          "feature_id": 18,
+          "center_xyz_angstrom": [
+            134.25,
+            178.36,
+            131.44
+          ],
+          "feature_type": "hydrophobic",
+          "wall_distance_angstrom": 0.92,
+          "nearest_wall_atom": "G:LEU448:CG",
+          "nearest_wall_chemistry": "sc_hydrophobic",
+          "nearest_wall_distance_angstrom": 2.6
+        },
+        {
+          "feature_id": 19,
+          "center_xyz_angstrom": [
+            130.74,
+            181.0,
+            137.91
+          ],
+          "feature_type": "hydrophobic",
+          "wall_distance_angstrom": 0.63,
+          "nearest_wall_atom": "G:MET471:CE",
+          "nearest_wall_chemistry": "sc_hydrophobic",
+          "nearest_wall_distance_angstrom": 2.46
+        },
+        {
+          "feature_id": 20,
+          "center_xyz_angstrom": [
+            135.95,
+            182.56,
+            132.64
+          ],
+          "feature_type": "hydrophobic",
+          "wall_distance_angstrom": 0.78,
+          "nearest_wall_atom": "G:LEU448:CB",
+          "nearest_wall_chemistry": "sc_hydrophobic",
+          "nearest_wall_distance_angstrom": 2.18
+        },
+        {
+          "feature_id": 21,
+          "center_xyz_angstrom": [
+            128.25,
+            185.16,
+            132.24
+          ],
+          "feature_type": "hbond_donor",
+          "wall_distance_angstrom": 0.77,
+          "nearest_wall_atom": "G:ASP473:OD1",
+          "nearest_wall_chemistry": "sc_acceptor",
+          "nearest_wall_distance_angstrom": 2.53
+        },
+        {
+          "feature_id": 22,
+          "center_xyz_angstrom": [
+            136.07,
+            185.98,
+            135.42
+          ],
+          "feature_type": "hydrophobic",
+          "wall_distance_angstrom": 0.67,
+          "nearest_wall_atom": "A:GLN40:CD",
+          "nearest_wall_chemistry": "sc_hydrophobic",
+          "nearest_wall_distance_angstrom": 2.17
+        },
+        {
+          "feature_id": 23,
+          "center_xyz_angstrom": [
+            132.7,
+            182.16,
+            137.64
+          ],
+          "feature_type": "hbond_acceptor",
+          "wall_distance_angstrom": 0.76,
+          "nearest_wall_atom": "G:GLY469:N",
+          "nearest_wall_chemistry": "bb_donor",
+          "nearest_wall_distance_angstrom": 2.04
+        },
+        {
+          "feature_id": 24,
+          "center_xyz_angstrom": [
+            132.31,
+            190.76,
+            138.84
+          ],
+          "feature_type": "hbond_donor",
+          "wall_distance_angstrom": 0.89,
+          "nearest_wall_atom": "A:ASN39:O",
+          "nearest_wall_chemistry": "bb_acceptor",
+          "nearest_wall_distance_angstrom": 2.76
+        },
+        {
+          "feature_id": 25,
+          "center_xyz_angstrom": [
+            140.91,
+            182.89,
+            135.78
+          ],
+          "feature_type": "hbond_donor",
+          "wall_distance_angstrom": 0.78,
+          "nearest_wall_atom": "G:ILE369:O",
+          "nearest_wall_chemistry": "bb_acceptor",
+          "nearest_wall_distance_angstrom": 2.43
+        },
+        {
+          "feature_id": 26,
+          "center_xyz_angstrom": [
+            128.89,
+            188.56,
+            135.72
+          ],
+          "feature_type": "hbond_donor",
+          "wall_distance_angstrom": 0.68,
+          "nearest_wall_atom": "G:ASP473:OD2",
+          "nearest_wall_chemistry": "sc_acceptor",
+          "nearest_wall_distance_angstrom": 2.4
+        },
+        {
+          "feature_id": 27,
+          "center_xyz_angstrom": [
+            132.25,
+            184.86,
+            136.04
+          ],
+          "feature_type": "hbond_acceptor",
+          "wall_distance_angstrom": 0.72,
+          "nearest_wall_atom": "A:GLN40:NE2",
+          "nearest_wall_chemistry": "sc_donor",
+          "nearest_wall_distance_angstrom": 2.51
+        },
+        {
+          "feature_id": 28,
+          "center_xyz_angstrom": [
+            138.37,
+            186.84,
+            140.24
+          ],
+          "feature_type": "hydrophobic",
+          "wall_distance_angstrom": 0.68,
+          "nearest_wall_atom": "A:THR45:CG2",
+          "nearest_wall_chemistry": "sc_hydrophobic",
+          "nearest_wall_distance_angstrom": 2.53
+        },
+        {
+          "feature_id": 29,
+          "center_xyz_angstrom": [
+            140.65,
+            187.36,
+            140.04
+          ],
+          "feature_type": "hydrophobic",
+          "wall_distance_angstrom": 0.74,
+          "nearest_wall_atom": "A:THR45:CG2",
+          "nearest_wall_chemistry": "sc_hydrophobic",
+          "nearest_wall_distance_angstrom": 1.98
+        },
+        {
+          "feature_id": 30,
+          "center_xyz_angstrom": [
+            134.49,
+            180.24,
+            137.48
+          ],
+          "feature_type": "hydrophobic",
+          "wall_distance_angstrom": 0.71,
+          "nearest_wall_atom": "G:THR257:CA",
+          "nearest_wall_chemistry": "bb_hydrophobic",
+          "nearest_wall_distance_angstrom": 2.4
+        },
+        {
+          "feature_id": 31,
+          "center_xyz_angstrom": [
+            129.85,
+            180.16,
+            133.74
+          ],
+          "feature_type": "hydrophobic",
+          "wall_distance_angstrom": 0.59,
+          "nearest_wall_atom": "G:ASN474:CA",
+          "nearest_wall_chemistry": "bb_hydrophobic",
+          "nearest_wall_distance_angstrom": 2.48
+        },
+        {
+          "feature_id": 32,
+          "center_xyz_angstrom": [
+            137.48,
+            182.09,
+            139.39
+          ],
+          "feature_type": "hydrophobic",
+          "wall_distance_angstrom": 0.71,
+          "nearest_wall_atom": "G:ILE369:CD1",
+          "nearest_wall_chemistry": "sc_hydrophobic",
+          "nearest_wall_distance_angstrom": 2.18
+        },
+        {
+          "feature_id": 33,
+          "center_xyz_angstrom": [
+            135.77,
+            186.05,
+            130.6
+          ],
+          "feature_type": "hbond_donor",
+          "wall_distance_angstrom": 0.67,
+          "nearest_wall_atom": "G:LEU449:O",
+          "nearest_wall_chemistry": "bb_acceptor",
+          "nearest_wall_distance_angstrom": 2.3
+        },
+        {
+          "feature_id": 34,
+          "center_xyz_angstrom": [
+            133.28,
+            181.36,
+            142.33
+          ],
+          "feature_type": "hbond_donor",
+          "wall_distance_angstrom": 0.81,
+          "nearest_wall_atom": "G:GLY469:O",
+          "nearest_wall_chemistry": "bb_acceptor",
+          "nearest_wall_distance_angstrom": 2.73
+        },
+        {
+          "feature_id": 35,
+          "center_xyz_angstrom": [
+            137.41,
+            190.01,
+            139.46
+          ],
+          "feature_type": "hbond_acceptor",
+          "wall_distance_angstrom": 0.79,
+          "nearest_wall_atom": "A:GLN40:N",
+          "nearest_wall_chemistry": "bb_donor",
+          "nearest_wall_distance_angstrom": 2.31
+        },
+        {
+          "feature_id": 36,
+          "center_xyz_angstrom": [
+            133.85,
+            182.83,
+            129.64
+          ],
+          "feature_type": "hydrophobic",
+          "wall_distance_angstrom": 0.66,
+          "nearest_wall_atom": "G:LEU448:CA",
+          "nearest_wall_chemistry": "bb_hydrophobic",
+          "nearest_wall_distance_angstrom": 2.3
+        },
+        {
+          "feature_id": 37,
+          "center_xyz_angstrom": [
+            135.2,
+            181.85,
+            142.01
+          ],
+          "feature_type": "aromatic",
+          "wall_distance_angstrom": 0.72,
+          "nearest_wall_atom": "A:PHE43:CE2",
+          "nearest_wall_chemistry": "sc_aromatic",
+          "nearest_wall_distance_angstrom": 2.37
+        },
+        {
+          "feature_id": 38,
+          "center_xyz_angstrom": [
+            131.45,
+            177.96,
+            136.44
+          ],
+          "feature_type": "hbond_donor",
+          "wall_distance_angstrom": 0.81,
+          "nearest_wall_atom": "G:SER256:O",
+          "nearest_wall_chemistry": "bb_acceptor",
+          "nearest_wall_distance_angstrom": 2.26
+        },
+        {
+          "feature_id": 39,
+          "center_xyz_angstrom": [
+            132.25,
+            182.96,
+            142.98
+          ],
+          "feature_type": "hbond_donor",
+          "wall_distance_angstrom": 0.71,
+          "nearest_wall_atom": "G:GLY469:O",
+          "nearest_wall_chemistry": "bb_acceptor",
+          "nearest_wall_distance_angstrom": 2.35
+        },
+        {
+          "feature_id": 40,
+          "center_xyz_angstrom": [
+            136.57,
+            180.08,
+            141.8
+          ],
+          "feature_type": "hydrophobic",
+          "wall_distance_angstrom": 0.74,
+          "nearest_wall_atom": "G:THR257:CG2",
+          "nearest_wall_chemistry": "sc_hydrophobic",
+          "nearest_wall_distance_angstrom": 2.39
+        },
+        {
+          "feature_id": 41,
+          "center_xyz_angstrom": [
+            134.85,
+            179.76,
+            135.44
+          ],
+          "feature_type": "hbond_acceptor",
+          "wall_distance_angstrom": 0.81,
+          "nearest_wall_atom": "G:GLN258:N",
+          "nearest_wall_chemistry": "bb_donor",
+          "nearest_wall_distance_angstrom": 2.33
+        },
+        {
+          "feature_id": 42,
+          "center_xyz_angstrom": [
+            134.65,
+            178.32,
+            133.16
+          ],
+          "feature_type": "hbond_acceptor",
+          "wall_distance_angstrom": 0.78,
+          "nearest_wall_atom": "G:LEU259:N",
+          "nearest_wall_chemistry": "bb_donor",
+          "nearest_wall_distance_angstrom": 2.63
+        },
+        {
+          "feature_id": 43,
+          "center_xyz_angstrom": [
+            139.16,
+            182.96,
+            136.7
+          ],
+          "feature_type": "hbond_donor",
+          "wall_distance_angstrom": 0.79,
+          "nearest_wall_atom": "G:GLY467:O",
+          "nearest_wall_chemistry": "bb_acceptor",
+          "nearest_wall_distance_angstrom": 2.53
+        },
+        {
+          "feature_id": 44,
+          "center_xyz_angstrom": [
+            137.85,
+            188.83,
+            141.38
+          ],
+          "feature_type": "hydrophobic",
+          "wall_distance_angstrom": 0.87,
+          "nearest_wall_atom": "A:GLN40:CB",
+          "nearest_wall_chemistry": "sc_hydrophobic",
+          "nearest_wall_distance_angstrom": 3.03
+        },
+        {
+          "feature_id": 45,
+          "center_xyz_angstrom": [
+            130.65,
+            190.96,
+            138.04
+          ],
+          "feature_type": "hbond_donor",
+          "wall_distance_angstrom": 1.04,
+          "nearest_wall_atom": "G:ASP470:OD2",
+          "nearest_wall_chemistry": "sc_acceptor",
+          "nearest_wall_distance_angstrom": 2.79
+        },
+        {
+          "feature_id": 46,
+          "center_xyz_angstrom": [
+            134.38,
+            183.49,
+            133.11
+          ],
+          "feature_type": "hbond_acceptor",
+          "wall_distance_angstrom": 0.59,
+          "nearest_wall_atom": "G:GLY468:N",
+          "nearest_wall_chemistry": "bb_donor",
+          "nearest_wall_distance_angstrom": 2.44
+        },
+        {
+          "feature_id": 47,
+          "center_xyz_angstrom": [
+            131.65,
+            185.76,
+            133.64
+          ],
+          "feature_type": "hbond_donor",
+          "wall_distance_angstrom": 0.59,
+          "nearest_wall_atom": "G:ASP473:OD2",
+          "nearest_wall_chemistry": "sc_acceptor",
+          "nearest_wall_distance_angstrom": 2.08
+        },
+        {
+          "feature_id": 48,
+          "center_xyz_angstrom": [
+            137.85,
+            186.96,
+            137.64
+          ],
+          "feature_type": "hydrophobic",
+          "wall_distance_angstrom": 0.64,
+          "nearest_wall_atom": "A:GLN40:CG",
+          "nearest_wall_chemistry": "sc_hydrophobic",
+          "nearest_wall_distance_angstrom": 2.35
+        },
+        {
+          "feature_id": 49,
+          "center_xyz_angstrom": [
+            137.05,
+            188.56,
+            130.44
+          ],
+          "feature_type": "hydrophobic",
+          "wall_distance_angstrom": 0.48,
+          "nearest_wall_atom": "G:THR450:CG2",
+          "nearest_wall_chemistry": "sc_hydrophobic",
+          "nearest_wall_distance_angstrom": 2.18
+        },
+        {
+          "feature_id": 50,
+          "center_xyz_angstrom": [
+            129.37,
+            186.96,
+            132.2
+          ],
+          "feature_type": "hbond_donor",
+          "wall_distance_angstrom": 0.67,
+          "nearest_wall_atom": "G:ASP473:OD1",
+          "nearest_wall_chemistry": "sc_acceptor",
+          "nearest_wall_distance_angstrom": 2.31
+        },
+        {
+          "feature_id": 51,
+          "center_xyz_angstrom": [
+            136.25,
+            185.36,
+            132.84
+          ],
+          "feature_type": "hbond_acceptor",
+          "wall_distance_angstrom": 0.86,
+          "nearest_wall_atom": "G:GLY468:N",
+          "nearest_wall_chemistry": "bb_donor",
+          "nearest_wall_distance_angstrom": 2.41
+        },
+        {
+          "feature_id": 52,
+          "center_xyz_angstrom": [
+            130.65,
+            179.76,
+            136.04
+          ],
+          "feature_type": "hydrophobic",
+          "wall_distance_angstrom": 0.48,
+          "nearest_wall_atom": "G:ASN474:CB",
+          "nearest_wall_chemistry": "sc_hydrophobic",
+          "nearest_wall_distance_angstrom": 2.18
+        },
+        {
+          "feature_id": 53,
+          "center_xyz_angstrom": [
+            131.45,
+            178.96,
+            132.04
+          ],
+          "feature_type": "hydrophobic",
+          "wall_distance_angstrom": 0.71,
+          "nearest_wall_atom": "G:LEU448:CG",
+          "nearest_wall_chemistry": "sc_hydrophobic",
+          "nearest_wall_distance_angstrom": 2.41
+        },
+        {
+          "feature_id": 54,
+          "center_xyz_angstrom": [
+            140.25,
+            188.56,
+            132.04
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.7,
+          "nearest_wall_atom": "G:THR450:OG1",
+          "nearest_wall_chemistry": "sc_donor_acceptor",
+          "nearest_wall_distance_angstrom": 2.29
+        },
+        {
+          "feature_id": 55,
+          "center_xyz_angstrom": [
+            130.65,
+            182.96,
+            135.24
+          ],
+          "feature_type": "hydrophobic",
+          "wall_distance_angstrom": 0.6,
+          "nearest_wall_atom": "G:ASP473:CB",
+          "nearest_wall_chemistry": "sc_hydrophobic",
+          "nearest_wall_distance_angstrom": 2.3
+        }
+      ]
+    },
+    {
+      "target_id": "ccr5_ecl2",
+      "name": "CCR5 ECL2 (Maraviroc Region)",
+      "novelty": "known",
+      "proposed_mechanism": "Allosteric inhibition of gp120 coreceptor binding via ECL2 pocket occupancy",
+      "target_residues": [
+        {
+          "chain": "B",
+          "residue_number": 174,
+          "residue_name": "LEU"
+        },
+        {
+          "chain": "B",
+          "residue_number": 184,
+          "residue_name": "TYR"
+        },
+        {
+          "chain": "B",
+          "residue_number": 194,
+          "residue_name": "GLN"
+        }
+      ],
+      "bounding_box": {
+        "min_xyz": [
+          147.3,
+          139.1,
+          146.0
+        ],
+        "max_xyz": [
+          154.9,
+          148.7,
+          159.2
+        ],
+        "center_xyz": [
+          151.8,
+          143.3,
+          150.9
+        ],
+        "dimensions_angstrom": [
+          7.6,
+          9.6,
+          13.2
+        ]
+      },
+      "pharmacophore_features": [
+        {
+          "feature_id": 1,
+          "center_xyz_angstrom": [
+            150.06,
+            142.81,
+            151.22
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.64
+        },
+        {
+          "feature_id": 2,
+          "center_xyz_angstrom": [
+            150.59,
+            139.54,
+            152.13
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.63
+        },
+        {
+          "feature_id": 3,
+          "center_xyz_angstrom": [
+            154.31,
+            142.53,
+            147.7
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.77
+        },
+        {
+          "feature_id": 4,
+          "center_xyz_angstrom": [
+            153.63,
+            139.06,
+            151.33
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.76
+        },
+        {
+          "feature_id": 5,
+          "center_xyz_angstrom": [
+            147.88,
+            145.51,
+            150.24
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.86
+        },
+        {
+          "feature_id": 6,
+          "center_xyz_angstrom": [
+            152.05,
+            144.69,
+            147.48
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.75
+        },
+        {
+          "feature_id": 7,
+          "center_xyz_angstrom": [
+            147.35,
+            146.26,
+            152.5
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.76
+        },
+        {
+          "feature_id": 8,
+          "center_xyz_angstrom": [
+            149.06,
+            141.65,
+            154.49
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.77
+        },
+        {
+          "feature_id": 9,
+          "center_xyz_angstrom": [
+            151.07,
+            139.54,
+            154.69
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.74
+        },
+        {
+          "feature_id": 10,
+          "center_xyz_angstrom": [
+            154.91,
+            139.06,
+            150.37
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.57
+        },
+        {
+          "feature_id": 11,
+          "center_xyz_angstrom": [
+            150.91,
+            144.26,
+            149.57
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.93
+        },
+        {
+          "feature_id": 12,
+          "center_xyz_angstrom": [
+            151.57,
+            146.8,
+            146.64
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.76
+        },
+        {
+          "feature_id": 13,
+          "center_xyz_angstrom": [
+            154.51,
+            147.06,
+            145.97
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.69
+        },
+        {
+          "feature_id": 14,
+          "center_xyz_angstrom": [
+            154.37,
+            144.13,
+            148.77
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.56
+        },
+        {
+          "feature_id": 15,
+          "center_xyz_angstrom": [
+            151.71,
+            139.86,
+            156.77
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.48
+        },
+        {
+          "feature_id": 16,
+          "center_xyz_angstrom": [
+            148.51,
+            147.06,
+            148.37
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.7
+        },
+        {
+          "feature_id": 17,
+          "center_xyz_angstrom": [
+            152.11,
+            143.06,
+            151.97
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.55
+        },
+        {
+          "feature_id": 18,
+          "center_xyz_angstrom": [
+            154.91,
+            140.66,
+            159.17
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.71
+        },
+        {
+          "feature_id": 19,
+          "center_xyz_angstrom": [
+            154.11,
+            148.66,
+            147.17
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.65
+        }
+      ]
+    },
+    {
+      "target_id": "gp120_v3_loop",
+      "name": "gp120 V3 Loop",
+      "novelty": "known",
+      "proposed_mechanism": "Competitive inhibition of V3 loop insertion into CCR5 chemokine-binding pocket",
+      "target_residues": [
+        {
+          "chain": "G",
+          "residue_number": 323,
+          "residue_name": "GLY",
+          "hxb2_equivalent": 324
+        },
+        {
+          "chain": "G",
+          "residue_number": 326,
+          "residue_name": "ARG",
+          "hxb2_equivalent": 327
+        }
+      ],
+      "bounding_box": {
+        "min_xyz": [
+          141.2,
+          159.1,
+          145.5
+        ],
+        "max_xyz": [
+          155.3,
+          173.1,
+          158.3
+        ],
+        "center_xyz": [
+          147.5,
+          166.2,
+          151.7
+        ],
+        "dimensions_angstrom": [
+          14.1,
+          14.0,
+          12.8
+        ]
+      },
+      "pharmacophore_features": [
+        {
+          "feature_id": 1,
+          "center_xyz_angstrom": [
+            149.86,
+            159.71,
+            153.3
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.63
+        },
+        {
+          "feature_id": 2,
+          "center_xyz_angstrom": [
+            146.55,
+            172.21,
+            148.89
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.76
+        },
+        {
+          "feature_id": 3,
+          "center_xyz_angstrom": [
+            144.9,
+            167.44,
+            145.73
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.85
+        },
+        {
+          "feature_id": 4,
+          "center_xyz_angstrom": [
+            144.9,
+            166.74,
+            158.03
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.7
+        },
+        {
+          "feature_id": 5,
+          "center_xyz_angstrom": [
+            147.07,
+            167.98,
+            145.69
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.66
+        },
+        {
+          "feature_id": 6,
+          "center_xyz_angstrom": [
+            143.94,
+            167.87,
+            157.14
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.73
+        },
+        {
+          "feature_id": 7,
+          "center_xyz_angstrom": [
+            144.45,
+            166.44,
+            147.95
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.68
+        },
+        {
+          "feature_id": 8,
+          "center_xyz_angstrom": [
+            144.26,
+            167.31,
+            154.3
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.62
+        },
+        {
+          "feature_id": 9,
+          "center_xyz_angstrom": [
+            146.63,
+            166.13,
+            156.26
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.72
+        },
+        {
+          "feature_id": 10,
+          "center_xyz_angstrom": [
+            141.95,
+            169.07,
+            154.01
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.75
+        },
+        {
+          "feature_id": 11,
+          "center_xyz_angstrom": [
+            143.16,
+            170.43,
+            152.06
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.83
+        },
+        {
+          "feature_id": 12,
+          "center_xyz_angstrom": [
+            154.02,
+            163.57,
+            149.26
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.91
+        },
+        {
+          "feature_id": 13,
+          "center_xyz_angstrom": [
+            149.48,
+            168.58,
+            145.6
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.87
+        },
+        {
+          "feature_id": 14,
+          "center_xyz_angstrom": [
+            153.59,
+            162.75,
+            153.14
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.79
+        },
+        {
+          "feature_id": 15,
+          "center_xyz_angstrom": [
+            148.8,
+            162.97,
+            145.66
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.86
+        },
+        {
+          "feature_id": 16,
+          "center_xyz_angstrom": [
+            143.2,
+            164.34,
+            155.96
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.8
+        },
+        {
+          "feature_id": 17,
+          "center_xyz_angstrom": [
+            143.23,
+            167.17,
+            150.99
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.77
+        },
+        {
+          "feature_id": 18,
+          "center_xyz_angstrom": [
+            146.83,
+            163.36,
+            148.45
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.71
+        },
+        {
+          "feature_id": 19,
+          "center_xyz_angstrom": [
+            148.39,
+            170.1,
+            149.34
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.76
+        },
+        {
+          "feature_id": 20,
+          "center_xyz_angstrom": [
+            141.22,
+            166.51,
+            149.86
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.8
+        },
+        {
+          "feature_id": 21,
+          "center_xyz_angstrom": [
+            149.24,
+            162.27,
+            156.91
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.74
+        },
+        {
+          "feature_id": 22,
+          "center_xyz_angstrom": [
+            149.9,
+            169.87,
+            146.06
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 1.01
+        },
+        {
+          "feature_id": 23,
+          "center_xyz_angstrom": [
+            145.26,
+            171.55,
+            154.82
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.77
+        },
+        {
+          "feature_id": 24,
+          "center_xyz_angstrom": [
+            149.91,
+            164.2,
+            154.43
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.74
+        },
+        {
+          "feature_id": 25,
+          "center_xyz_angstrom": [
+            146.9,
+            170.8,
+            157.06
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.9
+        },
+        {
+          "feature_id": 26,
+          "center_xyz_angstrom": [
+            150.82,
+            163.23,
+            147.38
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.82
+        },
+        {
+          "feature_id": 27,
+          "center_xyz_angstrom": [
+            152.26,
+            162.27,
+            156.1
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.76
+        },
+        {
+          "feature_id": 28,
+          "center_xyz_angstrom": [
+            148.76,
+            166.93,
+            151.66
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.67
+        },
+        {
+          "feature_id": 29,
+          "center_xyz_angstrom": [
+            144.26,
+            165.31,
+            146.34
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.79
+        },
+        {
+          "feature_id": 30,
+          "center_xyz_angstrom": [
+            149.7,
+            167.15,
+            148.84
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.77
+        },
+        {
+          "feature_id": 31,
+          "center_xyz_angstrom": [
+            153.06,
+            166.59,
+            146.82
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.74
+        },
+        {
+          "feature_id": 32,
+          "center_xyz_angstrom": [
+            141.9,
+            163.27,
+            154.06
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.74
+        },
+        {
+          "feature_id": 33,
+          "center_xyz_angstrom": [
+            147.63,
+            163.13,
+            156.4
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.79
+        },
+        {
+          "feature_id": 34,
+          "center_xyz_angstrom": [
+            149.43,
+            167.87,
+            156.66
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.77
+        },
+        {
+          "feature_id": 35,
+          "center_xyz_angstrom": [
+            151.01,
+            160.74,
+            148.3
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.81
+        },
+        {
+          "feature_id": 36,
+          "center_xyz_angstrom": [
+            151.18,
+            167.52,
+            146.49
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.87
+        },
+        {
+          "feature_id": 37,
+          "center_xyz_angstrom": [
+            150.9,
+            163.07,
+            145.46
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.7
+        },
+        {
+          "feature_id": 38,
+          "center_xyz_angstrom": [
+            141.47,
+            163.98,
+            151.29
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.69
+        },
+        {
+          "feature_id": 39,
+          "center_xyz_angstrom": [
+            143.3,
+            164.89,
+            150.95
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.64
+        },
+        {
+          "feature_id": 40,
+          "center_xyz_angstrom": [
+            148.3,
+            160.67,
+            147.96
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.87
+        },
+        {
+          "feature_id": 41,
+          "center_xyz_angstrom": [
+            145.94,
+            161.39,
+            151.78
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.77
+        },
+        {
+          "feature_id": 42,
+          "center_xyz_angstrom": [
+            147.94,
+            159.71,
+            154.42
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.74
+        },
+        {
+          "feature_id": 43,
+          "center_xyz_angstrom": [
+            141.7,
+            167.95,
+            152.22
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.81
+        },
+        {
+          "feature_id": 44,
+          "center_xyz_angstrom": [
+            155.3,
+            166.27,
+            150.66
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.67
+        },
+        {
+          "feature_id": 45,
+          "center_xyz_angstrom": [
+            144.5,
+            170.27,
+            152.26
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.58
+        },
+        {
+          "feature_id": 46,
+          "center_xyz_angstrom": [
+            145.96,
+            173.02,
+            150.88
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.76
+        },
+        {
+          "feature_id": 47,
+          "center_xyz_angstrom": [
+            148.5,
+            173.07,
+            150.26
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.66
+        },
+        {
+          "feature_id": 48,
+          "center_xyz_angstrom": [
+            145.7,
+            162.27,
+            157.86
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.64
+        },
+        {
+          "feature_id": 49,
+          "center_xyz_angstrom": [
+            151.3,
+            165.73,
+            152.13
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.65
+        },
+        {
+          "feature_id": 50,
+          "center_xyz_angstrom": [
+            151.56,
+            167.87,
+            158.26
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 1.0
+        },
+        {
+          "feature_id": 51,
+          "center_xyz_angstrom": [
+            144.5,
+            163.07,
+            154.06
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.67
+        },
+        {
+          "feature_id": 52,
+          "center_xyz_angstrom": [
+            152.9,
+            171.27,
+            148.86
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.8
+        },
+        {
+          "feature_id": 53,
+          "center_xyz_angstrom": [
+            145.7,
+            171.47,
+            151.86
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.83
+        },
+        {
+          "feature_id": 54,
+          "center_xyz_angstrom": [
+            144.9,
+            164.67,
+            148.66
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.81
+        },
+        {
+          "feature_id": 55,
+          "center_xyz_angstrom": [
+            146.1,
+            159.07,
+            151.86
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.64
+        },
+        {
+          "feature_id": 56,
+          "center_xyz_angstrom": [
+            144.1,
+            163.07,
+            151.86
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.78
+        },
+        {
+          "feature_id": 57,
+          "center_xyz_angstrom": [
+            148.1,
+            170.27,
+            156.26
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.83
+        },
+        {
+          "feature_id": 58,
+          "center_xyz_angstrom": [
+            151.3,
+            167.07,
+            151.06
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.54
+        },
+        {
+          "feature_id": 59,
+          "center_xyz_angstrom": [
+            153.7,
+            165.47,
+            157.46
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.64
+        },
+        {
+          "feature_id": 60,
+          "center_xyz_angstrom": [
+            147.3,
+            171.07,
+            154.26
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.7
+        }
+      ]
+    },
+    {
+      "target_id": "ccr5_ecl3",
+      "name": "CCR5 ECL3",
+      "novelty": "novel",
+      "proposed_mechanism": "Disruption of ECL3/TM6-7 contact surface \u2014 possible allosteric modulation of gp120 engagement",
+      "target_residues": [
+        {
+          "chain": "B",
+          "residue_number": 251,
+          "residue_name": "TYR"
+        },
+        {
+          "chain": "B",
+          "residue_number": 255,
+          "residue_name": "LEU"
+        },
+        {
+          "chain": "B",
+          "residue_number": 258,
+          "residue_name": "ASN"
+        },
+        {
+          "chain": "B",
+          "residue_number": 276,
+          "residue_name": "ASP"
+        }
+      ],
+      "bounding_box": {
+        "min_xyz": [
+          147.9,
+          136.7,
+          162.6
+        ],
+        "max_xyz": [
+          161.2,
+          151.1,
+          176.6
+        ],
+        "center_xyz": [
+          155.1,
+          143.5,
+          169.5
+        ],
+        "dimensions_angstrom": [
+          13.3,
+          14.4,
+          14.0
+        ]
+      },
+      "pharmacophore_features": [
+        {
+          "feature_id": 1,
+          "center_xyz_angstrom": [
+            148.7,
+            139.11,
+            171.77
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.49
+        },
+        {
+          "feature_id": 2,
+          "center_xyz_angstrom": [
+            149.1,
+            139.91,
+            166.37
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.64
+        },
+        {
+          "feature_id": 3,
+          "center_xyz_angstrom": [
+            157.9,
+            146.01,
+            166.47
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.59
+        },
+        {
+          "feature_id": 4,
+          "center_xyz_angstrom": [
+            160.97,
+            146.57,
+            171.64
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.68
+        },
+        {
+          "feature_id": 5,
+          "center_xyz_angstrom": [
+            157.5,
+            137.51,
+            170.97
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.67
+        },
+        {
+          "feature_id": 6,
+          "center_xyz_angstrom": [
+            147.9,
+            145.11,
+            170.77
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.57
+        },
+        {
+          "feature_id": 7,
+          "center_xyz_angstrom": [
+            151.9,
+            137.0,
+            168.71
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.61
+        },
+        {
+          "feature_id": 8,
+          "center_xyz_angstrom": [
+            157.9,
+            148.42,
+            173.94
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.73
+        },
+        {
+          "feature_id": 9,
+          "center_xyz_angstrom": [
+            155.42,
+            137.42,
+            169.19
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.74
+        },
+        {
+          "feature_id": 10,
+          "center_xyz_angstrom": [
+            160.79,
+            140.8,
+            171.32
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.64
+        },
+        {
+          "feature_id": 11,
+          "center_xyz_angstrom": [
+            155.46,
+            142.84,
+            175.06
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.65
+        },
+        {
+          "feature_id": 12,
+          "center_xyz_angstrom": [
+            150.7,
+            150.51,
+            170.37
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.55
+        },
+        {
+          "feature_id": 13,
+          "center_xyz_angstrom": [
+            160.02,
+            148.14,
+            168.23
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.57
+        },
+        {
+          "feature_id": 14,
+          "center_xyz_angstrom": [
+            157.95,
+            147.82,
+            169.1
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.69
+        },
+        {
+          "feature_id": 15,
+          "center_xyz_angstrom": [
+            157.42,
+            143.64,
+            162.88
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.61
+        },
+        {
+          "feature_id": 16,
+          "center_xyz_angstrom": [
+            156.48,
+            145.62,
+            175.31
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.75
+        },
+        {
+          "feature_id": 17,
+          "center_xyz_angstrom": [
+            160.7,
+            147.91,
+            169.37
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.76
+        },
+        {
+          "feature_id": 18,
+          "center_xyz_angstrom": [
+            161.2,
+            143.51,
+            167.47
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.61
+        },
+        {
+          "feature_id": 19,
+          "center_xyz_angstrom": [
+            150.84,
+            140.84,
+            175.1
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.78
+        },
+        {
+          "feature_id": 20,
+          "center_xyz_angstrom": [
+            156.33,
+            143.48,
+            171.34
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.74
+        },
+        {
+          "feature_id": 21,
+          "center_xyz_angstrom": [
+            154.54,
+            142.23,
+            168.73
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.63
+        },
+        {
+          "feature_id": 22,
+          "center_xyz_angstrom": [
+            160.86,
+            141.19,
+            169.37
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.73
+        },
+        {
+          "feature_id": 23,
+          "center_xyz_angstrom": [
+            148.3,
+            146.79,
+            168.65
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.64
+        },
+        {
+          "feature_id": 24,
+          "center_xyz_angstrom": [
+            157.9,
+            137.51,
+            168.57
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.66
+        },
+        {
+          "feature_id": 25,
+          "center_xyz_angstrom": [
+            156.63,
+            149.87,
+            171.04
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.68
+        },
+        {
+          "feature_id": 26,
+          "center_xyz_angstrom": [
+            155.24,
+            142.31,
+            170.57
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.82
+        },
+        {
+          "feature_id": 27,
+          "center_xyz_angstrom": [
+            153.24,
+            140.97,
+            176.3
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.77
+        },
+        {
+          "feature_id": 28,
+          "center_xyz_angstrom": [
+            159.68,
+            142.08,
+            165.6
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.73
+        },
+        {
+          "feature_id": 29,
+          "center_xyz_angstrom": [
+            155.1,
+            136.71,
+            166.97
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.59
+        },
+        {
+          "feature_id": 30,
+          "center_xyz_angstrom": [
+            154.3,
+            143.91,
+            169.99
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.65
+        },
+        {
+          "feature_id": 31,
+          "center_xyz_angstrom": [
+            155.1,
+            150.31,
+            165.37
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.54
+        },
+        {
+          "feature_id": 32,
+          "center_xyz_angstrom": [
+            152.17,
+            142.31,
+            166.97
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.57
+        },
+        {
+          "feature_id": 33,
+          "center_xyz_angstrom": [
+            153.5,
+            146.57,
+            172.97
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.56
+        },
+        {
+          "feature_id": 34,
+          "center_xyz_angstrom": [
+            157.9,
+            141.51,
+            164.17
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.61
+        },
+        {
+          "feature_id": 35,
+          "center_xyz_angstrom": [
+            152.17,
+            139.11,
+            164.84
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.6
+        },
+        {
+          "feature_id": 36,
+          "center_xyz_angstrom": [
+            150.84,
+            145.64,
+            169.5
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.6
+        },
+        {
+          "feature_id": 37,
+          "center_xyz_angstrom": [
+            150.04,
+            142.57,
+            173.37
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.51
+        },
+        {
+          "feature_id": 38,
+          "center_xyz_angstrom": [
+            154.9,
+            145.11,
+            174.97
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.71
+        },
+        {
+          "feature_id": 39,
+          "center_xyz_angstrom": [
+            155.1,
+            146.31,
+            176.57
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.61
+        },
+        {
+          "feature_id": 40,
+          "center_xyz_angstrom": [
+            155.1,
+            137.51,
+            164.97
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.65
+        },
+        {
+          "feature_id": 41,
+          "center_xyz_angstrom": [
+            156.7,
+            151.11,
+            169.37
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.81
+        },
+        {
+          "feature_id": 42,
+          "center_xyz_angstrom": [
+            157.5,
+            137.51,
+            166.17
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.71
+        },
+        {
+          "feature_id": 43,
+          "center_xyz_angstrom": [
+            155.5,
+            147.11,
+            162.57
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.73
+        },
+        {
+          "feature_id": 44,
+          "center_xyz_angstrom": [
+            149.5,
+            144.17,
+            164.04
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.59
+        },
+        {
+          "feature_id": 45,
+          "center_xyz_angstrom": [
+            152.7,
+            144.31,
+            169.77
+          ],
+          "feature_type": "hbond_donor_acceptor",
+          "wall_distance_angstrom": 0.52
+        }
+      ]
+    }
+  ],
+  "visualization": {
+    "pymol_selections": {
+      "all_hotspots": "select hotspots, (chain A and resi 13+15+27+66) or (chain B and resi 7+29+109+174+184+194+251+255+258+276) or (chain G and resi 127+282+323+326+418+465+467+472)",
+      "novel_hotspots": "select novel, (chain B and resi 109+251+255+258+276) or (chain G and resi 127+465+467+472)",
+      "known_hotspots": "select known, (chain A and resi 13+15+27+66) or (chain B and resi 7+29+174+184+194) or (chain G and resi 282+323+326+418)",
+      "gp120_gp41_relay": "select gp41_relay, chain G and resi 465-472",
+      "ccr5_ecl2": "select ecl2, chain B and resi 174+184+194",
+      "gp120_v3": "select v3_loop, chain G and resi 323+326",
+      "ccr5_ecl3": "select ecl3, chain B and resi 251+255+258+276"
+    },
+    "chimera_commands": {
+      "all_hotspots": "select :13.A|:15.A|:27.A|:66.A|:7.B|:29.B|:109.B|:174.B|:184.B|:194.B|:251.B|:255.B|:258.B|:276.B|:127.G|:282.G|:323.G|:326.G|:418.G|:465.G|:467.G|:472.G",
+      "novel_hotspots": "select :109.B|:251.B|:255.B|:258.B|:276.B|:127.G|:465.G|:467.G|:472.G",
+      "gp120_gp41_relay": "select :465-472.G",
+      "ccr5_ecl3": "select :251.B|:255.B|:258.B|:276.B"
+    },
+    "notes": "Load PDB 6MEO first. Pharmacophore feature centers can be loaded as pseudoatoms in PyMOL or markers in ChimeraX."
+  },
+  "existing_drugs": [
+    {
+      "name": "Maraviroc (Selzentry/Celsentri)",
+      "target": "CCR5 transmembrane pocket",
+      "mechanism": "Allosteric antagonist; binds TM3/TM5/TM6/TM7 cavity",
+      "fda_approved": 2007,
+      "pdb_reference": "4MBS",
+      "relevant_hotspots": [
+        "B:109 (direct contact)"
+      ]
+    },
+    {
+      "name": "Enfuvirtide (Fuzeon)",
+      "target": "gp41 HR1 coiled coil",
+      "mechanism": "Fusion inhibitor; blocks six-helix bundle formation",
+      "fda_approved": 2003,
+      "relation_to_findings": "Acts downstream of gp120-gp41 relay"
+    },
+    {
+      "name": "Ibalizumab (Trogarzo)",
+      "target": "CD4 domain 2",
+      "mechanism": "Post-attachment inhibitor; binds CD4 D2, blocks conformational change",
+      "fda_approved": 2018
+    },
+    {
+      "name": "Fostemsavir / BMS-626529 (Rukobia)",
+      "target": "gp120 attachment",
+      "mechanism": "Binds gp120 near beta20-beta21 element; blocks CD4 attachment",
+      "fda_approved": 2020,
+      "relevant_hotspots": [
+        "G:418 / HXB2 I423 (beta20-beta21 base)"
+      ],
+      "note": "Directly validates G:418/HXB2-I423 as a druggable site"
+    }
+  ],
+  "structural_characterization": {
+    "bfactor_analysis": {
+      "source": "PDB 6MEO (3.9 A cryo-EM)",
+      "relay_pocket": {
+        "residues": "G:Arg465-Arg472",
+        "per_residue": [
+          {"residue": "ARG465", "ca_bfactor": 86.97, "mean_bfactor": 87.0},
+          {"residue": "PRO466", "ca_bfactor": 87.53, "mean_bfactor": 87.5},
+          {"residue": "GLY467", "ca_bfactor": 82.85, "mean_bfactor": 82.8},
+          {"residue": "GLY468", "ca_bfactor": 77.85, "mean_bfactor": 77.8},
+          {"residue": "GLY469", "ca_bfactor": 72.76, "mean_bfactor": 72.8},
+          {"residue": "ASP470", "ca_bfactor": 68.52, "mean_bfactor": 49.3},
+          {"residue": "MET471", "ca_bfactor": 69.09, "mean_bfactor": 69.1},
+          {"residue": "ARG472", "ca_bfactor": 63.63, "mean_bfactor": 63.6}
+        ],
+        "pocket_mean_all_atoms": 72.8,
+        "pocket_mean_ca": 76.2,
+        "gp120_chain_mean": 79.9,
+        "percentile_in_gp120": 38
+      },
+      "comparison_regions": [
+        {"region": "V3 loop (G:296-331)", "mean_b": 106.3, "n_atoms": 277},
+        {"region": "C2/bridging sheet (G:196-207)", "mean_b": 97.2, "n_atoms": 85},
+        {"region": "C4 domain (G:385-418)", "mean_b": 86.3, "n_atoms": 212},
+        {"region": "C5/relay (G:465-472)", "mean_b": 72.8, "n_atoms": 57},
+        {"region": "V1/V2 (G:131-194)", "mean_b": 57.2, "n_atoms": 50},
+        {"region": "CD4 D1 contact (A:22-66)", "mean_b": 68.9, "n_atoms": 365},
+        {"region": "CCR5 ECL2 (B:168-196)", "mean_b": 70.0, "n_atoms": 256},
+        {"region": "CCR5 ECL3 (B:251-276)", "mean_b": 86.0, "n_atoms": 212}
+      ]
+    },
+    "druggability_scoring": {
+      "reference": "Halgren 2009, J. Med. Chem. 52, 18, 5438-5451",
+      "pocket_dimensions_angstrom": [12.8, 13.4, 13.3],
+      "ellipsoid_volume_angstrom3": 1588,
+      "principal_semiaxes_angstrom": [8.0, 6.9, 6.8],
+      "radius_of_gyration_angstrom": 6.30,
+      "feature_count": 55,
+      "hydrophobic_fraction": 0.42,
+      "polar_fraction": 0.58,
+      "hp_ratio": 0.72,
+      "sphericity": 0.96,
+      "criteria": {
+        "volume_gt_250": {"pass": true, "value": "1588 A^3"},
+        "hydrophobic_0.3_to_0.7": {"pass": true, "value": "0.42"},
+        "polar_gt_0.2": {"pass": true, "value": "0.58"},
+        "sphericity_gt_0.5": {"pass": true, "value": "0.96"},
+        "features_gt_10": {"pass": true, "value": "55"}
+      },
+      "verdict": "DRUGGABLE"
+    },
+    "sequence_conservation": {
+      "relay_sequence": "RPGGGDMR",
+      "hxb2_identity": "8/8 (100%)",
+      "mean_entropy": 0.21,
+      "per_residue_entropy": [
+        {"position": 465, "aa": "R", "entropy": 0.00, "class": "invariant", "conservation_pct": 100.0},
+        {"position": 466, "aa": "P", "entropy": 0.00, "class": "invariant", "conservation_pct": 100.0},
+        {"position": 467, "aa": "G", "entropy": 0.72, "class": "variable (87% G, 9% A)", "conservation_pct": 87.1},
+        {"position": 468, "aa": "G", "entropy": 0.00, "class": "invariant", "conservation_pct": 100.0},
+        {"position": 469, "aa": "G", "entropy": 0.11, "class": "highly conserved", "conservation_pct": 98.5},
+        {"position": 470, "aa": "D", "entropy": 0.43, "class": "conserved (92% D, 8% N)", "conservation_pct": 91.7},
+        {"position": 471, "aa": "M", "entropy": 0.14, "class": "highly conserved", "conservation_pct": 98.1},
+        {"position": 472, "aa": "R", "entropy": 0.29, "class": "highly conserved (95% R, 5% K)", "conservation_pct": 94.9}
+      ],
+      "clade_coverage": {
+        "A1": ">98%", "B": ">99%", "C": ">97%", "D": ">98%",
+        "CRF01_AE": ">97%", "CRF02_AG": ">98%", "F": ">96%", "G": ">97%"
+      },
+      "n_sequences": 981,
+      "n_exact_RPGGGDMR": 766,
+      "note": "Computed from 981 NCBI HIV-1 gp120 sequences pairwise-aligned to HXB2 (Biopython). Script: compute_entropy_proper.py"
+    },
+    "pocket_geometry": {
+      "sasa_total_angstrom2": 246,
+      "burial_ratio": 0.91,
+      "buried_atoms": "52/57",
+      "fully_buried_residues": ["Pro466", "Gly467", "Gly468", "Gly469", "Met471"],
+      "max_depth_angstrom": 8.7,
+      "mean_depth_angstrom": 6.1,
+      "max_span_angstrom": 15.0,
+      "depth_span_ratio": 0.58,
+      "benchmark_results": {
+        "volume": "PASS (1588 vs >250)",
+        "features": "PASS (55 vs >10)",
+        "max_span": "PASS (15.0 vs 8-25)",
+        "burial": "PASS (0.91 vs >0.3)",
+        "hydrophobic_fraction": "PASS (0.42 vs 0.3-0.7)",
+        "depth_span_ratio": "PASS (0.58 vs >0.3)"
+      }
+    }
+  }
+}

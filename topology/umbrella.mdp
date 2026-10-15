@@ -1,0 +1,56 @@
+; Umbrella sampling window -- restrained at fixed COM distance
+integrator  = md
+dt          = 0.002
+nsteps      = 5000000   ; 10 ns per window
+nstxout-compressed = 500
+nstenergy   = 500
+nstlog      = 500
+continuation = yes
+gen-vel     = no
+
+; Temperature coupling
+tcoupl      = V-rescale
+tc-grps     = Protein non-Protein
+tau-t       = 0.1     0.1
+ref-t       = 300     300
+
+; Pressure coupling
+pcoupl      = Parrinello-Rahman
+pcoupltype  = semiisotropic
+tau-p       = 5.0
+ref-p       = 1.0 1.0
+compressibility = 4.5e-5 4.5e-5
+
+; Electrostatics
+coulombtype = PME
+rcoulomb    = 1.2
+rvdw        = 1.2
+
+; Constraints
+constraints = h-bonds
+constraint-algorithm = LINCS
+
+; PBC
+pbc         = xyz
+
+; Pull code -- umbrella restraint, no pulling velocity
+pull                 = yes
+pull-ncoords         = 1
+pull-ngroups         = 2
+pull-group1-name     = gp120
+pull-group2-name     = CD4
+pull-group1-pbcatom  = 3102
+pull-group2-pbcatom  = 7589
+pull-pbc-ref-prev-step-com = yes
+pull-coord1-type     = umbrella
+pull-coord1-geometry = direction
+pull-coord1-vec      = 0 0 1
+pull-coord1-dim      = N N Y
+pull-coord1-groups   = 1 2
+pull-coord1-start    = yes
+pull-coord1-rate     = 0        ; stationary restraint
+pull-coord1-k        = 1000     ; kJ/mol/nm^2
+
+; Pull coordinate output
+pull-nstxout         = 50       ; write pull coord every 0.1 ps
+pull-nstfout         = 50       ; write pull force every 0.1 ps

@@ -1,0 +1,71 @@
+{
+  "analysis": "Shannon entropy -- NCBI HIV-1 gp120 pairwise alignment to HXB2",
+  "timestamp": "2026-07-27 18:48:46",
+  "method": "Biopython PairwiseAligner global alignment to HXB2 gp120",
+  "n_sequences_fetched": 985,
+  "n_sequences_aligned": 981,
+  "n_exact_RPGGGDMR": 766,
+  "n_variants": 215,
+  "relay_pocket": {
+    "465": {
+      "hxb2_aa": "R",
+      "entropy": 0.0,
+      "conservation_pct": 100.0,
+      "aa_distribution": { "R": 981 }
+    },
+    "466": {
+      "hxb2_aa": "P",
+      "entropy": 0.0,
+      "conservation_pct": 100.0,
+      "aa_distribution": { "P": 981 }
+    },
+    "467": {
+      "hxb2_aa": "G",
+      "entropy": 0.7196,
+      "conservation_pct": 87.1,
+      "aa_distribution": { "G": 854, "A": 93, "S": 22, "E": 4, "T": 4, "I": 3, "V": 1 }
+    },
+    "468": {
+      "hxb2_aa": "G",
+      "entropy": 0.0,
+      "conservation_pct": 100.0,
+      "aa_distribution": { "G": 981 }
+    },
+    "469": {
+      "hxb2_aa": "G",
+      "entropy": 0.1141,
+      "conservation_pct": 98.5,
+      "aa_distribution": { "G": 966, "S": 15 }
+    },
+    "470": {
+      "hxb2_aa": "D",
+      "entropy": 0.4262,
+      "conservation_pct": 91.7,
+      "aa_distribution": { "D": 900, "N": 76, "B": 2, "E": 2, "A": 1 }
+    },
+    "471": {
+      "hxb2_aa": "M",
+      "entropy": 0.1435,
+      "conservation_pct": 98.1,
+      "aa_distribution": { "M": 962, "I": 16, "X": 1, "T": 1, "S": 1 }
+    },
+    "472": {
+      "hxb2_aa": "R",
+      "entropy": 0.2905,
+      "conservation_pct": 94.9,
+      "aa_distribution": { "R": 931, "K": 50 }
+    }
+  },
+  "domain_comparison": {
+    "V1 (131-157)": { "mean_entropy": 1.5009, "n_positions": 27 },
+    "V2 (158-196)": { "mean_entropy": 0.6402, "n_positions": 39 },
+    "C2 (196-296)": { "mean_entropy": 0.3374, "n_positions": 101 },
+    "V3 (296-331)": { "mean_entropy": 0.6232, "n_positions": 36 },
+    "C3 (331-385)": { "mean_entropy": 0.6659, "n_positions": 55 },
+    "V4 (385-418)": { "mean_entropy": 0.882, "n_positions": 34 },
+    "C4 (418-461)": { "mean_entropy": 0.5203, "n_positions": 44 },
+    "C5 (461-485)": { "mean_entropy": 0.1398, "n_positions": 25 },
+    "Relay (465-472)": { "mean_entropy": 0.2117, "n_positions": 8 }
+  },
+  "relay_mean_entropy": 0.2117
+}

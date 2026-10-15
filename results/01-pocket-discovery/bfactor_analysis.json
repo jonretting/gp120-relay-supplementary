@@ -1,0 +1,103 @@
+{
+  "analysis": "B-factor analysis of gp120 relay pocket",
+  "source": "PDB 6MEO (3.9 A cryo-EM)",
+  "relay_pocket": {
+    "residues": "G:Arg465-Arg472",
+    "per_residue": [
+      {
+        "residue": "ARG465",
+        "ca_bfactor": 86.97,
+        "mean_bfactor": 87.0
+      },
+      {
+        "residue": "PRO466",
+        "ca_bfactor": 87.53,
+        "mean_bfactor": 87.5
+      },
+      {
+        "residue": "GLY467",
+        "ca_bfactor": 82.85,
+        "mean_bfactor": 82.8
+      },
+      {
+        "residue": "GLY468",
+        "ca_bfactor": 77.85,
+        "mean_bfactor": 77.8
+      },
+      {
+        "residue": "GLY469",
+        "ca_bfactor": 72.76,
+        "mean_bfactor": 72.8
+      },
+      {
+        "residue": "ASP470",
+        "ca_bfactor": 68.52,
+        "mean_bfactor": 49.3
+      },
+      {
+        "residue": "MET471",
+        "ca_bfactor": 69.09,
+        "mean_bfactor": 69.1
+      },
+      {
+        "residue": "ARG472",
+        "ca_bfactor": 63.63,
+        "mean_bfactor": 63.6
+      }
+    ],
+    "pocket_mean_all_atoms": 72.8,
+    "pocket_mean_ca": 76.2,
+    "gp120_chain_mean": 79.9,
+    "percentile_in_gp120": 38.0
+  },
+  "comparison_regions": [
+    {
+      "region": "V3 loop (G:296-331)",
+      "mean_b": 106.29996389891697,
+      "ca_mean": 112.76527777777777,
+      "n": 277
+    },
+    {
+      "region": "C2/bridging sheet (G:196-207)",
+      "mean_b": 97.1689411764706,
+      "ca_mean": 97.52416666666666,
+      "n": 85
+    },
+    {
+      "region": "C4 domain (G:385-418)",
+      "mean_b": 86.33801886792453,
+      "ca_mean": 97.87807692307692,
+      "n": 212
+    },
+    {
+      "region": "C5/relay (G:465-472)",
+      "mean_b": 72.80614035087719,
+      "ca_mean": 76.15,
+      "n": 57
+    },
+    {
+      "region": "V1/V2 (G:131-194)",
+      "mean_b": 57.2048,
+      "ca_mean": 55.14555555555555,
+      "n": 50
+    },
+    {
+      "region": "CD4 D1 contact (A:22-66)",
+      "mean_b": 68.8875890410959,
+      "ca_mean": 68.75288888888889,
+      "n": 365
+    },
+    {
+      "region": "CCR5 ECL2 (B:168-196)",
+      "mean_b": 69.975,
+      "ca_mean": 64.4496551724138,
+      "n": 256
+    },
+    {
+      "region": "CCR5 ECL3 (B:251-276)",
+      "mean_b": 85.97768867924529,
+      "ca_mean": 92.07346153846153,
+      "n": 212
+    }
+  ]
+}
