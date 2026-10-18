@@ -9,8 +9,8 @@ authors:
     city: Los Angeles
     region: CA
     country: US
-date-released: "2026-10-15"
-version: "2.0"
+date-released: "2026-10-18"
+version: "3.0"
 license: CC-BY-4.0
 doi: 10.5281/zenodo.23389294
 url: https://github.com/jonretting/gp120-relay-supplementary

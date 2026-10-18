@@ -355,5 +355,12 @@ soft-core potentials). Verify from the MDP files in `topology/`:
 
 ---
 
+## Revision History
+
+- **v1.0 (Sep 1, 2026):** Initial supplementary data package submitted with PCOMPBIOL-D-26-02168.
+- **v1.1 (Sep 28, 2026):** `results/08-binding-energetics/mmgbsa_ligand_results.json` updated: added `pdb_residue` and `pdb_domain` fields to per-residue decomposition entries mapping GROMACS sequential numbering to PDB 6MEO chain G numbering. Added `numbering_note` field documenting the piecewise GROMACS→PDB offset (+30 C1, +85 after V1/V2, +93 after V4). Corrected note from "relay pocket residues" to "gp120 residues lining the relay pocket cavity (C1, C2, C3 domains)." SHA256SUMS updated. No changes to numerical values, methods, or conclusions.
+
+---
+
 **Author:** Jonathan Michael Retting, Independent Researcher, Los Angeles, CA
 **License:** CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/)
