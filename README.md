@@ -63,7 +63,7 @@ hiv1-gp120-cd4-ccr5/
 |   |-- vicriviroc.pdbqt               Vicriviroc ligand (docking input)
 |   |-- gp120_gp41_relay_receptor.*    Relay pocket receptor (docking-prepared)
 |
-|-- trajectories/                      Raw trajectories (separate download, 67 GB)
+|-- trajectories/                      Raw trajectories (separate download, ~31 GB)
 |   |-- md-500ns/                      6MEO 500ns MD
 |   |-- sosip-500ns/                   4 SOSIP 500ns cross-validation runs
 |   |-- fep-raw/                       FEP dH/dl for 288 lambda windows
@@ -304,7 +304,7 @@ python scripts/analysis/compute_entropy_proper.py
 
 ### Trajectory Data (Separate Download)
 
-Raw simulation trajectories (67 GB) are available as five self-contained packages from the trajectory download portal at **https://hiv1-relay-data.jretting.workers.dev**. To integrate them with this supplementary package, extract each package into a `trajectories/` subdirectory at the package root:
+Raw simulation trajectories (~31 GB) are available as three self-contained packages from the trajectory download portal at **https://hiv1-relay-data.jretting.workers.dev**. To integrate them with this supplementary package, extract each package into a `trajectories/` subdirectory at the package root:
 
 ```bash
 # From the supplementary package root (hiv1-gp120-cd4-ccr5/):
