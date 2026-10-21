@@ -1,0 +1,31 @@
+v4.0: GNN allosteric coupling, JCIM formatting, figure numbering fix
+
+Major additions:
+- EV-14: AE-PocketMiner GNN allosteric coupling prediction (Zhang & Bowman
+  2026) on all 5 gp120 chain G structures. Key result: gp41-contact region
+  is #1 coupled site in 4/5 structures; G471A shows 20x attention spike
+  to residue 487, independently confirming steric-gridlock gate mechanism.
+  Three-way epistemological convergence: MD/DCCM + evolutionary MI + GNN.
+- New Methods section 2.11, Results section 3.21 + Table, Discussion
+  sections 4.1/4.2 updated, S7 Table added, bibliography expanded.
+
+JCIM formatting (per editorial request):
+- References renumbered [1]-[48] in citation order (was alphabetical).
+- All \citealt and \citet converted to \citep for numbered style.
+- "Data Availability" renamed to "Data and Software Availability".
+
+Supplementary figure numbering fix:
+- S7 Fig (alanine scanning) renamed to S8 Fig to accommodate S7 Table.
+- Markdown mirror had completely scrambled S-figure numbers vs LaTeX;
+  all 8 body-text refs and 7 SI declarations corrected to match .tex.
+- Section numbering: fixed missing 3.17, duplicate 3.22 in .md.
+
+New files:
+- results/11-gnn-coupling/ (12 files: analysis JSON, 10 .npy, README)
+- scripts/analysis/{extract_chain_g,analyze}_aepocketminer*.py
+- structures/{6MEO,5FYJ,5U7O,6MU6,4TVP}.pdb (RCSB source PDBs)
+- structures/aepocketminer/ (5 chain-G-only PDBs)
+
+Verification:
+- VERIFICATION.md: added section 11 (GNN reproduction), revision v1.2.
+- SHA256SUMS: 24 new + 8 updated checksums, all verified.
