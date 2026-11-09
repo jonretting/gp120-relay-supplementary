@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this data, please cite the accompanying manuscript."
 type: dataset
-title: "Supplementary Data: Identification of a Novel Druggable Pocket in the HIV-1 gp120 C5 Domain at the Conformational Relay Junction"
+title: "Supplementary Data: A Glycine Gate Controls the HIV-1 gp120 Conformational Relay: Atomistic Dynamics of State-Dependent Allostery in the C5 Domain"
 authors:
   - family-names: Retting
     given-names: Jonathan Michael
@@ -9,8 +9,8 @@ authors:
     city: Los Angeles
     region: CA
     country: US
-date-released: "2026-10-18"
-version: "3.0"
+date-released: "2026-11-09"
+version: "5.0"
 license: CC-BY-4.0
 doi: 10.5281/zenodo.23389293
 url: https://github.com/jonretting/gp120-relay-supplementary
@@ -28,14 +28,14 @@ keywords:
   - AutoDock Vina
 references:
   - type: article
-    title: "Identification of a Novel Druggable Pocket in the HIV-1 gp120 C5 Domain at the Conformational Relay Junction"
+    title: "A Glycine Gate Controls the HIV-1 gp120 Conformational Relay: Atomistic Dynamics of State-Dependent Allostery in the C5 Domain"
     authors:
       - family-names: Retting
         given-names: Jonathan Michael
     year: 2026
 preferred-citation:
   type: article
-  title: "Identification of a Novel Druggable Pocket in the HIV-1 gp120 C5 Domain at the Conformational Relay Junction"
+  title: "A Glycine Gate Controls the HIV-1 gp120 Conformational Relay: Atomistic Dynamics of State-Dependent Allostery in the C5 Domain"
   authors:
     - family-names: Retting
       given-names: Jonathan Michael

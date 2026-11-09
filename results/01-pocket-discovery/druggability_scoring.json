@@ -2,7 +2,7 @@
   "metadata": {
     "author": "Jonathan Michael Retting",
     "license": "CC-BY-4.0",
-    "study": "Identification of a Novel Druggable Pocket in the HIV-1 gp120 C5 Domain at the Conformational Relay Junction"
+    "study": "A Glycine Gate Controls the HIV-1 gp120 Conformational Relay: Atomistic Dynamics of State-Dependent Allostery in the C5 Domain"
   },
   "analysis": "Druggability scoring - gp120 relay pocket",
   "source_pharmacophore": "relay_pharmacophore_differentiated.json",

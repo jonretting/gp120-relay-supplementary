@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23389293.svg)](https://doi.org/10.5281/zenodo.23389293)
 
-**Study:** Identification of a Novel Druggable Pocket in the HIV-1 gp120 C5 Domain at the Conformational Relay Junction
+**Study:** A Glycine Gate Controls the HIV-1 gp120 Conformational Relay: Atomistic Dynamics of State-Dependent Allostery in the C5 Domain
 
 **Author:** Jonathan Michael Retting, Independent Researcher, Los Angeles, CA
 

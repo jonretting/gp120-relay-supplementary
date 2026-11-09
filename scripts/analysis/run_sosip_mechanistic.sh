@@ -1,7 +1,7 @@
 #!/bin/bash
 # Author: Jonathan Michael Retting
-# Study:  Identification of a Novel Druggable Pocket in the HIV-1 gp120
-#         C5 Domain at the Conformational Relay Junction
+# Study:  A Glycine Gate Controls the HIV-1 gp120 Conformational Relay:
+#         Atomistic Dynamics of State-Dependent Allostery in the C5 Domain
 # License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/)
 # Run SOSIP mechanistic cross-validation (DCCM + PCA + ensemble docking)
 # on a completed 500ns SOSIP trajectory.
