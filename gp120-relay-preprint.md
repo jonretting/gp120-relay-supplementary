@@ -8,7 +8,9 @@ Independent Researcher, Los Angeles, CA, USA
 
 ## Abstract
 
-HIV-1 viral entry relies on a conformational relay that transmits the CD4 receptor-engagement signal through the gp120 C5 domain to activate downstream fusion machinery. While the macroscopic endpoints of this transition are structurally characterized, the atomistic mechanics of the allosteric conduit connecting them remain poorly resolved. Here, using 4,000 ns of molecular dynamics across five independent structures, alchemical free energy perturbation, and orthogonal graph neural network modeling, I resolve the kinematic routing of this relay and identify a discrete structural junction within the C5 domain (Arg465–Arg472, sequence RPGGGDMR) that undergoes state-dependent allosteric rewiring. The motif is 100% conserved across 360 solved gp120 structures and untouched by all 28 known entry-inhibitor resistance mutations. Half-microsecond simulations of four independent SOSIP trimer structures from two distinct clades (A/BG505 and G/X1193.c1) confirm the junction as a conformational anchor: sub-2 Å internal RMSD (1.29–1.98 Å), 0th RMSF percentile in three of four structures, kinematically decoupled from global backbone dynamics. Dynamic cross-correlation analysis reveals a state-dependent allosteric signature: anti-correlated intra-junction breathing in the pre-fusion state collapses to fully correlated co-motion upon receptor engagement. A naturally occurring G471A variant (PDB 5FYJ) abolishes this gating motion entirely (28/28 positive, lowest entropy), confirming that Gly471 functions as the relay gate and that sequence conservation reflects a functional constraint beyond single-round entry. Alchemical free energy perturbation (3 replicas, 9 legs, 1,440 ns) quantifies the allosteric coupling energy at ΔΔG = +3.9 kcal/mol, providing the first direct thermodynamic measurement of the conformational relay signal strength. A graph neural network (AE-PocketMiner) trained on non-HIV proteins independently maps the junction’s strongest allosteric coupling to the gp41-contact region in four of five structures, with the G471A variant producing a 20-fold attention spike confirming the steric-gridlock gate mechanism—establishing three-way cross-modal convergence (MD, evolutionary coevolution, and geometric deep learning) on the relay pathway. Structurally, this allosteric junction constitutes a pocket satisfying all five Halgren druggability criteria, with molecular docking of BMS-626529 yielding −6.81 kcal/mol across a 20-frame MD ensemble, representing a first-in-class target for conformational relay inhibition.
+HIV-1 viral entry relies on a conformational relay that transmits the CD4 receptor-engagement signal through the gp120 C5 domain to activate fusion machinery, yet the atomistic mechanics of this allosteric conduit remain poorly resolved. Here, using ~4,000 ns of molecular dynamics across five independent structures, alchemical free energy perturbation, and graph neural network modeling, I resolve the relay's kinematic routing and identify a discrete junction within the C5 domain (Arg465–Arg472, RPGGGDMR) that undergoes state-dependent allosteric rewiring. The motif is 100% conserved across 360 solved gp120 structures and untouched by all 28 known entry-inhibitor resistance mutations. Half-microsecond simulations of four SOSIP trimer structures confirm the junction as a conformational anchor: sub-2 Å internal RMSD, 0th RMSF percentile in three of four structures, kinematically decoupled from backbone dynamics. Cross-correlation analysis reveals anti-correlated intra-junction breathing in the pre-fusion state that collapses to correlated co-motion upon receptor engagement. A naturally occurring G471A variant abolishes this gating entirely, confirming Gly471 as the relay gate. Free energy perturbation quantifies the allosteric coupling at ΔΔG = +3.9 kcal/mol—the first thermodynamic measurement of the conformational relay signal strength. A graph neural network trained on non-HIV proteins independently maps the junction's allosteric coupling to the gp41-contact region, establishing three-way cross-modal convergence (MD, evolutionary coevolution, geometric deep learning) on the relay pathway. This allosteric junction constitutes a druggable pocket satisfying all five Halgren criteria, representing a first-in-class target for conformational relay inhibition.
+
+**Keywords:** HIV-1 gp120; conformational relay; allosteric gating; C5 domain; molecular dynamics; free energy perturbation; protein dynamics
 
 ---
 
@@ -652,11 +654,21 @@ The docking input files (ligand and receptor PDBQT files, 20 cluster frame confo
 
 The complete supplementary data package (scripts, results, figures, structures, and topology files) is available at https://github.com/jonretting/gp120-relay-supplementary. A permanent archived version is deposited on Zenodo (DOI: [10.5281/zenodo.23389293](https://doi.org/10.5281/zenodo.23389293)). The source structure PDB 6MEO is publicly available from the RCSB Protein Data Bank.
 
-## 6. Patent Disclosure
+## 6. Declarations
 
-A US provisional patent application covering the gp120 C5 conformational relay target and associated pharmacophore models has been filed (July 2026).
+### Ethics Approval
 
-## 7. AI Disclosure
+Not applicable. This study is entirely computational and does not involve human participants, animal subjects, or biological samples.
+
+### Conflict of Interest
+
+The author has filed a US provisional patent application covering the gp120 C5 conformational relay target and associated pharmacophore models (July 2026). No other conflicts of interest are declared.
+
+### Funding
+
+This research received no external funding. All computational work was performed on author-owned hardware.
+
+### AI Disclosure
 
 AI tools (Claude, Anthropic; Gemini, Google) were used for writing assistance, literature search, analysis script drafting, and scientific discussion including evaluation of mechanistic hypotheses and alternative interpretations. All molecular dynamics simulations and free energy perturbation calculations were performed by the author on self-owned hardware using GROMACS 2025.2 (see Data Availability). The evidentiary data underlying this paperâ€”trajectories, binding free energies, cross-correlation matricesâ€”are numerical solutions to classical equations of motion, not language model outputs; no AI system can generate molecular dynamics trajectory data. All 103 analysis scripts were validated via cold-start Docker testing (Python 3.11-slim, pip-only dependencies), producing identical quantitative results without any AI involvement. Every quantitative claim in this paper can be independently reproduced by executing the provided scripts against the provided simulation data. All figures were generated from raw simulation data by provided scripts. The author designed all experiments, selected all simulation methods and parameters, executed all calculations, and can independently explain and defend every methodological choice and result interpretation reported in this work.
 
